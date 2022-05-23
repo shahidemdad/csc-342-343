@@ -1,0 +1,101 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/CSC_342/intelFPGA/20.1
+Eemdad_03_02_22_nbitlpmaddsub
+Z0 w1646608605
+Z1 DPx3 lpm 14 lpm_components 0 22 ZZ?0`GZD@?:kcFM0gmf[@1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 14
+Z4 dE:/CSC_342/Assignments/Lab 3/Emdad_MdShahid_NBitLPMAddSub
+Z5 8E:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_NBitLPMAddSub\Emdad_03_02_22_NBitLPMAddSub.vhd
+Z6 FE:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_NBitLPMAddSub\Emdad_03_02_22_NBitLPMAddSub.vhd
+l0
+L6 1
+VVQDVHc0KHWI?;M_nm[Tjm2
+!s100 aOi=2[DVg9;9S1bZQ:W@D2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1646608619
+!i10b 1
+Z9 !s108 1646608619.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_NBitLPMAddSub\Emdad_03_02_22_NBitLPMAddSub.vhd|
+Z11 !s107 E:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_NBitLPMAddSub\Emdad_03_02_22_NBitLPMAddSub.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Asyn
+R1
+R2
+R3
+DEx4 work 28 emdad_03_02_22_nbitlpmaddsub 0 22 VQDVHc0KHWI?;M_nm[Tjm2
+!i122 14
+l40
+L17 45
+VRz1223<?1:WA?n4zC>a<F0
+!s100 1@HP:9`XLGCiV<FB6?MGb0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eemdad_03_06_22_nbitlpmaddsubtestbench
+Z14 w1646608616
+Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z16 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z17 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 15
+R4
+Z18 8E:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_NBitLPMAddSub\Emdad_MdShahid_NBitLPMAddSub_TestBench.vhd
+Z19 FE:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_NBitLPMAddSub\Emdad_MdShahid_NBitLPMAddSub_TestBench.vhd
+l0
+L6 1
+ViiPU1AAJh:Nk1ORgaYifW0
+!s100 j3M:JPfi:[Y1`bzcb]M6g3
+R7
+32
+R8
+!i10b 1
+R9
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_NBitLPMAddSub\Emdad_MdShahid_NBitLPMAddSub_TestBench.vhd|
+Z21 !s107 E:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_NBitLPMAddSub\Emdad_MdShahid_NBitLPMAddSub_TestBench.vhd|
+!i113 1
+R12
+R13
+Aarch_test
+R15
+R16
+R17
+R2
+R3
+Z22 DEx4 work 37 emdad_03_06_22_nbitlpmaddsubtestbench 0 22 iiPU1AAJh:Nk1ORgaYifW0
+!i122 15
+l23
+Z23 L9 57
+VDJPKS1BFM1Vh3V2Vi]BaP3
+!s100 8?e20G_TahS:fJfOa]eRQ0
+R7
+32
+R8
+!i10b 1
+R9
+R20
+R21
+!i113 1
+R12
+R13

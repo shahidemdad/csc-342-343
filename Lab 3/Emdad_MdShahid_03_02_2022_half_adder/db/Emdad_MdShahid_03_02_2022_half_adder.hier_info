@@ -1,0 +1,9 @@
+|Emdad_MdShahid_03_02_2022_half_adder
+Emdad_MdShahid_03_06_2022_A => Emdad_MdShahid_03_06_2022_Sum.IN0
+Emdad_MdShahid_03_06_2022_A => Emdad_MdShahid_03_06_2022_Carry.IN0
+Emdad_MdShahid_03_06_2022_B => Emdad_MdShahid_03_06_2022_Sum.IN1
+Emdad_MdShahid_03_06_2022_B => Emdad_MdShahid_03_06_2022_Carry.IN1
+Emdad_MdShahid_03_06_2022_Sum <= Emdad_MdShahid_03_06_2022_Sum.DB_MAX_OUTPUT_PORT_TYPE
+Emdad_MdShahid_03_06_2022_Carry <= Emdad_MdShahid_03_06_2022_Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,281 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "emdad_April10_2022_result[0]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[1]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[2]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[3]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[4]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[5]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[6]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[7]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[8]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[9]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[10]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[11]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[12]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[13]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[14]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[15]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[16]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[17]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[18]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[19]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[20]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[21]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[22]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[23]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[24]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[25]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[26]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[27]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[28]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[29]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[30]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_result[31]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_read",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_enable",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[0]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_clock",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_write",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[1]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[2]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[3]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[4]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[5]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[6]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[7]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[8]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[9]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[10]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[11]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[12]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[13]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[14]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[15]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[16]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[17]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[18]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[19]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[20]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[21]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[22]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[23]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[24]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[25]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[26]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[27]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[28]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[29]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[30]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_April10_2022_content[31]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

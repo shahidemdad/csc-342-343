@@ -1,0 +1,21 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'emdad_22ndmay2022_clk'
+Slack : -0.394
+TNS   : -546.328
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'emdad_22ndmay2022_clk'
+Slack : -0.394
+TNS   : -585.697
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'emdad_22ndmay2022_clk'
+Slack : -0.088
+TNS   : -81.688
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'emdad_22ndmay2022_clk'
+Slack : -0.085
+TNS   : -80.954
+
+------------------------------------------------------------

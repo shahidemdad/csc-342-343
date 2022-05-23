@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Emdad_MdShahid_03_06_2022_sum",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_06_2022_Cout",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_06_2022_Cin",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_06_2022_X",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_06_2022_Y",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

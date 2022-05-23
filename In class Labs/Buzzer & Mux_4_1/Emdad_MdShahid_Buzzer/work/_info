@@ -1,0 +1,175 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/CSC_342/Assignments/Emdad_MdShahid_Modelsim_mymux2_1
+Eemdad_mdshahid_and2
+Z0 w1645033997
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 22
+Z3 dE:/CSC_342/Assignments/Emdad_MdShahid_Buzzer
+Z4 8E:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_AND2
+Z5 FE:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_AND2
+l0
+L4 1
+VIjRfK6IL_@9T>KnPS5cM;2
+!s100 ^1OVd;R=K6Y2F_Z7GgL3H3
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1645034964
+!i10b 1
+Z8 !s108 1645034964.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_AND2|
+Z10 !s107 E:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_AND2|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral_2
+R1
+R2
+DEx4 work 19 emdad_mdshahid_and2 0 22 IjRfK6IL_@9T>KnPS5cM;2
+!i122 22
+l11
+L9 5
+VI7nc52?b[j=1lIlC5TiAK2
+!s100 Ah`LU2IWc@Uh8i2?G`:]U3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eemdad_mdshahid_buzzer
+Z13 w1645033484
+R1
+R2
+!i122 21
+R3
+Z14 8E:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_02_16_2022_Buzzer.vhd
+Z15 FE:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_02_16_2022_Buzzer.vhd
+l0
+L5 1
+V]MLPFTkG;8Co198H7oPLR3
+!s100 H0`k_f4MS=hOaY[6gZ><f0
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_02_16_2022_Buzzer.vhd|
+Z17 !s107 E:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_02_16_2022_Buzzer.vhd|
+!i113 1
+R11
+R12
+Astructural
+R1
+R2
+DEx4 work 21 emdad_mdshahid_buzzer 0 22 ]MLPFTkG;8Co198H7oPLR3
+!i122 21
+l26
+L10 20
+Vf_eQ0V<el;UiH0Gf26i1T3
+!s100 Uo?ngHOH]PZnZFlaAa>B=3
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Eemdad_mdshahid_not1
+Z18 w1645034959
+R1
+R2
+!i122 24
+R3
+Z19 8E:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_NOT1
+Z20 FE:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_NOT1
+l0
+L4 1
+Vh;cObF5lb]b4dX@=]c;TG2
+!s100 PbK4WF?SzVUddNeodmF;21
+R6
+32
+Z21 !s110 1645034965
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_NOT1|
+!s107 E:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_NOT1|
+!i113 1
+R11
+R12
+Abehavioral_2
+R1
+R2
+DEx4 work 19 emdad_mdshahid_not1 0 22 h;cObF5lb]b4dX@=]c;TG2
+!i122 24
+l11
+L9 5
+V<;Xgd9Sz?9hPc58TaLF_20
+!s100 c0cUJO451Un?QejbYoWZ@3
+R6
+32
+R21
+!i10b 1
+R8
+R22
+Z23 !s107 E:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_NOT1|
+!i113 1
+R11
+R12
+Eemdad_mdshahid_or2
+Z24 w1645034571
+R1
+R2
+!i122 23
+R3
+Z25 8E:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_OR2
+Z26 FE:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_OR2
+l0
+L4 1
+VXe^>6QhUPTEMWbV1jC;Ag1
+!s100 2J@5_P_e>?hE88>[_hM`X3
+R6
+32
+R7
+!i10b 1
+R8
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_OR2|
+Z28 !s107 E:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_OR2|
+!i113 1
+R11
+R12
+Abehavioral_2
+R1
+R2
+DEx4 work 18 emdad_mdshahid_or2 0 22 Xe^>6QhUPTEMWbV1jC;Ag1
+!i122 23
+l11
+L9 5
+Vf_NT<m=b9LDa3eMS=T5MX3
+!s100 nYLKjlz88HBHVnmDhHA2U2
+R6
+32
+R7
+!i10b 1
+R8
+R27
+R28
+!i113 1
+R11
+R12

@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Tue Mar 22 01:30:42 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : Emdad_23rdMarch2022_32_bit_add_sub_scratch
+Top-level Entity Name : Emdad_23rdMarch2022_32_bit_add_sub_scratch
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 99
+Total pins : 101
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

@@ -1,0 +1,10 @@
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity Emdad_23rdMarch2022_lpm_dual_port_ram_32x32
+-- Compiling architecture SYN of emdad_23rdmarch2022_lpm_dual_port_ram_32x32
+
+} {} {}}

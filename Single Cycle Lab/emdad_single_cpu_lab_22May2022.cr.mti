@@ -1,0 +1,106 @@
+{E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_program_counter_22ndmay2022.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_program_counter_22ndmay2022.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity emdad_program_counter_22ndmay2022
+-- Compiling architecture struct of emdad_program_counter_22ndmay2022
+
+} {} {}} {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_control_unit_22ndmay2022.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_control_unit_22ndmay2022.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity emdad_control_unit_22ndmay2022
+-- Compiling architecture struct of emdad_control_unit_22ndmay2022
+
+} {} {}} {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_Register_File_22ndmay2022.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_Register_File_22ndmay2022.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity emdad_Register_File_22ndmay2022
+-- Compiling architecture struct of emdad_Register_File_22ndmay2022
+
+} {} {}} {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_mips_22ndmay2022.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_mips_22ndmay2022.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity emdad_mips_22ndmay2022
+-- Compiling architecture struct of emdad_mips_22ndmay2022
+-- Loading entity emdad_Instruction_Memory_22ndmay2022
+-- Loading entity emdad_Register_File_22ndmay2022
+-- Loading entity emdad_instruction_register_22ndmay2022
+-- Loading entity emdad_control_unit_22ndmay2022
+-- Loading entity emdad_alu_22ndmay2022
+-- Loading entity emdad_Data_Memory_22ndmay2022
+-- Loading entity emdad_mux_22ndmay2022
+-- Loading entity emdad_signext_22ndmay2022
+-- Loading entity emdad_program_counter_22ndmay2022
+
+} {} {}} {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_alu_22ndmay2022.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_alu_22ndmay2022.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity emdad_alu_22ndmay2022
+-- Compiling architecture struct of emdad_alu_22ndmay2022
+
+} {} {}} {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_Data_Memory_22ndmay2022.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_Data_Memory_22ndmay2022.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity emdad_Data_Memory_22ndmay2022
+-- Compiling architecture struct of emdad_Data_Memory_22ndmay2022
+
+} {} {}} {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_Instruction_Memory_22ndmay2022.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_Instruction_Memory_22ndmay2022.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity emdad_Instruction_Memory_22ndmay2022
+-- Compiling architecture struct of emdad_Instruction_Memory_22ndmay2022
+
+} {} {}} {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_instruction_register_22ndmay2022.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_instruction_register_22ndmay2022.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity emdad_instruction_register_22ndmay2022
+-- Compiling architecture struct of emdad_instruction_register_22ndmay2022
+
+} {} {}} {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_mux_22ndmay2022.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_mux_22ndmay2022.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity emdad_mux_22ndmay2022
+-- Compiling architecture struct of emdad_mux_22ndmay2022
+
+} {} {}} {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_signext_22ndmay2022.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Single Cycle Lab/emdad_single_cpu_lab_22May2022/emdad_signext_22ndmay2022.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity emdad_signext_22ndmay2022
+-- Compiling architecture struct of emdad_signext_22ndmay2022
+
+} {} {}}

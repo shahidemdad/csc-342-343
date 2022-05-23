@@ -1,0 +1,18 @@
+Quartus Prime Archive log --	E:/CSC_342/Assignments/Midterm/Source Codes/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32.qarlog
+
+Archive:	E:/CSC_342/Assignments/Midterm/Source Codes/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32.qar
+Date:		Wed Mar 23 06:33:29 2022
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32.cmp
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32.mif
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32.qip
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32.qpf
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32.qsf
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32.vhd
+e:/csc_342/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 7 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

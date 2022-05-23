@@ -1,0 +1,29 @@
+Quartus Prime Archive log --	E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE.qarlog
+
+Archive:	E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE.qar
+Date:		Thu Apr 21 03:27:43 2022
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_1Bit_Comparator.vhd
+E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_24thApril_2022_Lab_BEQ_BNE.qpf
+E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_24thApril_2022_Lab_BEQ_BNE.qsf
+E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_2_1_MUX.vhd
+E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_adder.vhd
+E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd
+E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd
+E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Register_File.vhd
+E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Register_File_Data.mif
+E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_adder_package.vhd
+E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd
+E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_equal.vhd
+E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_extension.vhd
+E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_full_adder.vhd
+E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_half_adder.vhd
+E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_sll.vhd
+E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_testbench.vhd
+e:/csc_342/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 18 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

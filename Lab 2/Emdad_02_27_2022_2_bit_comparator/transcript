@@ -1,0 +1,29 @@
+# Compile of Emdad_02_27_2022_test_two_bit_equal_port.vhd was successful.
+# Compile of Emdad_02_27_2022_two_bit_equal_port.vhd was successful.
+# Compile of Emdad_02_27_2022_test_two_bit_equal_port.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.emdad_02_27_2022_test_two_bit_equal_port
+# vsim -gui work.emdad_02_27_2022_test_two_bit_equal_port 
+# Start time: 16:01:14 on Feb 27,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.emdad_02_27_2022_test_two_bit_equal_port(arch_test)
+# ** Warning: (vsim-3473) Component instance "uut : two_bit_equal" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_02_27_2022_test_two_bit_equal_port File: E:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port/Emdad_02_27_2022_test_two_bit_equal_port.vhd
+add wave sim:/emdad_02_27_2022_test_two_bit_equal_port/*
+run -all
+# ** Failure: No errors detected. Simulation successful
+#    Time: 1608 ns  Iteration: 0  Process: /emdad_02_27_2022_test_two_bit_equal_port/line__16 File: E:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port/Emdad_02_27_2022_test_two_bit_equal_port.vhd
+# Break in Process line__16 at E:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port/Emdad_02_27_2022_test_two_bit_equal_port.vhd line 74
+# Compile of Emdad_02_27_2022_two_bit_equal_port.vhd was successful.
+# Compile of Emdad_02_27_2022_test_two_bit_equal_port.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of Emdad_02_27_2022_two_bit_equal_port.vhd was successful.
+# Compile of Emdad_02_27_2022_test_two_bit_equal_port.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of Emdad_02_27_2022_two_bit_equal_port.vhd was successful.
+# Compile of Emdad_02_27_2022_test_two_bit_equal_port.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# End time: 17:27:40 on Feb 27,2022, Elapsed time: 1:26:26
+# Errors: 1, Warnings: 11

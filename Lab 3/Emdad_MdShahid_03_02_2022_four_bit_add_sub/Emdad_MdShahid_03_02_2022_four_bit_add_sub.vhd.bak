@@ -1,0 +1,11 @@
+LIBRARY ieee ;
+USE ieee.std_logic_1164.all;
+
+Emdad_MdShahid_03_02_2022_four_bit_add_sub
+Emdad_MdShahid_03_06_2022_
+
+
+ENTITY Emdad_MdShahid_03_02_2022_four_bit_add_sub IS
+PORT ( Emdad_MdShahid_03_06_2022_X, Emdad_MdShahid_03_06_2022_Y, Emdad_MdShahid_03_06_2022_Cin : IN STD_LOGIC ;
+		Emdad_MdShahid_03_06_2022_sum, Emdad_MdShahid_03_06_2022_Cout									  : OUT STD_LOGIC ) ;
+END Emdad_MdShahid_03_02_2022_one_bit_full_adder;

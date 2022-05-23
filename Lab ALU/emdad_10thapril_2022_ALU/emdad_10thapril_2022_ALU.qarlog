@@ -1,0 +1,26 @@
+Quartus Prime Archive log --	E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/emdad_10thapril_2022_ALU.qarlog
+
+Archive:	E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/emdad_10thapril_2022_ALU.qar
+Date:		Sun Apr 10 06:43:38 2022
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/emdad_10thapril_2022_ALU.qpf
+E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/emdad_10thapril_2022_ALU.qsf
+E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/emdad_April10_2022_RD.vhd
+E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/emdad_April10th_2022_1to2demux_32.vhd
+E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/emdad_April10th_2022_2to1mux_32.vhd
+E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/emdad_April10th_2022_ALU.vhd
+E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/emdad_April10th_2022_IMM16.vhd
+E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/emdad_April10th_2022_MAR.vhd
+E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/emdad_April10th_2022_MDR.vhd
+E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/emdad_April10th_2022_NBit_AddSub.vhd
+E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/emdad_April10th_2022_RS.vhd
+E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/emdad_April10th_2022_RT.vhd
+E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/emdad_April10th_2022_Sign_Extend.vhd
+E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/emdad_April10th_2022_bitwise_op.vhd
+e:/csc_342/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 15 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

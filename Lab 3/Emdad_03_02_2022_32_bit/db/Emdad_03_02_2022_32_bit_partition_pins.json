@@ -1,0 +1,409 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[16]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[17]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[18]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[19]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[20]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[21]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[22]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[23]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[24]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[25]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[26]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[27]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[28]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[29]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[30]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[31]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_Overflow",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_zero",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_negative",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[18]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[18]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[19]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[19]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[20]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[20]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[21]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[21]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[17]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[17]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[16]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[16]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[22]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[22]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[23]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[23]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[24]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[24]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[25]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[25]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[26]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[26]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[27]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[27]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[28]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[28]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[29]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[29]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[30]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[30]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_op",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[31]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[31]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

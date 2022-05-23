@@ -1,0 +1,19 @@
+E:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port/Emdad_02_27_2022_test_two_bit_equal_port.vhd {0 {vcom -work work -2002 -explicit -stats=none E:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port/Emdad_02_27_2022_test_two_bit_equal_port.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Emdad_02_27_2022_test_two_bit_equal
+-- Compiling architecture arch_test of Emdad_02_27_2022_test_two_bit_equal
+** Error (suppressible): E:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port/Emdad_02_27_2022_test_two_bit_equal_port.vhd(16): (vcom-1141) Identifier "two_bit_equal" does not identify a component declaration.
+** Note: E:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port/Emdad_02_27_2022_test_two_bit_equal_port.vhd(82): VHDL Compiler exiting
+
+} {} {}} E:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port/Emdad_02_27_2022_two_bit_equal_port.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port/Emdad_02_27_2022_two_bit_equal_port.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity two_bit_equal_port
+-- Compiling architecture arch of two_bit_equal_port
+
+} {} {}}

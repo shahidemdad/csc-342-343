@@ -1,0 +1,5 @@
+﻿  Emdad_Source.cpp
+E:\CSC_342\Assignments\Take Home Test 3\Emdad_15thMay2022_Take_Home_Test_3\Emdad_Source.cpp(20,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\CSC_342\Assignments\Take Home Test 3\Emdad_15thMay2022_Take_Home_Test_3\Emdad_Source.cpp(21,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\CSC_342\Assignments\Take Home Test 3\Emdad_15thMay2022_Take_Home_Test_3\Emdad_Source.cpp(26,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Emdad_15thMay2022_Take_Home_Test_3.vcxproj -> E:\CSC_342\Assignments\Take Home Test 3\Emdad_15thMay2022_Take_Home_Test_3\Debug\Emdad_15thMay2022_Take_Home_Test_3.exe

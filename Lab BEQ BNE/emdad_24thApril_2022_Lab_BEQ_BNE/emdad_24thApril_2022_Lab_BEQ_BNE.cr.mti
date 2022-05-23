@@ -1,0 +1,124 @@
+{E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_full_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_full_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity emdad_full_adder
+-- Compiling architecture arch of emdad_full_adder
+
+} {} {}} {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_sll.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_sll.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity emdad_sll
+-- Compiling architecture arch of emdad_sll
+
+} {} {}} {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity emdad_controller
+-- Compiling architecture arch of emdad_controller
+
+} {} {}} {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity emdad_Main_unit
+-- Compiling architecture arch of emdad_Main_unit
+
+} {} {}} {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_1Bit_Comparator.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_1Bit_Comparator.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity emdad_1Bit_Comparator
+-- Compiling architecture arch of emdad_1Bit_Comparator
+
+} {} {}} {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity emdad_32_bit_register
+-- Compiling architecture arch of emdad_32_bit_register
+
+} {} {}} {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package emdad_adder_package
+-- Compiling entity emdad_32_bit_adder
+-- Compiling architecture arch of emdad_32_bit_adder
+
+} {} {}} {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_half_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_half_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity emdad_half_adder
+-- Compiling architecture arch of emdad_half_adder
+
+} {} {}} {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_2_1_MUX.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_2_1_MUX.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity emdad_2_1_MUX
+-- Compiling architecture arch of emdad_2_1_MUX
+
+} {} {}} {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_adder_package.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_adder_package.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package emdad_adder_package
+
+} {} {}} {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Register_File.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Register_File.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity emdad_Register_File
+-- Compiling architecture SYN of emdad_Register_File
+
+} {} {}} {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_extension.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_extension.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity emdad_extension
+-- Compiling architecture arch of emdad_extension
+
+} {} {}} {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_equal.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_equal.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity emdad_equal
+-- Compiling architecture arch of emdad_equal
+
+} {} {}} {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_testbench.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_testbench.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity emdad_testbench
+-- Compiling architecture arch of emdad_testbench
+
+} {} {}}

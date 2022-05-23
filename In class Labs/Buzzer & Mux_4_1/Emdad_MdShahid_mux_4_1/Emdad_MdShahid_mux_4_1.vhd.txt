@@ -1,0 +1,21 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity Emdad_MdShahid_mux_4_1 is
+    port (sel : in std_logic_vector(2 downto 1);
+          A, B, C, D: in std_logic;
+          Z : out std_logic);
+end Emdad_MdShahid_mux_4_1;
+
+architecture behav_mux_4_1 of Emdad_MdShahid_mux_4_1 is
+begin
+    PR_MUX: process(sel,A,B,C,D)
+    begin
+        case sel is
+        when "00" => Z <= A;
+          when "01" => Z <= B;
+          when "10" => Z <= C;
+          when others => Z <= D;
+        end case;
+    end process PR_MUX;
+end behav_mux_4_1;

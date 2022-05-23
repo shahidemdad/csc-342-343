@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port
+Eemdad_02_27_2022_eight_bit_comparator
+Z0 w1646002922
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 10
+Z3 dE:/CSC_342/Assignments/Emdad_02_27_2022_8_bit_comparator
+Z4 8E:/CSC_342/Assignments/Emdad_02_27_2022_8_bit_comparator/Emdad_02_27_2022_eight_bit_equal.vhd
+Z5 FE:/CSC_342/Assignments/Emdad_02_27_2022_8_bit_comparator/Emdad_02_27_2022_eight_bit_equal.vhd
+l0
+L4 1
+V?IJBOn;=d`l9Z>O21jIaa1
+!s100 `^gX4=kOePUgK6AJg`9RR2
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1646003634
+!i10b 1
+Z8 !s108 1646003634.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Emdad_02_27_2022_8_bit_comparator/Emdad_02_27_2022_eight_bit_equal.vhd|
+Z10 !s107 E:/CSC_342/Assignments/Emdad_02_27_2022_8_bit_comparator/Emdad_02_27_2022_eight_bit_equal.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aarch
+R1
+R2
+DEx4 work 37 emdad_02_27_2022_eight_bit_comparator 0 22 ?IJBOn;=d`l9Z>O21jIaa1
+!i122 10
+l15
+L9 13
+VDWc91AB_k;MV5<gYOUgAe1
+!s100 _ElC?0TP3kPTk6<_`UAWe0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eemdad_02_27_2022_test_eight_bit_comparator
+Z13 w1646003469
+R1
+R2
+!i122 12
+R3
+Z14 8E:/CSC_342/Assignments/Emdad_02_27_2022_8_bit_comparator/Emdad_02_27_2022_test_eight_bit_equal.vhd
+Z15 FE:/CSC_342/Assignments/Emdad_02_27_2022_8_bit_comparator/Emdad_02_27_2022_test_eight_bit_equal.vhd
+l0
+L4 1
+VM4EB7l=JkB_4Vegj_68F32
+!s100 68?W<XQGBHYbR]EZ0D87c0
+R6
+32
+Z16 !s110 1646004871
+!i10b 1
+Z17 !s108 1646004871.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Emdad_02_27_2022_8_bit_comparator/Emdad_02_27_2022_test_eight_bit_equal.vhd|
+Z19 !s107 E:/CSC_342/Assignments/Emdad_02_27_2022_8_bit_comparator/Emdad_02_27_2022_test_eight_bit_equal.vhd|
+!i113 1
+R11
+R12
+Aarch_test
+R1
+R2
+Z20 DEx4 work 42 emdad_02_27_2022_test_eight_bit_comparator 0 22 M4EB7l=JkB_4Vegj_68F32
+!i122 12
+l17
+Z21 L7 80
+Z22 Vl1fCadG[zcl=EK8hJSSaT3
+Z23 !s100 9nol:caXk<Y8Fl^]KV:fk1
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12

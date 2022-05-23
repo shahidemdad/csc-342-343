@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/CSC_342/intelFPGA/20.1
+Eemdad_mdshahid_03_02_2022_4bit_ozn
+Z0 w1646593421
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+Z5 dE:/CSC_342/Assignments/Lab 3/Emdad_MdShahid_four_bit_simulation
+Z6 8E:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_four_bit_simulation\Emdad_MdShahid_03_02_2022_4bit_ozn.vhd
+Z7 FE:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_four_bit_simulation\Emdad_MdShahid_03_02_2022_4bit_ozn.vhd
+l0
+L6 1
+VM9zN1`9Ao3zA1eI]>LDci3
+!s100 CCXE3ALNUzdm8lkXoM0>T0
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1646593425
+!i10b 1
+Z10 !s108 1646593424.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_four_bit_simulation\Emdad_MdShahid_03_02_2022_4bit_ozn.vhd|
+Z12 !s107 E:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_four_bit_simulation\Emdad_MdShahid_03_02_2022_4bit_ozn.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Anbitaddsub
+R1
+R2
+R3
+R4
+DEx4 work 34 emdad_mdshahid_03_02_2022_4bit_ozn 0 22 M9zN1`9Ao3zA1eI]>LDci3
+!i122 1
+l21
+L16 13
+VDjXZnfm]bWU5dUl;MK2;<0
+!s100 803oS;_mOc7];I=zD?5`[3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eemdad_mdshahid_03_02_2022_4bit_ozn_tb
+Z15 w1646594390
+R3
+R4
+!i122 3
+R5
+Z16 8E:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_four_bit_simulation\Emdad_MdShahid_4bit_ozn_tb.vhd
+Z17 FE:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_four_bit_simulation\Emdad_MdShahid_4bit_ozn_tb.vhd
+l0
+L4 1
+VNCnmfHcRC6`h:UL<R6^Dk0
+!s100 6lm6^Sz:@HXCHf0?o5PbV0
+R8
+32
+Z18 !s110 1646594393
+!i10b 1
+Z19 !s108 1646594393.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_four_bit_simulation\Emdad_MdShahid_4bit_ozn_tb.vhd|
+!s107 E:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_four_bit_simulation\Emdad_MdShahid_4bit_ozn_tb.vhd|
+!i113 1
+R13
+R14
+Asignalized_4_bit_test
+R3
+R4
+DEx4 work 37 emdad_mdshahid_03_02_2022_4bit_ozn_tb 0 22 NCnmfHcRC6`h:UL<R6^Dk0
+!i122 3
+l24
+L7 98
+VMjX7@Mb_h`S8zJ^^CNi:m1
+!s100 AYPga50mM8LUa_k9SKk_f1
+R8
+32
+R18
+!i10b 1
+R19
+R20
+Z21 !s107 E:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_four_bit_simulation\Emdad_MdShahid_4bit_ozn_tb.vhd|
+!i113 1
+R13
+R14

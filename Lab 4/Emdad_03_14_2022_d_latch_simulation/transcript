@@ -1,0 +1,123 @@
+# Compile of Emdad_03_14_2022_d_latch_master_slave.vhd was successful.
+vsim -gui work.emdad_03_14_2022_d_latch_master_slave
+# vsim -gui work.emdad_03_14_2022_d_latch_master_slave 
+# Start time: 21:29:07 on Mar 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.emdad_03_14_2022_d_latch_master_slave(bdf_type)
+add wave sim:/emdad_03_14_2022_d_latch_master_slave/*
+# Can't move the Now cursor.
+force -freeze sim:/emdad_03_14_2022_d_latch_master_slave/PRN 1 0
+force -freeze sim:/emdad_03_14_2022_d_latch_master_slave/CLRN 1 0
+force -freeze sim:/emdad_03_14_2022_d_latch_master_slave/CLK 0 0, 1 {50 ps} -r 100
+force -freeze sim:/emdad_03_14_2022_d_latch_master_slave/D 1 {95 ps} -cancel {105 ps}
+force -freeze sim:/emdad_03_14_2022_d_latch_master_slave/D 1 {145 ps} -cancel {155 ps}
+force -freeze sim:/emdad_03_14_2022_d_latch_master_slave/D 0 {245 ps} -cancel {255 ps}
+run
+run -all
+# Break key hit
+# Simulation stop requested.
+run
+quit -sim
+# End time: 21:33:20 on Mar 13,2022, Elapsed time: 0:04:13
+# Errors: 0, Warnings: 5
+vsim -gui work.emdad_03_14_2022_d_latch_master_slave
+# vsim -gui work.emdad_03_14_2022_d_latch_master_slave 
+# Start time: 21:34:23 on Mar 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.emdad_03_14_2022_d_latch_master_slave(bdf_type)
+add wave sim:/emdad_03_14_2022_d_latch_master_slave/*
+force -freeze sim:/emdad_03_14_2022_d_latch_master_slave/PRN 1 0
+force -freeze sim:/emdad_03_14_2022_d_latch_master_slave/CLRN 1 0
+force -freeze sim:/emdad_03_14_2022_d_latch_master_slave/CLK 0 0, 1 {50 ps} -r 100
+force -freeze sim:/emdad_03_14_2022_d_latch_master_slave/D 1 {95 ps} -cancel {105 ps}
+force -freeze sim:/emdad_03_14_2022_d_latch_master_slave/D 1 {145 ps} -cancel {155 ps}
+force -freeze sim:/emdad_03_14_2022_d_latch_master_slave/D 0 {245 ps} -cancel {255 ps}
+run
+force -freeze sim:/emdad_03_14_2022_d_latch_master_slave/D 1 {145 ps} -cancel {155 ps}
+force -freeze sim:/emdad_03_14_2022_d_latch_master_slave/CLK 0 0, 1 {50 ps} -r 100
+run
+force -freeze sim:/emdad_03_14_2022_d_latch_master_slave/D 0 {245 ps } -cancel {255 ps}
+run
+run
+quit -sim
+# End time: 21:49:29 on Mar 13,2022, Elapsed time: 0:15:06
+# Errors: 0, Warnings: 1
+# reading E:/CSC_342/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project Emdad_03_14_2022_d_flip_flop_component
+# Compile of Emdad_03_14_2022_d_flip_flop_component_VHDL.vhd was successful.
+vsim -gui work.emdad_03_14_2022_d_flip_flop_component_vhdl
+# vsim -gui work.emdad_03_14_2022_d_flip_flop_component_vhdl 
+# Start time: 21:50:45 on Mar 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.emdad_03_14_2022_d_flip_flop_component_vhdl(bdf_type)
+add wave sim:/emdad_03_14_2022_d_flip_flop_component_vhdl/*
+force -freeze sim:/emdad_03_14_2022_d_flip_flop_component_vhdl/PRN 1 0
+force -freeze sim:/emdad_03_14_2022_d_flip_flop_component_vhdl/CLRN 1 0
+force -freeze sim:/emdad_03_14_2022_d_flip_flop_component_vhdl/D 0 0
+force -freeze sim:/emdad_03_14_2022_d_flip_flop_component_vhdl/EDGE 0 0
+run
+force -freeze sim:/emdad_03_14_2022_d_flip_flop_component_vhdl/D 0 0
+force -freeze sim:/emdad_03_14_2022_d_flip_flop_component_vhdl/EDGE 1 0
+run
+force -freeze sim:/emdad_03_14_2022_d_flip_flop_component_vhdl/D 1 0
+force -freeze sim:/emdad_03_14_2022_d_flip_flop_component_vhdl/EDGE 0 0
+run
+force -freeze sim:/emdad_03_14_2022_d_flip_flop_component_vhdl/D 1 0
+force -freeze sim:/emdad_03_14_2022_d_flip_flop_component_vhdl/EDGE 1 0
+run
+quit -sim
+# End time: 22:07:36 on Mar 13,2022, Elapsed time: 0:16:51
+# Errors: 0, Warnings: 5
+# reading E:/CSC_342/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project Emdad_03_14_2022_N_bit_register_simulation
+# Compile of emdad_14march22_NRegister_VHDL.vhd was successful.
+vsim -gui work.emdad_14march22_nregister_vhdl
+# vsim -gui work.emdad_14march22_nregister_vhdl 
+# Start time: 22:08:28 on Mar 13,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.emdad_14march22_nregister_vhdl(arch)
+add wave sim:/emdad_14march22_nregister_vhdl/*
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_clk 0 0, 1 {50 ps} -r 100
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_wren 1 {40 ps} -cancel {60 ps}
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_rden 1 {80 ps} -cancel {90 ps}
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_chen 1 0, 0 {300 ps} -r 600
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_data X\"FFF00000\" 0 -cancel {55 ps}
+run
+# WARNING: No extended dataflow license exists
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_chen 1 0, 0 {150 ps} -r 300
+run
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_clk 1 0, 0 {300 ps} -r 600
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_clk 0 0, 1 {50 ps} -r 100
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_wren 1 {40 ps} -cancel {60 ps}
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_rden 1 {80 ps} -cancel {90 ps}
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_chen 1 0, 0 {300 ps} -r 600
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_data X\"FFF00000\" 0 -cancel {55 ps}
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_data X\"FFF00000\" 0 -cancel {50 ps}
+run
+restart -f
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_clk 0 0, 1 {50 ps} -r 100
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_wren 1 {40 ps} -cancel {60 ps}
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_rden 1 {80 ps} -cancel {90 ps}
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_chen 1 0, 0 {300 ps} -r 600
+force -freeze sim:/emdad_14march22_nregister_vhdl/emdad_14march22_data X\"FFF00000\" 0 -cancel {50 ps}
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# End time: 22:29:01 on Mar 13,2022, Elapsed time: 0:20:33
+# Errors: 0, Warnings: 1

@@ -1,0 +1,22 @@
+Quartus Prime Archive log --	E:/CSC_342/Assignments/Midterm/Source Codes/Emdad_23rdMarch2022_circuitdesign/Emdad_23rdMarch2022_circuitdesign.qarlog
+
+Archive:	E:/CSC_342/Assignments/Midterm/Source Codes/Emdad_23rdMarch2022_circuitdesign/Emdad_23rdMarch2022_circuitdesign.qar
+Date:		Wed Mar 23 06:35:55 2022
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdMarch2022_circuitdesign.qpf
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdMarch2022_circuitdesign.qsf
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdMarch2022_circuitdesign.vhd
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdMarch2022_datamemory.cmp
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdMarch2022_datamemory.qip
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdMarch2022_datamemory.vhd
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdMarch_circuits_flags.mif
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdmarch2022_LPM_add_sub.cmp
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdmarch2022_LPM_add_sub.qip
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdmarch2022_LPM_add_sub.vhd
+e:/csc_342/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 11 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

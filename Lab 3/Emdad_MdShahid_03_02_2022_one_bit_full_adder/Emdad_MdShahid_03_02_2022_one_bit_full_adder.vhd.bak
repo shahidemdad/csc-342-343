@@ -1,0 +1,16 @@
+LIBRARY ieee ;
+USE ieee.std_logic_1164.all ;
+
+ENTITY Emdad_MdShahid_03_02_2022_one_bit_full_adder IS
+PORT ( A, B, Cin : IN STD_LOGIC ;
+		sum, Cout  : OUT STD_LOGIC ) ;
+END Emdad_MdShahid_03_02_2022_one_bit_full_adder ;
+
+ARCHITECTURE LogicFunc OF Emdad_MdShahid_03_02_2022_one_bit_full_adder IS
+signal int1, int2, int3: std_logic;
+
+
+BEGIN
+s <= x XOR y XOR Cin ;
+Cout <= (x AND y) OR (Cin AND x) OR (Cin AND y) ;
+END LogicFunc ;

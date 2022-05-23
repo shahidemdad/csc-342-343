@@ -1,0 +1,138 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32
+Eemdad_23rdmarch2022_32_bit_add_sub_scratch
+Z0 w1647927031
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 dE:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_32_bit_add_sub_scratch
+Z4 8E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_32_bit_add_sub_scratch/Emdad_23rdMarch2022_32_bit_add_sub_scratch.vhd
+Z5 FE:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_32_bit_add_sub_scratch/Emdad_23rdMarch2022_32_bit_add_sub_scratch.vhd
+l0
+L4 1
+VJMSmZlZF7YQV^YeO3e0ie0
+!s100 zX=8j]?GK?`l996P4=NA43
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1647927332
+!i10b 1
+Z8 !s108 1647927332.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_32_bit_add_sub_scratch/Emdad_23rdMarch2022_32_bit_add_sub_scratch.vhd|
+Z10 !s107 E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_32_bit_add_sub_scratch/Emdad_23rdMarch2022_32_bit_add_sub_scratch.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavior
+R1
+R2
+DEx4 work 42 emdad_23rdmarch2022_32_bit_add_sub_scratch 0 22 JMSmZlZF7YQV^YeO3e0ie0
+!i122 0
+l42
+L16 61
+VSAj9_kI^Fz1;5DG;n]hfI1
+!s100 M?WQC3VVA93RoY<U:TM_o1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eemdad_23rdmarch2022_adderk
+Z13 w1647926683
+Z14 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z15 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+R1
+R2
+!i122 1
+R3
+Z16 8E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_32_bit_add_sub_scratch/Emdad_23rdMarch2022_adderk.vhd
+Z17 FE:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_32_bit_add_sub_scratch/Emdad_23rdMarch2022_adderk.vhd
+l0
+L5 1
+VLai5KNaGTV1_6KWb5VVAK2
+!s100 mQNTOg=X_fN=f?DZ3VM5_0
+R6
+32
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_32_bit_add_sub_scratch/Emdad_23rdMarch2022_adderk.vhd|
+Z19 !s107 E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_32_bit_add_sub_scratch/Emdad_23rdMarch2022_adderk.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R15
+R1
+R2
+DEx4 work 26 emdad_23rdmarch2022_adderk 0 22 Lai5KNaGTV1_6KWb5VVAK2
+!i122 1
+l19
+L15 11
+V^lR8QzVVC[iaR61g:Efcm1
+!s100 89UDO?nXY9?C:5jF6gn3Q1
+R6
+32
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12
+Eemdad_23rdmarch2022_mux2to1
+Z20 w1647926394
+R1
+R2
+!i122 2
+R3
+Z21 8E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_32_bit_add_sub_scratch/Emdad_23rdMarch2022_mux2to1.vhd
+Z22 FE:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_32_bit_add_sub_scratch/Emdad_23rdMarch2022_mux2to1.vhd
+l0
+L4 1
+V9F>P`IRd9:FX^?GdAXckT1
+!s100 LBMR8dEEm;Wa3>T1GOYz:3
+R6
+32
+R7
+!i10b 1
+R8
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_32_bit_add_sub_scratch/Emdad_23rdMarch2022_mux2to1.vhd|
+!s107 E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_32_bit_add_sub_scratch/Emdad_23rdMarch2022_mux2to1.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R1
+R2
+DEx4 work 27 emdad_23rdmarch2022_mux2to1 0 22 9F>P`IRd9:FX^?GdAXckT1
+!i122 2
+l16
+L14 12
+VLHGlACS08gNM9niMR=Qh03
+!s100 =7bJoZF?QbYCN_z<3ld^]1
+R6
+32
+R7
+!i10b 1
+R8
+R23
+Z24 !s107 E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_32_bit_add_sub_scratch/Emdad_23rdMarch2022_mux2to1.vhd|
+!i113 1
+R11
+R12

@@ -1,0 +1,461 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[8]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[9]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[10]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[11]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[12]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[13]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[14]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[15]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[16]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[17]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[18]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[19]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[20]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[21]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[22]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[23]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[24]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[25]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[26]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[27]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[28]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[29]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[30]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData1[31]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[11]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[12]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[13]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[14]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[15]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[16]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[17]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[18]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[19]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[20]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[21]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[22]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[23]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[24]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[25]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[26]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[27]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[28]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[29]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[30]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadData2[31]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadRegister1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadRegister1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadRegister1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadRegister1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadRegister1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadRegister2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadRegister2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadRegister2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadRegister2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_ReadRegister2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[0]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_clk",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeRegister[4]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeRegister[2]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeRegister[3]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeRegister[1]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_regwrite",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeRegister[0]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[1]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[2]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[3]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[4]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[5]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[6]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[7]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[8]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[9]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[10]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[11]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[12]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[13]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[14]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[15]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[16]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[17]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[18]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[19]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[20]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[21]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[22]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[23]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[24]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[25]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[26]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[27]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[28]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[29]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[30]",
+					"strict" : false
+				},
+				{
+					"name" : "emdad_22ndmay2022_writeData[31]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

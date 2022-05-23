@@ -1,0 +1,1015 @@
+Analysis & Synthesis report for emdad_24thApril_2022_Lab_BEQ_BNE
+Wed Apr 20 18:12:04 2022
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis RAM Summary
+  9. User-Specified and Inferred Latches
+ 10. General Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Source assignments for emdad_Register_File:F2|altsyncram:altsyncram_component|altsyncram_ar44:auto_generated
+ 13. Parameter Settings for User Entity Instance: emdad_Register_File:F2|altsyncram:altsyncram_component
+ 14. Parameter Settings for User Entity Instance: emdad_32_bit_adder:F5
+ 15. Parameter Settings for User Entity Instance: emdad_32_bit_adder:F7
+ 16. altsyncram Parameter Settings by Entity Instance
+ 17. Port Connectivity Checks: "emdad_32_bit_adder:F7"
+ 18. Port Connectivity Checks: "emdad_32_bit_adder:F5"
+ 19. Port Connectivity Checks: "emdad_Register_File:F2"
+ 20. Port Connectivity Checks: "emdad_32_bit_register:F1"
+ 21. Post-Synthesis Netlist Statistics for Top Partition
+ 22. Elapsed Time Per Partition
+ 23. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Wed Apr 20 18:12:04 2022       ;
+; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                   ; emdad_24thApril_2022_Lab_BEQ_BNE            ;
+; Top-level Entity Name           ; emdad_Main_unit                             ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 64                                          ;
+; Total pins                      ; 68                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 1,024                                       ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                                           ;
++---------------------------------------------------------------------------------+--------------------+----------------------------------+
+; Option                                                                          ; Setting            ; Default Value                    ;
++---------------------------------------------------------------------------------+--------------------+----------------------------------+
+; Device                                                                          ; 5CSEMA5F31C6       ;                                  ;
+; Top-level entity name                                                           ; emdad_Main_Unit    ; emdad_24thApril_2022_Lab_BEQ_BNE ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V                        ;
+; Use smart compilation                                                           ; Off                ; Off                              ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                               ;
+; Enable compact report table                                                     ; Off                ; Off                              ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto                             ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                              ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                              ;
+; Preserve fewer node names                                                       ; On                 ; On                               ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable                           ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001                     ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993                        ;
+; State Machine Processing                                                        ; Auto               ; Auto                             ;
+; Safe State Machine                                                              ; Off                ; Off                              ;
+; Extract Verilog State Machines                                                  ; On                 ; On                               ;
+; Extract VHDL State Machines                                                     ; On                 ; On                               ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                              ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000                             ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                              ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                               ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                               ;
+; Parallel Synthesis                                                              ; On                 ; On                               ;
+; DSP Block Balancing                                                             ; Auto               ; Auto                             ;
+; NOT Gate Push-Back                                                              ; On                 ; On                               ;
+; Power-Up Don't Care                                                             ; On                 ; On                               ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                              ;
+; Remove Duplicate Registers                                                      ; On                 ; On                               ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                              ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                              ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                              ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                              ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                              ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                               ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                              ;
+; Optimization Technique                                                          ; Balanced           ; Balanced                         ;
+; Carry Chain Length                                                              ; 70                 ; 70                               ;
+; Auto Carry Chains                                                               ; On                 ; On                               ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                               ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                              ;
+; Auto ROM Replacement                                                            ; On                 ; On                               ;
+; Auto RAM Replacement                                                            ; On                 ; On                               ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                               ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto                             ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto                             ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                               ;
+; Strict RAM Replacement                                                          ; Off                ; Off                              ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                               ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                              ;
+; Auto Resource Sharing                                                           ; Off                ; Off                              ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                              ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                              ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                              ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                               ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                              ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                               ;
+; Report Parameter Settings                                                       ; On                 ; On                               ;
+; Report Source Assignments                                                       ; On                 ; On                               ;
+; Report Connectivity Checks                                                      ; On                 ; On                               ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                              ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                                ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation               ;
+; HDL message level                                                               ; Level2             ; Level2                           ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                              ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000                             ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000                             ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                              ;
+; Clock MUX Protection                                                            ; On                 ; On                               ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                              ;
+; Block Design Naming                                                             ; Auto               ; Auto                             ;
+; SDC constraint protection                                                       ; Off                ; Off                              ;
+; Synthesis Effort                                                                ; Auto               ; Auto                             ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                               ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                              ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium                           ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto                             ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                               ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                               ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                              ;
++---------------------------------------------------------------------------------+--------------------+----------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 6           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 6           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-6         ;   0.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                             ;
++----------------------------------+-----------------+----------------------------------+--------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                        ; File Name with Absolute Path                                                                     ; Library ;
++----------------------------------+-----------------+----------------------------------+--------------------------------------------------------------------------------------------------+---------+
+; emdad_Register_File_Data.mif     ; yes             ; User Memory Initialization File  ; E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Register_File_Data.mif ;         ;
+; emdad_sll.vhd                    ; yes             ; User VHDL File                   ; E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_sll.vhd                ;         ;
+; emdad_Register_File.vhd          ; yes             ; User VHDL File                   ; E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Register_File.vhd      ;         ;
+; emdad_Main_Unit.vhd              ; yes             ; User VHDL File                   ; E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd          ;         ;
+; emdad_half_adder.vhd             ; yes             ; User VHDL File                   ; E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_half_adder.vhd         ;         ;
+; emdad_full_adder.vhd             ; yes             ; User VHDL File                   ; E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_full_adder.vhd         ;         ;
+; emdad_extension.vhd              ; yes             ; User VHDL File                   ; E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_extension.vhd          ;         ;
+; emdad_equal.vhd                  ; yes             ; User VHDL File                   ; E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_equal.vhd              ;         ;
+; emdad_controller.vhd             ; yes             ; User VHDL File                   ; E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd         ;         ;
+; emdad_adder_package.vhd          ; yes             ; User VHDL File                   ; E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_adder_package.vhd      ;         ;
+; emdad_32_bit_register.vhd        ; yes             ; User VHDL File                   ; E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd    ;         ;
+; emdad_32_bit_adder.vhd           ; yes             ; User VHDL File                   ; E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_adder.vhd       ;         ;
+; emdad_2_1_MUX.vhd                ; yes             ; User VHDL File                   ; E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_2_1_MUX.vhd            ;         ;
+; emdad_1Bit_Comparator.vhd        ; yes             ; User VHDL File                   ; E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_1Bit_Comparator.vhd    ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                     ; e:/csc_342/intelfpga_lite/20.1/quartus/libraries/megafunctions/altsyncram.tdf                    ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                     ; e:/csc_342/intelfpga_lite/20.1/quartus/libraries/megafunctions/stratix_ram_block.inc             ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                     ; e:/csc_342/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.inc                       ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                     ; e:/csc_342/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_decode.inc                    ;         ;
+; aglobal201.inc                   ; yes             ; Megafunction                     ; e:/csc_342/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc                    ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                     ; e:/csc_342/intelfpga_lite/20.1/quartus/libraries/megafunctions/a_rdenreg.inc                     ;         ;
+; altrom.inc                       ; yes             ; Megafunction                     ; e:/csc_342/intelfpga_lite/20.1/quartus/libraries/megafunctions/altrom.inc                        ;         ;
+; altram.inc                       ; yes             ; Megafunction                     ; e:/csc_342/intelfpga_lite/20.1/quartus/libraries/megafunctions/altram.inc                        ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                     ; e:/csc_342/intelfpga_lite/20.1/quartus/libraries/megafunctions/altdpram.inc                      ;         ;
+; db/altsyncram_ar44.tdf           ; yes             ; Auto-Generated Megafunction      ; E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/db/altsyncram_ar44.tdf       ;         ;
++----------------------------------+-----------------+----------------------------------+--------------------------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                   ;
++---------------------------------------------+-----------------+
+; Resource                                    ; Usage           ;
++---------------------------------------------+-----------------+
+; Estimate of Logic utilization (ALMs needed) ; 165             ;
+;                                             ;                 ;
+; Combinational ALUT usage for logic          ; 260             ;
+;     -- 7 input functions                    ; 3               ;
+;     -- 6 input functions                    ; 62              ;
+;     -- 5 input functions                    ; 30              ;
+;     -- 4 input functions                    ; 16              ;
+;     -- <=3 input functions                  ; 149             ;
+;                                             ;                 ;
+; Dedicated logic registers                   ; 64              ;
+;                                             ;                 ;
+; I/O pins                                    ; 68              ;
+; Total MLAB memory bits                      ; 0               ;
+; Total block memory bits                     ; 1024            ;
+;                                             ;                 ;
+; Total DSP Blocks                            ; 0               ;
+;                                             ;                 ;
+; Maximum fan-out node                        ; emdad_clk~input ;
+; Maximum fan-out                             ; 96              ;
+; Total fan-out                               ; 1715            ;
+; Average fan-out                             ; 3.49            ;
++---------------------------------------------+-----------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                ;
++-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------+-----------------------+--------------+
+; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                    ; Entity Name           ; Library Name ;
++-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------+-----------------------+--------------+
+; |emdad_Main_unit                          ; 260 (31)            ; 64 (0)                    ; 1024              ; 0          ; 68   ; 0            ; |emdad_Main_unit                                                                                       ; emdad_Main_unit       ; work         ;
+;    |emdad_32_bit_adder:F5|                ; 36 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5                                                                 ; emdad_32_bit_adder    ; work         ;
+;       |emdad_full_adder:\FA:10:I2:F1|     ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:10:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:10:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:11:I2:F1|     ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:11:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:11:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:12:I2:F1|     ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:12:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:12:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:13:I2:F1|     ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:13:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:13:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:14:I2:F1|     ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:14:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:14:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:15:I2:F1|     ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:15:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:15:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:16:I2:F1|     ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:16:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:16:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:17:I2:F1|     ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:17:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:17:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:18:I2:F1|     ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:18:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:18:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:19:I2:F1|     ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:19:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:19:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:20:I2:F1|     ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:20:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:20:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:21:I2:F1|     ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:21:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:21:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:22:I2:F1|     ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:22:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:22:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:23:I2:F1|     ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:23:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:23:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:24:I2:F1|     ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:24:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:24:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:25:I2:F1|     ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:25:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:25:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:26:I2:F1|     ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:26:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:26:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:27:I2:F1|     ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:27:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:27:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:28:I2:F1|     ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:28:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:28:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:29:I2:F1|     ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:29:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:29:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:3:I2:F1|      ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:3:I2:F1                                    ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:3:I2:F1|emdad_half_adder:H2                ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:4:I2:F1|      ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:4:I2:F1                                    ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:4:I2:F1|emdad_half_adder:H2                ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:5:I2:F1|      ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:5:I2:F1                                    ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:5:I2:F1|emdad_half_adder:H2                ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:6:I2:F1|      ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:6:I2:F1                                    ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:6:I2:F1|emdad_half_adder:H2                ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:7:I2:F1|      ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:7:I2:F1                                    ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:7:I2:F1|emdad_half_adder:H2                ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:8:I2:F1|      ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:8:I2:F1                                    ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:8:I2:F1|emdad_half_adder:H2                ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:9:I2:F1|      ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:9:I2:F1                                    ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:9:I2:F1|emdad_half_adder:H2                ; emdad_half_adder      ; work         ;
+;    |emdad_32_bit_adder:F7|                ; 36 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7                                                                 ; emdad_32_bit_adder    ; work         ;
+;       |emdad_full_adder:\FA:10:I2:F1|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:10:I2:F1                                   ; emdad_full_adder      ; work         ;
+;       |emdad_full_adder:\FA:11:I2:F1|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:11:I2:F1                                   ; emdad_full_adder      ; work         ;
+;       |emdad_full_adder:\FA:13:I2:F1|     ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:13:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:13:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:14:I2:F1|     ; 3 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:14:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H1|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:14:I2:F1|emdad_half_adder:H1               ; emdad_half_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:14:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:16:I2:F1|     ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:16:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:16:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:17:I2:F1|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:17:I2:F1                                   ; emdad_full_adder      ; work         ;
+;       |emdad_full_adder:\FA:1:I2:F1|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:1:I2:F1                                    ; emdad_full_adder      ; work         ;
+;       |emdad_full_adder:\FA:20:I2:F1|     ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:20:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:20:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:21:I2:F1|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:21:I2:F1                                   ; emdad_full_adder      ; work         ;
+;       |emdad_full_adder:\FA:24:I2:F1|     ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:24:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:24:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:25:I2:F1|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:25:I2:F1                                   ; emdad_full_adder      ; work         ;
+;       |emdad_full_adder:\FA:28:I2:F1|     ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:28:I2:F1                                   ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:28:I2:F1|emdad_half_adder:H2               ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:29:I2:F1|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:29:I2:F1                                   ; emdad_full_adder      ; work         ;
+;       |emdad_full_adder:\FA:2:I2:F1|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:2:I2:F1                                    ; emdad_full_adder      ; work         ;
+;       |emdad_full_adder:\FA:3:I2:F1|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:3:I2:F1                                    ; emdad_full_adder      ; work         ;
+;       |emdad_full_adder:\FA:4:I2:F1|      ; 4 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:4:I2:F1                                    ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H1|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:4:I2:F1|emdad_half_adder:H1                ; emdad_half_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:4:I2:F1|emdad_half_adder:H2                ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:5:I2:F1|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:5:I2:F1                                    ; emdad_full_adder      ; work         ;
+;       |emdad_full_adder:\FA:6:I2:F1|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:6:I2:F1                                    ; emdad_full_adder      ; work         ;
+;       |emdad_full_adder:\FA:7:I2:F1|      ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:7:I2:F1                                    ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H1|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:7:I2:F1|emdad_half_adder:H1                ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:8:I2:F1|      ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:8:I2:F1                                    ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:8:I2:F1|emdad_half_adder:H2                ; emdad_half_adder      ; work         ;
+;       |emdad_full_adder:\FA:9:I2:F1|      ; 4 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:9:I2:F1                                    ; emdad_full_adder      ; work         ;
+;          |emdad_half_adder:H1|            ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:9:I2:F1|emdad_half_adder:H1                ; emdad_half_adder      ; work         ;
+;          |emdad_half_adder:H2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:9:I2:F1|emdad_half_adder:H2                ; emdad_half_adder      ; work         ;
+;    |emdad_32_bit_register:F10|            ; 35 (35)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_register:F10                                                             ; emdad_32_bit_register ; work         ;
+;    |emdad_32_bit_register:F1|             ; 32 (32)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_32_bit_register:F1                                                              ; emdad_32_bit_register ; work         ;
+;    |emdad_Register_File:F2|               ; 0 (0)               ; 0 (0)                     ; 1024              ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_Register_File:F2                                                                ; emdad_Register_File   ; work         ;
+;       |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 1024              ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_Register_File:F2|altsyncram:altsyncram_component                                ; altsyncram            ; work         ;
+;          |altsyncram_ar44:auto_generated| ; 0 (0)               ; 0 (0)                     ; 1024              ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_Register_File:F2|altsyncram:altsyncram_component|altsyncram_ar44:auto_generated ; altsyncram_ar44       ; work         ;
+;    |emdad_controller:F9|                  ; 72 (72)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_controller:F9                                                                   ; emdad_controller      ; work         ;
+;    |emdad_equal:F3|                       ; 18 (18)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |emdad_Main_unit|emdad_equal:F3                                                                        ; emdad_equal           ; work         ;
++-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------+-----------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                                           ;
++--------------------------------------------------------------------------------------------------+------+----------------+--------------+--------------+--------------+--------------+------+------------------------------+
+; Name                                                                                             ; Type ; Mode           ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF                          ;
++--------------------------------------------------------------------------------------------------+------+----------------+--------------+--------------+--------------+--------------+------+------------------------------+
+; emdad_Register_File:F2|altsyncram:altsyncram_component|altsyncram_ar44:auto_generated|ALTSYNCRAM ; AUTO ; True Dual Port ; 32           ; 32           ; 32           ; 32           ; 1024 ; emdad_Register_File_Data.mif ;
++--------------------------------------------------------------------------------------------------+------+----------------+--------------+--------------+--------------+--------------+------+------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                                 ;
++-----------------------------------------------------+--------------------------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal                  ; Free of Timing Hazards ;
++-----------------------------------------------------+--------------------------------------+------------------------+
+; emdad_32_bit_register:F10|emdad_q[0]$latch          ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[0]_213            ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[1]$latch          ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[2]$latch          ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[3]$latch          ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[4]$latch          ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[5]$latch          ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[6]$latch          ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[7]$latch          ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[8]$latch          ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[9]$latch          ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[10]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[11]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[12]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[13]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[14]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[15]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[16]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[17]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[18]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[19]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[20]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[21]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[22]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[23]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[24]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[25]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[26]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[27]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[28]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[29]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[30]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_32_bit_register:F10|emdad_q[31]$latch         ; emdad_32_bit_register:F10|emdad_q[0] ; yes                    ;
+; emdad_controller:F9|emdad_s[0]                      ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[1]                      ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[2]                      ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[3]                      ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[4]                      ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[5]                      ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[6]                      ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[7]                      ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[8]                      ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[9]                      ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[10]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[11]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[12]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[13]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[14]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[15]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[16]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[17]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[18]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[19]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[20]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[21]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[22]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[23]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[24]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[25]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[26]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[27]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[28]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[29]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[30]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_controller:F9|emdad_s[31]                     ; emdad_controller:F9|emdad_s[31]      ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[26]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[27]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[28]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[29]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[30]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[31]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[0]$latch           ; emdad_rden                           ; yes                    ;
+; emdad_equal:F3|emdad_Cond                           ; emdad_equal:F3|emdad_Cond            ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[1]$latch           ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[2]$latch           ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[3]$latch           ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[4]$latch           ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[5]$latch           ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[6]$latch           ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[7]$latch           ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[8]$latch           ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[9]$latch           ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[10]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[11]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[12]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[13]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[14]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[15]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[16]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[17]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[18]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[19]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[20]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[21]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[22]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[23]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[24]$latch          ; emdad_rden                           ; yes                    ;
+; emdad_32_bit_register:F1|emdad_q[25]$latch          ; emdad_rden                           ; yes                    ;
+; Number of user-specified and inferred latches = 98  ;                                      ;                        ;
++-----------------------------------------------------+--------------------------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 64    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 64    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                      ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------+
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |emdad_Main_unit|emdad_controller:F9|emdad_s[1] ;
+; 3:1                ; 30 bits   ; 60 LEs        ; 60 LEs               ; 0 LEs                  ; No         ; |emdad_Main_unit|emdad_controller:F9|emdad_s[3] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------+
+; Source assignments for emdad_Register_File:F2|altsyncram:altsyncram_component|altsyncram_ar44:auto_generated ;
++---------------------------------+--------------------+------+------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                             ;
++---------------------------------+--------------------+------+------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                              ;
++---------------------------------+--------------------+------+------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: emdad_Register_File:F2|altsyncram:altsyncram_component ;
++------------------------------------+------------------------------+---------------------------------+
+; Parameter Name                     ; Value                        ; Type                            ;
++------------------------------------+------------------------------+---------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                            ; Untyped                         ;
+; AUTO_CARRY_CHAINS                  ; ON                           ; AUTO_CARRY                      ;
+; IGNORE_CARRY_BUFFERS               ; OFF                          ; IGNORE_CARRY                    ;
+; AUTO_CASCADE_CHAINS                ; ON                           ; AUTO_CASCADE                    ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                          ; IGNORE_CASCADE                  ;
+; WIDTH_BYTEENA                      ; 1                            ; Untyped                         ;
+; OPERATION_MODE                     ; BIDIR_DUAL_PORT              ; Untyped                         ;
+; WIDTH_A                            ; 32                           ; Signed Integer                  ;
+; WIDTHAD_A                          ; 5                            ; Signed Integer                  ;
+; NUMWORDS_A                         ; 32                           ; Signed Integer                  ;
+; OUTDATA_REG_A                      ; UNREGISTERED                 ; Untyped                         ;
+; ADDRESS_ACLR_A                     ; NONE                         ; Untyped                         ;
+; OUTDATA_ACLR_A                     ; NONE                         ; Untyped                         ;
+; WRCONTROL_ACLR_A                   ; NONE                         ; Untyped                         ;
+; INDATA_ACLR_A                      ; NONE                         ; Untyped                         ;
+; BYTEENA_ACLR_A                     ; NONE                         ; Untyped                         ;
+; WIDTH_B                            ; 32                           ; Signed Integer                  ;
+; WIDTHAD_B                          ; 5                            ; Signed Integer                  ;
+; NUMWORDS_B                         ; 32                           ; Signed Integer                  ;
+; INDATA_REG_B                       ; CLOCK0                       ; Untyped                         ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK0                       ; Untyped                         ;
+; RDCONTROL_REG_B                    ; CLOCK1                       ; Untyped                         ;
+; ADDRESS_REG_B                      ; CLOCK0                       ; Untyped                         ;
+; OUTDATA_REG_B                      ; UNREGISTERED                 ; Untyped                         ;
+; BYTEENA_REG_B                      ; CLOCK1                       ; Untyped                         ;
+; INDATA_ACLR_B                      ; NONE                         ; Untyped                         ;
+; WRCONTROL_ACLR_B                   ; NONE                         ; Untyped                         ;
+; ADDRESS_ACLR_B                     ; NONE                         ; Untyped                         ;
+; OUTDATA_ACLR_B                     ; NONE                         ; Untyped                         ;
+; RDCONTROL_ACLR_B                   ; NONE                         ; Untyped                         ;
+; BYTEENA_ACLR_B                     ; NONE                         ; Untyped                         ;
+; WIDTH_BYTEENA_A                    ; 1                            ; Signed Integer                  ;
+; WIDTH_BYTEENA_B                    ; 1                            ; Signed Integer                  ;
+; RAM_BLOCK_TYPE                     ; AUTO                         ; Untyped                         ;
+; BYTE_SIZE                          ; 8                            ; Signed Integer                  ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                    ; Untyped                         ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ         ; Untyped                         ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ         ; Untyped                         ;
+; INIT_FILE                          ; emdad_Register_File_Data.mif ; Untyped                         ;
+; INIT_FILE_LAYOUT                   ; PORT_A                       ; Untyped                         ;
+; MAXIMUM_DEPTH                      ; 0                            ; Signed Integer                  ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS                       ; Untyped                         ;
+; CLOCK_ENABLE_INPUT_B               ; BYPASS                       ; Untyped                         ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS                       ; Untyped                         ;
+; CLOCK_ENABLE_OUTPUT_B              ; BYPASS                       ; Untyped                         ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN              ; Untyped                         ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN              ; Untyped                         ;
+; ENABLE_ECC                         ; FALSE                        ; Untyped                         ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                        ; Untyped                         ;
+; WIDTH_ECCSTATUS                    ; 3                            ; Signed Integer                  ;
+; DEVICE_FAMILY                      ; Cyclone V                    ; Untyped                         ;
+; CBXI_PARAMETER                     ; altsyncram_ar44              ; Untyped                         ;
++------------------------------------+------------------------------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: emdad_32_bit_adder:F5 ;
++----------------+-------+-------------------------------------------+
+; Parameter Name ; Value ; Type                                      ;
++----------------+-------+-------------------------------------------+
+; n              ; 32    ; Signed Integer                            ;
++----------------+-------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: emdad_32_bit_adder:F7 ;
++----------------+-------+-------------------------------------------+
+; Parameter Name ; Value ; Type                                      ;
++----------------+-------+-------------------------------------------+
+; n              ; 32    ; Signed Integer                            ;
++----------------+-------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                                   ;
++-------------------------------------------+--------------------------------------------------------+
+; Name                                      ; Value                                                  ;
++-------------------------------------------+--------------------------------------------------------+
+; Number of entity instances                ; 1                                                      ;
+; Entity Instance                           ; emdad_Register_File:F2|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; BIDIR_DUAL_PORT                                        ;
+;     -- WIDTH_A                            ; 32                                                     ;
+;     -- NUMWORDS_A                         ; 32                                                     ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                           ;
+;     -- WIDTH_B                            ; 32                                                     ;
+;     -- NUMWORDS_B                         ; 32                                                     ;
+;     -- ADDRESS_REG_B                      ; CLOCK0                                                 ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                           ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                   ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                              ;
++-------------------------------------------+--------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "emdad_32_bit_adder:F7"                                                                    ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; emdad_cin  ; Input  ; Info     ; Stuck at GND                                                                        ;
+; emdad_cout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "emdad_32_bit_adder:F5"                                                                        ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port           ; Type   ; Severity ; Details                                                                             ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+; emdad_y[31..3] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; emdad_y[1..0]  ; Input  ; Info     ; Stuck at GND                                                                        ;
+; emdad_y[2]     ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; emdad_cin      ; Input  ; Info     ; Stuck at GND                                                                        ;
+; emdad_cout     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------+
+; Port Connectivity Checks: "emdad_Register_File:F2" ;
++--------------+-------+----------+------------------+
+; Port         ; Type  ; Severity ; Details          ;
++--------------+-------+----------+------------------+
+; emdad_data_a ; Input ; Info     ; Stuck at GND     ;
+; emdad_data_b ; Input ; Info     ; Stuck at GND     ;
+; emdad_wren_a ; Input ; Info     ; Stuck at GND     ;
+; emdad_wren_b ; Input ; Info     ; Stuck at GND     ;
++--------------+-------+----------+------------------+
+
+
++------------------------------------------------------+
+; Port Connectivity Checks: "emdad_32_bit_register:F1" ;
++------------+-------+----------+----------------------+
+; Port       ; Type  ; Severity ; Details              ;
++------------+-------+----------+----------------------+
+; emdad_chen ; Input ; Info     ; Stuck at VCC         ;
++------------+-------+----------+----------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 64                          ;
+;     ENA               ; 64                          ;
+; arriav_io_obuf        ; 32                          ;
+; arriav_lcell_comb     ; 260                         ;
+;     extend            ; 3                           ;
+;         7 data inputs ; 3                           ;
+;     normal            ; 257                         ;
+;         0 data inputs ; 1                           ;
+;         2 data inputs ; 12                          ;
+;         3 data inputs ; 136                         ;
+;         4 data inputs ; 16                          ;
+;         5 data inputs ; 30                          ;
+;         6 data inputs ; 62                          ;
+; boundary_port         ; 68                          ;
+; stratixv_ram_block    ; 32                          ;
+;                       ;                             ;
+; Max LUT depth         ; 12.00                       ;
+; Average LUT depth     ; 4.64                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Wed Apr 20 18:11:53 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off emdad_24thApril_2022_Lab_BEQ_BNE -c emdad_24thApril_2022_Lab_BEQ_BNE
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file emdad_testbench.vhd
+    Info (12022): Found design unit 1: emdad_testbench-arch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_testbench.vhd Line: 7
+    Info (12023): Found entity 1: emdad_testbench File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_testbench.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file emdad_sll.vhd
+    Info (12022): Found design unit 1: emdad_sll-arch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_sll.vhd Line: 15
+    Info (12023): Found entity 1: emdad_sll File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_sll.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file emdad_register_file.vhd
+    Info (12022): Found design unit 1: emdad_Register_File-SYN File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Register_File.vhd Line: 21
+    Info (12023): Found entity 1: emdad_Register_File File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Register_File.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file emdad_main_unit.vhd
+    Info (12022): Found design unit 1: emdad_Main_unit-arch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd Line: 18
+    Info (12023): Found entity 1: emdad_Main_unit File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file emdad_half_adder.vhd
+    Info (12022): Found design unit 1: emdad_half_adder-arch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_half_adder.vhd Line: 9
+    Info (12023): Found entity 1: emdad_half_adder File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_half_adder.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file emdad_full_adder.vhd
+    Info (12022): Found design unit 1: emdad_full_adder-arch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_full_adder.vhd Line: 9
+    Info (12023): Found entity 1: emdad_full_adder File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_full_adder.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file emdad_extension.vhd
+    Info (12022): Found design unit 1: emdad_extension-arch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_extension.vhd Line: 13
+    Info (12023): Found entity 1: emdad_extension File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_extension.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file emdad_equal.vhd
+    Info (12022): Found design unit 1: emdad_equal-arch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_equal.vhd Line: 10
+    Info (12023): Found entity 1: emdad_equal File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_equal.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file emdad_controller.vhd
+    Info (12022): Found design unit 1: emdad_controller-arch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 16
+    Info (12023): Found entity 1: emdad_controller File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 7
+Info (12021): Found 1 design units, including 0 entities, in source file emdad_adder_package.vhd
+    Info (12022): Found design unit 1: emdad_adder_package File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_adder_package.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file emdad_32_bit_register.vhd
+    Info (12022): Found design unit 1: emdad_32_bit_register-arch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 10
+    Info (12023): Found entity 1: emdad_32_bit_register File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file emdad_32_bit_adder.vhd
+    Info (12022): Found design unit 1: emdad_32_bit_adder-arch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_adder.vhd Line: 14
+    Info (12023): Found entity 1: emdad_32_bit_adder File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_adder.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file emdad_2_1_mux.vhd
+    Info (12022): Found design unit 1: emdad_2_1_MUX-arch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_2_1_MUX.vhd Line: 13
+    Info (12023): Found entity 1: emdad_2_1_MUX File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_2_1_MUX.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file emdad_1bit_comparator.vhd
+    Info (12022): Found design unit 1: emdad_1Bit_Comparator-arch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_1Bit_Comparator.vhd Line: 11
+    Info (12023): Found entity 1: emdad_1Bit_Comparator File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_1Bit_Comparator.vhd Line: 4
+Info (12127): Elaborating entity "emdad_Main_Unit" for the top level hierarchy
+Info (12128): Elaborating entity "emdad_32_bit_register" for hierarchy "emdad_32_bit_register:F1" File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd Line: 128
+Warning (10492): VHDL Process Statement warning at emdad_32_bit_register.vhd(15): signal "emdad_wren" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 15
+Warning (10631): VHDL Process Statement warning at emdad_32_bit_register.vhd(19): inferring latch(es) for signal or variable "emdad_q", which holds its previous value in one or more paths through the process File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[0]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[1]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[2]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[3]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[4]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[5]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[6]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[7]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[8]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[9]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[10]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[11]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[12]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[13]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[14]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[15]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[16]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[17]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[18]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[19]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[20]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[21]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[22]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[23]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[24]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[25]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[26]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[27]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[28]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[29]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[30]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (10041): Inferred latch for "emdad_q[31]" at emdad_32_bit_register.vhd(19) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (12128): Elaborating entity "emdad_Register_File" for hierarchy "emdad_Register_File:F2" File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd Line: 137
+Info (12128): Elaborating entity "altsyncram" for hierarchy "emdad_Register_File:F2|altsyncram:altsyncram_component" File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Register_File.vhd Line: 29
+Info (12130): Elaborated megafunction instantiation "emdad_Register_File:F2|altsyncram:altsyncram_component" File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Register_File.vhd Line: 29
+Info (12133): Instantiated megafunction "emdad_Register_File:F2|altsyncram:altsyncram_component" with the following parameter: File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Register_File.vhd Line: 29
+    Info (12134): Parameter "address_aclr_a" = "UNUSED"
+    Info (12134): Parameter "address_aclr_b" = "NONE"
+    Info (12134): Parameter "address_reg_b" = "CLOCK0"
+    Info (12134): Parameter "byte_size" = "8"
+    Info (12134): Parameter "byteena_aclr_a" = "UNUSED"
+    Info (12134): Parameter "byteena_aclr_b" = "NONE"
+    Info (12134): Parameter "byteena_reg_b" = "CLOCK1"
+    Info (12134): Parameter "clock_enable_core_a" = "USE_INPUT_CLKEN"
+    Info (12134): Parameter "clock_enable_core_b" = "USE_INPUT_CLKEN"
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_input_b" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_b" = "BYPASS"
+    Info (12134): Parameter "intended_device_family" = "Cyclone v"
+    Info (12134): Parameter "ecc_pipeline_stage_enabled" = "FALSE"
+    Info (12134): Parameter "enable_ecc" = "FALSE"
+    Info (12134): Parameter "implement_in_les" = "OFF"
+    Info (12134): Parameter "indata_aclr_a" = "UNUSED"
+    Info (12134): Parameter "indata_aclr_b" = "NONE"
+    Info (12134): Parameter "indata_reg_b" = "CLOCK0"
+    Info (12134): Parameter "init_file" = "emdad_Register_File_Data.mif"
+    Info (12134): Parameter "init_file_layout" = "PORT_A"
+    Info (12134): Parameter "maximum_depth" = "0"
+    Info (12134): Parameter "numwords_a" = "32"
+    Info (12134): Parameter "numwords_b" = "32"
+    Info (12134): Parameter "operation_mode" = "BIDIR_DUAL_PORT"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_aclr_b" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "UNREGISTERED"
+    Info (12134): Parameter "outdata_reg_b" = "UNREGISTERED"
+    Info (12134): Parameter "power_up_uninitialized" = "FALSE"
+    Info (12134): Parameter "ram_block_type" = "AUTO"
+    Info (12134): Parameter "rdcontrol_aclr_b" = "NONE"
+    Info (12134): Parameter "rdcontrol_reg_b" = "CLOCK1"
+    Info (12134): Parameter "read_during_write_mode_mixed_ports" = "DONT_CARE"
+    Info (12134): Parameter "read_during_write_mode_port_a" = "NEW_DATA_NO_NBE_READ"
+    Info (12134): Parameter "read_during_write_mode_port_b" = "NEW_DATA_NO_NBE_READ"
+    Info (12134): Parameter "stratixiv_m144k_allow_dual_clocks" = "ON"
+    Info (12134): Parameter "width_a" = "32"
+    Info (12134): Parameter "width_b" = "32"
+    Info (12134): Parameter "width_byteena_a" = "1"
+    Info (12134): Parameter "width_byteena_b" = "1"
+    Info (12134): Parameter "width_eccstatus" = "3"
+    Info (12134): Parameter "widthad_a" = "5"
+    Info (12134): Parameter "widthad_b" = "5"
+    Info (12134): Parameter "wrcontrol_aclr_a" = "UNUSED"
+    Info (12134): Parameter "wrcontrol_aclr_b" = "NONE"
+    Info (12134): Parameter "wrcontrol_wraddress_reg_b" = "CLOCK0"
+    Info (12134): Parameter "lpm_hint" = "UNUSED"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_ar44.tdf
+    Info (12023): Found entity 1: altsyncram_ar44 File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/db/altsyncram_ar44.tdf Line: 28
+Info (12128): Elaborating entity "altsyncram_ar44" for hierarchy "emdad_Register_File:F2|altsyncram:altsyncram_component|altsyncram_ar44:auto_generated" File: e:/csc_342/intelfpga_lite/20.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
+Info (12128): Elaborating entity "emdad_equal" for hierarchy "emdad_equal:F3" File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd Line: 149
+Info (10041): Inferred latch for "emdad_Cond" at emdad_equal.vhd(85) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_equal.vhd Line: 85
+Info (12128): Elaborating entity "emdad_1Bit_Comparator" for hierarchy "emdad_equal:F3|emdad_1Bit_Comparator:F1" File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_equal.vhd Line: 20
+Info (12128): Elaborating entity "emdad_extension" for hierarchy "emdad_extension:F4" File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd Line: 156
+Info (12128): Elaborating entity "emdad_32_bit_adder" for hierarchy "emdad_32_bit_adder:F5" File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd Line: 161
+Info (12128): Elaborating entity "emdad_full_adder" for hierarchy "emdad_32_bit_adder:F5|emdad_full_adder:\FA:0:I1:F1" File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_adder.vhd Line: 20
+Info (12128): Elaborating entity "emdad_half_adder" for hierarchy "emdad_32_bit_adder:F5|emdad_full_adder:\FA:0:I1:F1|emdad_half_adder:H1" File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_full_adder.vhd Line: 17
+Info (12128): Elaborating entity "emdad_sll" for hierarchy "emdad_sll:F6" File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd Line: 168
+Info (12128): Elaborating entity "emdad_2_1_MUX" for hierarchy "emdad_2_1_MUX:F8" File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd Line: 181
+Info (12128): Elaborating entity "emdad_controller" for hierarchy "emdad_controller:F9" File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd Line: 188
+Info (10041): Inferred latch for "emdad_s[0]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[1]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[2]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[3]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[4]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[5]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[6]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[7]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[8]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[9]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[10]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[11]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[12]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[13]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[14]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[15]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[16]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[17]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[18]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[19]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[20]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[21]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[22]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[23]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[24]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[25]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[26]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[27]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[28]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[29]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[30]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Info (10041): Inferred latch for "emdad_s[31]" at emdad_controller.vhd(20) File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[0]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[1]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[2]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[3]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[4]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[5]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[6]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[7]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[8]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[9]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[10]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[11]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[12]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[13]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[14]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[15]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[16]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[17]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[18]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[19]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[20]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[21]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[22]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[23]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[24]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[25]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[26]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[27]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[28]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[29]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[30]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13049): Converted tri-state buffer "emdad_32_bit_register:F1|emdad_q[31]" feeding internal logic into a wire File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[0]" to the node "emdad_temp_pcinout[0]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[1]" to the node "emdad_temp_pcinout[1]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[2]" to the node "emdad_temp_pcinout[2]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[3]" to the node "emdad_temp_pcinout[3]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[4]" to the node "emdad_temp_pcinout[4]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[5]" to the node "emdad_temp_pcinout[5]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[6]" to the node "emdad_temp_pcinout[6]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[7]" to the node "emdad_temp_pcinout[7]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[8]" to the node "emdad_temp_pcinout[8]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[9]" to the node "emdad_temp_pcinout[9]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[10]" to the node "emdad_temp_pcinout[10]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[11]" to the node "emdad_temp_pcinout[11]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[12]" to the node "emdad_temp_pcinout[12]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[13]" to the node "emdad_temp_pcinout[13]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[14]" to the node "emdad_temp_pcinout[14]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[15]" to the node "emdad_temp_pcinout[15]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[16]" to the node "emdad_temp_pcinout[16]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[17]" to the node "emdad_temp_pcinout[17]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[18]" to the node "emdad_temp_pcinout[18]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[19]" to the node "emdad_temp_pcinout[19]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[20]" to the node "emdad_temp_pcinout[20]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[21]" to the node "emdad_temp_pcinout[21]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[22]" to the node "emdad_temp_pcinout[22]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[23]" to the node "emdad_temp_pcinout[23]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[24]" to the node "emdad_temp_pcinout[24]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[25]" to the node "emdad_temp_pcinout[25]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[26]" to the node "emdad_temp_pcinout[26]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[27]" to the node "emdad_temp_pcinout[27]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[28]" to the node "emdad_temp_pcinout[28]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[29]" to the node "emdad_temp_pcinout[29]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[30]" to the node "emdad_temp_pcinout[30]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13047): Converted the fan-out from the tri-state buffer "emdad_32_bit_register:F10|emdad_q[31]" to the node "emdad_temp_pcinout[31]" into an OR gate File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_32_bit_register:F10|emdad_q[0]_213 has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_rden File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd Line: 10
+Warning (13012): Latch emdad_controller:F9|emdad_s[0] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[1] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[2] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[3] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[4] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[5] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[6] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[7] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[8] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[9] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[10] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[11] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[12] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[13] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[14] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[15] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[16] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[17] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[18] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[19] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[20] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[21] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[22] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[23] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[24] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[25] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[26] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[27] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[28] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[29] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[30] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_controller:F9|emdad_s[31] has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd Line: 20
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Warning (13012): Latch emdad_equal:F3|emdad_Cond has unsafe behavior File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_equal.vhd Line: 7
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal emdad_32_bit_register:F1|emdad_q[26]$latch File: E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd Line: 19
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 424 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 36 input pins
+    Info (21059): Implemented 32 output pins
+    Info (21061): Implemented 324 logic cells
+    Info (21064): Implemented 32 RAM segments
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 137 warnings
+    Info: Peak virtual memory: 4881 megabytes
+    Info: Processing ended: Wed Apr 20 18:12:04 2022
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:26
+
+

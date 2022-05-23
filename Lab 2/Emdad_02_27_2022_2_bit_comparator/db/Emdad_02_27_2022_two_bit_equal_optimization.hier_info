@@ -1,0 +1,12 @@
+|Emdad_02_27_2022_two_bit_equal_optimization
+a[0] => aeqb.IN0
+a[0] => aeqb.IN0
+a[1] => aeqb.IN0
+a[1] => aeqb.IN0
+b[0] => aeqb.IN1
+b[0] => aeqb.IN1
+b[1] => aeqb.IN1
+b[1] => aeqb.IN1
+aeqb <= aeqb.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,54 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_ram_32x32
+Eemdad_23rdmarch2022_lpm_dual_port_ram_32x32
+Z0 w1647918801
+Z1 DPx9 altera_mf 20 altera_mf_components 0 22 BN6nPmY:UEbXa[^5b@FTW1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z4 dE:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32
+Z5 8E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32.vhd
+Z6 FE:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32.vhd
+l0
+L43 1
+VaSVg[@CnH7jojcYdj<XV^3
+!s100 YC1NR7m>VmGB6ZamcVSEI0
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1647918978
+!i10b 1
+Z9 !s108 1647918978.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32.vhd|
+!s107 E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Asyn
+R1
+R2
+R3
+DEx4 work 43 emdad_23rdmarch2022_lpm_dual_port_ram_32x32 0 22 aSVg[@CnH7jojcYdj<XV^3
+!i122 0
+l60
+L56 41
+V;YaG9Y>@:ZfB]HkVizIAI0
+!s100 R6TgUbaMQTN:Y6hVMJAZd2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+Z13 !s107 E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32.vhd|
+!i113 1
+R11
+R12

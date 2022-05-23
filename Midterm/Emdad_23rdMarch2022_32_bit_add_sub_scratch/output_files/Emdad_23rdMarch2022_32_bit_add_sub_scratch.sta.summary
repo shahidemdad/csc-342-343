@@ -1,0 +1,53 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'Emdad_23rdMarch2022_Clock'
+Slack : -3.131
+TNS   : -81.549
+
+Type  : Slow 1100mV 85C Model Hold 'Emdad_23rdMarch2022_Clock'
+Slack : 0.415
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Emdad_23rdMarch2022_Clock'
+Slack : -0.394
+TNS   : -55.914
+
+Type  : Slow 1100mV 0C Model Setup 'Emdad_23rdMarch2022_Clock'
+Slack : -3.179
+TNS   : -83.947
+
+Type  : Slow 1100mV 0C Model Hold 'Emdad_23rdMarch2022_Clock'
+Slack : 0.412
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Emdad_23rdMarch2022_Clock'
+Slack : -0.394
+TNS   : -60.989
+
+Type  : Fast 1100mV 85C Model Setup 'Emdad_23rdMarch2022_Clock'
+Slack : -1.344
+TNS   : -28.207
+
+Type  : Fast 1100mV 85C Model Hold 'Emdad_23rdMarch2022_Clock'
+Slack : 0.228
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Emdad_23rdMarch2022_Clock'
+Slack : -0.081
+TNS   : -8.453
+
+Type  : Fast 1100mV 0C Model Setup 'Emdad_23rdMarch2022_Clock'
+Slack : -1.183
+TNS   : -24.432
+
+Type  : Fast 1100mV 0C Model Hold 'Emdad_23rdMarch2022_Clock'
+Slack : 0.216
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Emdad_23rdMarch2022_Clock'
+Slack : -0.082
+TNS   : -8.645
+
+------------------------------------------------------------

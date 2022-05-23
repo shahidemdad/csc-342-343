@@ -1,0 +1,17 @@
+Quartus Prime Archive log --	E:/CSC_342/Assignments/Midterm/Source Codes/Emdad_23rdMarch_lpm_add_sub_32_bit/Emdad_23rdMarch_lpm_add_sub_32_bit.qarlog
+
+Archive:	E:/CSC_342/Assignments/Midterm/Source Codes/Emdad_23rdMarch_lpm_add_sub_32_bit/Emdad_23rdMarch_lpm_add_sub_32_bit.qar
+Date:		Wed Mar 23 06:35:07 2022
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_lpm_add_sub_32_bit/Emdad_23rdMarch_lpm_add_sub_32_bit.cmp
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_lpm_add_sub_32_bit/Emdad_23rdMarch_lpm_add_sub_32_bit.qip
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_lpm_add_sub_32_bit/Emdad_23rdMarch_lpm_add_sub_32_bit.qpf
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_lpm_add_sub_32_bit/Emdad_23rdMarch_lpm_add_sub_32_bit.qsf
+E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_lpm_add_sub_32_bit/Emdad_23rdMarch_lpm_add_sub_32_bit.vhd
+e:/csc_342/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

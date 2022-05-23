@@ -1,0 +1,8 @@
+|Emdad_02_27_2022_equal
+I0 => Eq.IN0
+I0 => Eq.IN0
+I1 => Eq.IN1
+I1 => Eq.IN1
+Eq <= Eq.DB_MAX_OUTPUT_PORT_TYPE
+
+

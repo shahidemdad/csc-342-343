@@ -1,0 +1,157 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/CSC_342/Assignments/Emdad_02_27_2022_2_bit_comparator
+Eemdad_02_27_2022_test_two_bit_equal
+w1645997299
+Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z1 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 8
+Z2 dE:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port
+Z3 8E:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port/Emdad_02_27_2022_test_two_bit_equal_port.vhd
+Z4 FE:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port/Emdad_02_27_2022_test_two_bit_equal_port.vhd
+l0
+L3 1
+V5iFY9[X0>l>zLB38Nh?^R0
+!s100 iiDjiDBBZJ1Wf82G`hV5o2
+Z5 OV;C;2020.1;71
+32
+Z6 !s110 1645997304
+!i10b 1
+Z7 !s108 1645997304.000000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port/Emdad_02_27_2022_test_two_bit_equal_port.vhd|
+Z9 !s107 E:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port/Emdad_02_27_2022_test_two_bit_equal_port.vhd|
+!i113 1
+Z10 o-work work -2002 -explicit
+Z11 tExplicit 1 CvgOpt 0
+Eemdad_02_27_2022_test_two_bit_equal_port
+w1645996753
+R0
+R1
+!i122 6
+R2
+R3
+R4
+l0
+L3 1
+VNL13Je@UfjVRGcOiB=c`d2
+!s100 7KP0nT3DdkcI8D>5if=]M2
+R5
+32
+!s110 1645996758
+!i10b 1
+!s108 1645996758.000000
+R8
+R9
+!i113 1
+R10
+R11
+Aarch_test
+R0
+R1
+DEx4 work 40 emdad_02_27_2022_test_two_bit_equal_port 0 22 NL13Je@UfjVRGcOiB=c`d2
+!i122 2
+l13
+L5 76
+Va4Q<e>^3H4Iz[LMgkfc3l2
+!s100 APnR0]h;_dD0]czEk1J<d2
+R5
+32
+Z12 !s110 1645995664
+!i10b 1
+Z13 !s108 1645995664.000000
+R8
+R9
+!i113 1
+R10
+R11
+w1645996114
+Eemdad_02_27_2022_two_bit_equal_port
+Z14 w1645995529
+R0
+R1
+!i122 1
+R2
+Z15 8E:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port/Emdad_02_27_2022_two_bit_equal_port.vhd
+Z16 FE:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port/Emdad_02_27_2022_two_bit_equal_port.vhd
+l0
+L3 1
+VkMOGaeDWFzZ7J^b8XzA702
+!s100 gOc6_GKH:W11CRkW_L0<00
+R5
+32
+R12
+!i10b 1
+R13
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port/Emdad_02_27_2022_two_bit_equal_port.vhd|
+Z18 !s107 E:/CSC_342/Assignments/Emdad_02_27_2022_two_bit_equal_port/Emdad_02_27_2022_two_bit_equal_port.vhd|
+!i113 1
+R10
+R11
+Aarch
+R0
+R1
+DEx4 work 35 emdad_02_27_2022_two_bit_equal_port 0 22 kMOGaeDWFzZ7J^b8XzA702
+!i122 1
+l17
+Z19 L8 16
+VJZ<R[?X?1il7]^:T::MKE0
+!s100 ggPz=`L=CBa09LZAP7Jhi3
+R5
+32
+R12
+!i10b 1
+R13
+R17
+R18
+!i113 1
+R10
+R11
+Etwo_bit_equal_port
+Z20 w1645995975
+R0
+R1
+!i122 7
+R2
+R15
+R16
+l0
+L3 1
+VWJCMzZT9MG3<o>]Y^7OaJ1
+!s100 PRzzADId0HW2_Y]47l7YP2
+R5
+32
+R6
+!i10b 1
+R7
+R17
+R18
+!i113 1
+R10
+R11
+Aarch
+R0
+R1
+DEx4 work 18 two_bit_equal_port 0 22 WJCMzZT9MG3<o>]Y^7OaJ1
+!i122 7
+l17
+R19
+V9bG_OBCifen_9Q8P4QUf?2
+!s100 JHLFSB]0BWIEdZWf]<6a42
+R5
+32
+R6
+!i10b 1
+R7
+R17
+R18
+!i113 1
+R10
+R11

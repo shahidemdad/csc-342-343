@@ -1,0 +1,18 @@
+{E:/CSC_342/Assignments/Lab 4/Emdad_03_14_2022_RAM1PORT/Emdad_14thMarch_RAM1PORT.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Lab 4/Emdad_03_14_2022_RAM1PORT/Emdad_14thMarch_RAM1PORT.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity Emdad_14thMarch_RAM1PORT
+-- Compiling architecture SYN of emdad_14thmarch_ram1port
+
+} {} {}} {E:/CSC_342/Assignments/Lab 4/Emdad_03_14_2022_RAM1PORT_simulation/Emdad_14thmarch_RAM1PORT_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:/CSC_342/Assignments/Lab 4/Emdad_03_14_2022_RAM1PORT_simulation/Emdad_14thmarch_RAM1PORT_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Emdad_14thmarch_RAM1PORT_tb
+-- Compiling architecture arch_test of Emdad_14thmarch_RAM1PORT_tb
+
+} {} {}}

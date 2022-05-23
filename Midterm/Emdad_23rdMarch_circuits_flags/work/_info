@@ -1,0 +1,138 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_lpm_add_sub_32_bit
+Eemdad_23rdmarch2022_circuitdesign
+Z0 w1648009469
+Z1 DPx9 altera_mf 20 altera_mf_components 0 22 BN6nPmY:UEbXa[^5b@FTW1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 30
+Z4 dE:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags
+Z5 8E:\CSC_342\Assignments\Midterm\Emdad_23rdMarch_circuits_flags\Emdad_23rdMarch2022_circuitdesign.vhd
+Z6 FE:\CSC_342\Assignments\Midterm\Emdad_23rdMarch_circuits_flags\Emdad_23rdMarch2022_circuitdesign.vhd
+l0
+L7 1
+Vf]TPHXR:E]^:m_lZgNXAS3
+!s100 [U;=FF1QIN^4jic0>c]@22
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1648010175
+!i10b 1
+Z9 !s108 1648010175.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\CSC_342\Assignments\Midterm\Emdad_23rdMarch_circuits_flags\Emdad_23rdMarch2022_circuitdesign.vhd|
+Z11 !s107 E:\CSC_342\Assignments\Midterm\Emdad_23rdMarch_circuits_flags\Emdad_23rdMarch2022_circuitdesign.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aarch
+R1
+R2
+R3
+DEx4 work 33 emdad_23rdmarch2022_circuitdesign 0 22 f]TPHXR:E]^:m_lZgNXAS3
+!i122 30
+l49
+L22 51
+V1^]O^DD7fj]JD<XjdfY]z1
+!s100 V2WOJRgP9Hlkdz1N@5hO?1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eemdad_23rdmarch2022_datamemory
+Z14 w1648009881
+R1
+R2
+R3
+!i122 31
+R4
+Z15 8E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdMarch2022_datamemory.vhd
+Z16 FE:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdMarch2022_datamemory.vhd
+l0
+Z17 L43 1
+V0fRDnY=6YY<0EDglX15;V2
+!s100 <L=325SMH`_80PM`kz9MA1
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdMarch2022_datamemory.vhd|
+Z19 !s107 E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdMarch2022_datamemory.vhd|
+!i113 1
+R12
+R13
+Asyn
+R1
+R2
+R3
+DEx4 work 30 emdad_23rdmarch2022_datamemory 0 22 0fRDnY=6YY<0EDglX15;V2
+!i122 31
+l59
+L55 35
+VA41]Q0dQTzNg;>gl0nA=52
+!s100 cO5J^X];O8iGM:LLKmzK=2
+R7
+32
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13
+Eemdad_23rdmarch2022_lpm_add_sub
+Z20 w1648008618
+R2
+R3
+!i122 32
+R4
+Z21 8E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdmarch2022_LPM_add_sub.vhd
+Z22 FE:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdmarch2022_LPM_add_sub.vhd
+l0
+R17
+VhZjaNb<ofbceIAL_[N:7Z3
+!s100 kN13h^Ok[K?=WC8fNMEkO0
+R7
+32
+Z23 !s110 1648010176
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdmarch2022_LPM_add_sub.vhd|
+Z25 !s107 E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_circuits_flags/Emdad_23rdmarch2022_LPM_add_sub.vhd|
+!i113 1
+R12
+R13
+Asyn
+R2
+R3
+Z26 DEx4 work 31 emdad_23rdmarch2022_lpm_add_sub 0 22 hZjaNb<ofbceIAL_[N:7Z3
+!i122 32
+l79
+Z27 L55 47
+Z28 V[Bl7`RHMY1MElcF9HoA4`0
+Z29 !s100 NU9_i=dURTE7I0[5SMMHc1
+R7
+32
+R23
+!i10b 1
+R9
+R24
+R25
+!i113 1
+R12
+R13

@@ -1,0 +1,52 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_32_bit_add_sub_scratch
+Eemdad_23rdmarch_lpm_add_sub_32_bit
+Z0 w1647931555
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 dE:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_lpm_add_sub_32_bit
+Z4 8E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_lpm_add_sub_32_bit/Emdad_23rdMarch_lpm_add_sub_32_bit.vhd
+Z5 FE:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_lpm_add_sub_32_bit/Emdad_23rdMarch_lpm_add_sub_32_bit.vhd
+l0
+L43 1
+Vmh:gDQ:K9T=g<g=M^M@MH2
+!s100 Z>j8Tmb;=9TP20^`NN9K;2
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1647931799
+!i10b 1
+Z8 !s108 1647931798.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_lpm_add_sub_32_bit/Emdad_23rdMarch_lpm_add_sub_32_bit.vhd|
+!s107 E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_lpm_add_sub_32_bit/Emdad_23rdMarch_lpm_add_sub_32_bit.vhd|
+!i113 1
+Z10 o-work work -2002 -explicit
+Z11 tExplicit 1 CvgOpt 0
+Asyn
+R1
+R2
+DEx4 work 34 emdad_23rdmarch_lpm_add_sub_32_bit 0 22 mh:gDQ:K9T=g<g=M^M@MH2
+!i122 0
+l77
+L55 43
+VAijhbLX`OR0lBcV:E6Uzg3
+!s100 T<kmmBg6VQ04PbmWPcGYb3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+Z12 !s107 E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch_lpm_add_sub_32_bit/Emdad_23rdMarch_lpm_add_sub_32_bit.vhd|
+!i113 1
+R10
+R11

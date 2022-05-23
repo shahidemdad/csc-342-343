@@ -1,0 +1,187 @@
+# Compile of Emdad_23rdMarch2022_lpm_ram_32x32.vhd was successful.
+vsim -gui work.emdad_23rdmarch2022_lpm_ram_32x32
+# vsim -gui work.emdad_23rdmarch2022_lpm_ram_32x32 
+# Start time: 22:23:38 on Mar 21,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading altera_mf.altera_mf_components
+# Loading work.emdad_23rdmarch2022_lpm_ram_32x32(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+add wave -position insertpoint sim:/emdad_23rdmarch2022_lpm_ram_32x32/*
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_address 00000 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_data 00000000000000000000000000000000 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_wren 0 0
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_address 00001 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_address 00010 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_address 00011 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_address 00100 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_address 00011 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_data 00000000000000000000000000000001 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_wren 1 0
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_address 00010 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_data 00000000000000000000000000000010 0
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_address 00001 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_data 00000000000000000000000000000011 0
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_address 00000 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_data 00000000000000000000000000000000 0
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_address 00100 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_wren 0 0
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_address 00011 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_address 000010 0
+# Value length (6) does not equal array index length (5).
+# ** UI-Msg: (vsim-4011) Invalid force value: 000010 0.
+# 
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_address 00010 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_address 00001 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_address 00000 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_ram_32x32/wave.do
+quit -sim
+# End time: 22:42:40 on Mar 21,2022, Elapsed time: 0:19:02
+# Errors: 0, Warnings: 5
+# reading E:/CSC_342/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project Emdad_23rdMarch2022_lpm_dual_port_ram_32x32
+# Compile of Emdad_23rdMarch2022_lpm_dual_port_ram_32x32.vhd was successful.
+vsim -gui work.emdad_23rdmarch2022_lpm_dual_port_ram_32x32
+# vsim -gui work.emdad_23rdmarch2022_lpm_dual_port_ram_32x32 
+# Start time: 23:16:41 on Mar 21,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading altera_mf.altera_mf_components
+# Loading work.emdad_23rdmarch2022_lpm_dual_port_ram_32x32(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+add wave -position insertpoint sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/*
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_data 00000000000000000000000000000000 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_rdaddress 00000 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_wraddress 00000 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_wren 0 0
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_data 11111111111111111111111111111111 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_rdaddress 00001 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_wraddress 00010 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_wren 1 0
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_rdaddress 00010 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_wren 0 0
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_clock 0 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_clock 0 0, 1 {50 ps} -r 100
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_rdaddress 00011 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_wren 1 0
+run
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_clock 1 0
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_clock 1 0, 0 {50 ps} -r 100
+force -freeze sim:/emdad_23rdmarch2022_lpm_dual_port_ram_32x32/Emdad_23rdMarch2022_wren 0 0
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/CSC_342/Assignments/Midterm/Emdad_23rdMarch2022_lpm_dual_port_ram_32x32/wave
+# End time: 23:40:34 on Mar 21,2022, Elapsed time: 0:23:53
+# Errors: 0, Warnings: 6

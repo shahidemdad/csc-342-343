@@ -1,0 +1,376 @@
+vsim -gui work.emdad_mips_22ndmay2022
+# vsim -gui work.emdad_mips_22ndmay2022 
+# Start time: 11:56:49 on May 22,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading ieee.numeric_std(body)
+# Loading work.emdad_mips_22ndmay2022(struct)
+# Loading work.emdad_instruction_memory_22ndmay2022(struct)
+# Loading work.emdad_register_file_22ndmay2022(struct)
+# Loading work.emdad_instruction_register_22ndmay2022(struct)
+# Loading work.emdad_control_unit_22ndmay2022(struct)
+# Loading work.emdad_alu_22ndmay2022(struct)
+# Loading work.emdad_data_memory_22ndmay2022(struct)
+# Loading work.emdad_mux_22ndmay2022(struct)
+# Loading work.emdad_signext_22ndmay2022(struct)
+# Loading work.emdad_program_counter_22ndmay2022(struct)
+add wave -position insertpoint sim:/emdad_mips_22ndmay2022/ALU_Inst/*
+# Can't move the Now cursor.
+add wave -position insertpoint sim:/emdad_mips_22ndmay2022/*
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_CLK 1 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_RESET 0 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALU_Result 00000000000000000000000000000000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_PC {00000000 00000000 00000000 01111000} 0
+# Value length (35) does not equal array index length (32).
+# ** UI-Msg: (vsim-4011) Invalid force value: {00000000 00000000 00000000 01111000} 0.
+# 
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_PC 00000000000000000000000001111000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_current_pc 00000000000000000000000001111000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_Instruction 00000000000000000000000000000000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALU_2 00000000000000000000000000000000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALU_Out 00000000000000000000000000000000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_HI_LO_Result 00000000000000000000000011001000 0
+# Value length (32) does not equal array index length (64).
+# ** UI-Msg: (vsim-4011) Invalid force value: 00000000000000000000000011001000 0.
+# 
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_HI_LO_Result 1001000000000000000000000000000000000000000000000000 0
+# Value length (52) does not equal array index length (64).
+# ** UI-Msg: (vsim-4011) Invalid force value: 1001000000000000000000000000000000000000000000000000 0.
+# 
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALU_Z 1 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_Data_Mem_Out 00000000000000000000000000100000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_RegFile_W_Addr 00000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_RegFile_W_Data 00000000000000000000000000000000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_write_back_data 00000000000000000000000000000000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_RegFile_Data1 00000000000000000000000000000000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_RegFile_Data2 00000000000000000000000000000000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_SigExt 00000000000000000000000000000000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_mflo 0 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_mfhi 0 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALUOp 0111 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_Shift 00000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ShiftA 00000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_RS 00000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_RT 00000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_RD 00000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_OP 00000 0
+# Value length (5) does not equal array index length (6).
+# ** UI-Msg: (vsim-4011) Invalid force value: 00000 0.
+# 
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_Func 000000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_IMM 0000000000000000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_Branch 0 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+run
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_CLK 0 0
+run
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_CLK 1 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 300 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Program_Counter_Inst
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_CLK 0 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALU_Result 00000000000000000000000000001010 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_PC 00000000000000000000000010000100 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_current_pc 00000000000000000000000010000100 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_CLK 1 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_RESET 0 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALU_Result 00000000000000000000000000000000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_PC 00000000000000000000000010000100 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/DMem_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/RegFile_Inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/RegFile_Inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/InstMem_Inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /emdad_mips_22ndmay2022/DMem_Inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 5  Instance: /emdad_mips_22ndmay2022/DMem_Inst
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_PC 000000000000000000000000000100110010 0
+# Value length (36) does not equal array index length (32).
+# ** UI-Msg: (vsim-4011) Invalid force value: 000000000000000000000000000100110010 0.
+# 
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_PC 00000000000000000000000100110010 0
+run
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_current_pc 00000000000000000000000100110010 0
+run
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_PC 00000000000000000000000100110010 0
+run
+run -continue
+run -all
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_CLK 1 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_RESET 0 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_PC 00000000000000000000000100110010 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_current_pc 00000000000000000000000100110010 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALU_Z 1 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALU_Result 00000000000000000000000000000000 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/DMem_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Cont_Inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/RegFile_Inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/RegFile_Inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /emdad_mips_22ndmay2022/DMem_Inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 5  Instance: /emdad_mips_22ndmay2022/DMem_Inst
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_CLK 0 0
+run
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_CLK 1 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 200 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Program_Counter_Inst
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_CLK 0 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_PC 00000000000000000000000100110110 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_current_pc 00000000000000000000000100110110 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALU_2 00000000000000000000000000010000 0
+noforce sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALU_Out
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALU_Out 00000000000000000000000000010000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_RegFile_W_Data 00000000000000000000000000010000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_write_back_data 00000000000000000000000000010000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_RegFile_Data2 00000000000000000000000000010000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_SigExt 00000000000000000000000000010000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALUOp 0001 0
+run
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_CLK 1 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 400 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Program_Counter_Inst
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_PC 00000000000000000000000100110010 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_current_pc 00000000000000000000000100110010 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALUOp 0000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_CLK 1 0
+run
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_CLK 0 0
+run
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_CLK 1 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 700 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Program_Counter_Inst
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALU_Result 00000000000000000000000000010000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_PC 00000000000000000000001001100000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_current_pc 00000000000000000000001001100000 0
+run
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_CLK 0 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALU_Result 00000000000000000000000000100000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_PC 00000000000000000000001001100000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_current_pc 00000000000000000000001001100000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_PC 00000000000000000000000001001100 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_current_pc 00000000000000000000000001001100 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_SigExt 00000000000000000000000000100000 0
+run
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALU_2 00000000000000000000000000100000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALU_Out 00000000000000000000000000100000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_IMM 0000000000000100000 0
+# Value length (19) does not equal array index length (16).
+# ** UI-Msg: (vsim-4011) Invalid force value: 0000000000000100000 0.
+# 
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_RegFile_W_Data 00000000000000000000000000100000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_write_back_data 00000000000000000000000000100000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_RegFile_Data1 00000000000000000000000000100000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_RegFile_Data2 00000000000000000000000000100000 0
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_ALUOp 0001 0
+run
+force -freeze sim:/emdad_mips_22ndmay2022/emdad_22ndmay2022_CLK 1 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1100 ps  Iteration: 0  Instance: /emdad_mips_22ndmay2022/Program_Counter_Inst
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# End time: 14:07:14 on May 22,2022, Elapsed time: 2:10:25
+# Errors: 0, Warnings: 1

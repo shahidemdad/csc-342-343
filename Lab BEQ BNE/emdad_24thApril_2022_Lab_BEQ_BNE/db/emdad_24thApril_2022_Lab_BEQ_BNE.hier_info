@@ -1,0 +1,3844 @@
+|emdad_Main_Unit
+emdad_instruction[0] => emdad_32_bit_register:F1.emdad_data[0]
+emdad_instruction[1] => emdad_32_bit_register:F1.emdad_data[1]
+emdad_instruction[2] => emdad_32_bit_register:F1.emdad_data[2]
+emdad_instruction[3] => emdad_32_bit_register:F1.emdad_data[3]
+emdad_instruction[4] => emdad_32_bit_register:F1.emdad_data[4]
+emdad_instruction[5] => emdad_32_bit_register:F1.emdad_data[5]
+emdad_instruction[6] => emdad_32_bit_register:F1.emdad_data[6]
+emdad_instruction[7] => emdad_32_bit_register:F1.emdad_data[7]
+emdad_instruction[8] => emdad_32_bit_register:F1.emdad_data[8]
+emdad_instruction[9] => emdad_32_bit_register:F1.emdad_data[9]
+emdad_instruction[10] => emdad_32_bit_register:F1.emdad_data[10]
+emdad_instruction[11] => emdad_32_bit_register:F1.emdad_data[11]
+emdad_instruction[12] => emdad_32_bit_register:F1.emdad_data[12]
+emdad_instruction[13] => emdad_32_bit_register:F1.emdad_data[13]
+emdad_instruction[14] => emdad_32_bit_register:F1.emdad_data[14]
+emdad_instruction[15] => emdad_32_bit_register:F1.emdad_data[15]
+emdad_instruction[16] => emdad_32_bit_register:F1.emdad_data[16]
+emdad_instruction[17] => emdad_32_bit_register:F1.emdad_data[17]
+emdad_instruction[18] => emdad_32_bit_register:F1.emdad_data[18]
+emdad_instruction[19] => emdad_32_bit_register:F1.emdad_data[19]
+emdad_instruction[20] => emdad_32_bit_register:F1.emdad_data[20]
+emdad_instruction[21] => emdad_32_bit_register:F1.emdad_data[21]
+emdad_instruction[22] => emdad_32_bit_register:F1.emdad_data[22]
+emdad_instruction[23] => emdad_32_bit_register:F1.emdad_data[23]
+emdad_instruction[24] => emdad_32_bit_register:F1.emdad_data[24]
+emdad_instruction[25] => emdad_32_bit_register:F1.emdad_data[25]
+emdad_instruction[26] => emdad_32_bit_register:F1.emdad_data[26]
+emdad_instruction[27] => emdad_32_bit_register:F1.emdad_data[27]
+emdad_instruction[28] => emdad_32_bit_register:F1.emdad_data[28]
+emdad_instruction[29] => emdad_32_bit_register:F1.emdad_data[29]
+emdad_instruction[30] => emdad_32_bit_register:F1.emdad_data[30]
+emdad_instruction[31] => emdad_32_bit_register:F1.emdad_data[31]
+emdad_clk => emdad_32_bit_register:F1.emdad_clk
+emdad_clk => emdad_Register_File:F2.emdad_clock
+emdad_clk => emdad_32_bit_register:F10.emdad_clk
+emdad_wren => emdad_32_bit_register:F1.emdad_wren
+emdad_wren => emdad_32_bit_register:F10.emdad_wren
+emdad_rden => emdad_32_bit_register:F1.emdad_rden
+emdad_rden => emdad_32_bit_register:F10.emdad_rden
+emdad_pc_chen => emdad_32_bit_register:F10.emdad_chen
+emdad_pc_chen => emdad_temp_pcinout[31].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[30].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[29].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[28].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[27].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[26].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[25].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[24].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[23].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[22].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[21].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[20].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[19].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[18].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[17].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[16].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[15].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[14].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[13].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[12].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[11].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[10].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[9].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[8].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[7].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[6].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[5].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[4].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[3].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[2].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[1].OUTPUTSELECT
+emdad_pc_chen => emdad_temp_pcinout[0].OUTPUTSELECT
+emdad_pc_chen => emdad_PC_HIGHER_ORDER[3].OUTPUTSELECT
+emdad_pc_chen => emdad_PC_HIGHER_ORDER[2].OUTPUTSELECT
+emdad_pc_chen => emdad_PC_HIGHER_ORDER[1].OUTPUTSELECT
+emdad_pc_chen => emdad_PC_HIGHER_ORDER[0].OUTPUTSELECT
+emdad_nextInstruction[0] <= emdad_32_bit_register:F10.emdad_q[0]
+emdad_nextInstruction[1] <= emdad_32_bit_register:F10.emdad_q[1]
+emdad_nextInstruction[2] <= emdad_32_bit_register:F10.emdad_q[2]
+emdad_nextInstruction[3] <= emdad_32_bit_register:F10.emdad_q[3]
+emdad_nextInstruction[4] <= emdad_32_bit_register:F10.emdad_q[4]
+emdad_nextInstruction[5] <= emdad_32_bit_register:F10.emdad_q[5]
+emdad_nextInstruction[6] <= emdad_32_bit_register:F10.emdad_q[6]
+emdad_nextInstruction[7] <= emdad_32_bit_register:F10.emdad_q[7]
+emdad_nextInstruction[8] <= emdad_32_bit_register:F10.emdad_q[8]
+emdad_nextInstruction[9] <= emdad_32_bit_register:F10.emdad_q[9]
+emdad_nextInstruction[10] <= emdad_32_bit_register:F10.emdad_q[10]
+emdad_nextInstruction[11] <= emdad_32_bit_register:F10.emdad_q[11]
+emdad_nextInstruction[12] <= emdad_32_bit_register:F10.emdad_q[12]
+emdad_nextInstruction[13] <= emdad_32_bit_register:F10.emdad_q[13]
+emdad_nextInstruction[14] <= emdad_32_bit_register:F10.emdad_q[14]
+emdad_nextInstruction[15] <= emdad_32_bit_register:F10.emdad_q[15]
+emdad_nextInstruction[16] <= emdad_32_bit_register:F10.emdad_q[16]
+emdad_nextInstruction[17] <= emdad_32_bit_register:F10.emdad_q[17]
+emdad_nextInstruction[18] <= emdad_32_bit_register:F10.emdad_q[18]
+emdad_nextInstruction[19] <= emdad_32_bit_register:F10.emdad_q[19]
+emdad_nextInstruction[20] <= emdad_32_bit_register:F10.emdad_q[20]
+emdad_nextInstruction[21] <= emdad_32_bit_register:F10.emdad_q[21]
+emdad_nextInstruction[22] <= emdad_32_bit_register:F10.emdad_q[22]
+emdad_nextInstruction[23] <= emdad_32_bit_register:F10.emdad_q[23]
+emdad_nextInstruction[24] <= emdad_32_bit_register:F10.emdad_q[24]
+emdad_nextInstruction[25] <= emdad_32_bit_register:F10.emdad_q[25]
+emdad_nextInstruction[26] <= emdad_32_bit_register:F10.emdad_q[26]
+emdad_nextInstruction[27] <= emdad_32_bit_register:F10.emdad_q[27]
+emdad_nextInstruction[28] <= emdad_32_bit_register:F10.emdad_q[28]
+emdad_nextInstruction[29] <= emdad_32_bit_register:F10.emdad_q[29]
+emdad_nextInstruction[30] <= emdad_32_bit_register:F10.emdad_q[30]
+emdad_nextInstruction[31] <= emdad_32_bit_register:F10.emdad_q[31]
+
+
+|emdad_Main_Unit|emdad_32_bit_register:F1
+emdad_clk => emdad_storage[0].CLK
+emdad_clk => emdad_storage[1].CLK
+emdad_clk => emdad_storage[2].CLK
+emdad_clk => emdad_storage[3].CLK
+emdad_clk => emdad_storage[4].CLK
+emdad_clk => emdad_storage[5].CLK
+emdad_clk => emdad_storage[6].CLK
+emdad_clk => emdad_storage[7].CLK
+emdad_clk => emdad_storage[8].CLK
+emdad_clk => emdad_storage[9].CLK
+emdad_clk => emdad_storage[10].CLK
+emdad_clk => emdad_storage[11].CLK
+emdad_clk => emdad_storage[12].CLK
+emdad_clk => emdad_storage[13].CLK
+emdad_clk => emdad_storage[14].CLK
+emdad_clk => emdad_storage[15].CLK
+emdad_clk => emdad_storage[16].CLK
+emdad_clk => emdad_storage[17].CLK
+emdad_clk => emdad_storage[18].CLK
+emdad_clk => emdad_storage[19].CLK
+emdad_clk => emdad_storage[20].CLK
+emdad_clk => emdad_storage[21].CLK
+emdad_clk => emdad_storage[22].CLK
+emdad_clk => emdad_storage[23].CLK
+emdad_clk => emdad_storage[24].CLK
+emdad_clk => emdad_storage[25].CLK
+emdad_clk => emdad_storage[26].CLK
+emdad_clk => emdad_storage[27].CLK
+emdad_clk => emdad_storage[28].CLK
+emdad_clk => emdad_storage[29].CLK
+emdad_clk => emdad_storage[30].CLK
+emdad_clk => emdad_storage[31].CLK
+emdad_wren => emdad_storage[0].ENA
+emdad_wren => emdad_storage[1].ENA
+emdad_wren => emdad_storage[2].ENA
+emdad_wren => emdad_storage[3].ENA
+emdad_wren => emdad_storage[4].ENA
+emdad_wren => emdad_storage[5].ENA
+emdad_wren => emdad_storage[6].ENA
+emdad_wren => emdad_storage[7].ENA
+emdad_wren => emdad_storage[8].ENA
+emdad_wren => emdad_storage[9].ENA
+emdad_wren => emdad_storage[10].ENA
+emdad_wren => emdad_storage[11].ENA
+emdad_wren => emdad_storage[12].ENA
+emdad_wren => emdad_storage[13].ENA
+emdad_wren => emdad_storage[14].ENA
+emdad_wren => emdad_storage[15].ENA
+emdad_wren => emdad_storage[16].ENA
+emdad_wren => emdad_storage[17].ENA
+emdad_wren => emdad_storage[18].ENA
+emdad_wren => emdad_storage[19].ENA
+emdad_wren => emdad_storage[20].ENA
+emdad_wren => emdad_storage[21].ENA
+emdad_wren => emdad_storage[22].ENA
+emdad_wren => emdad_storage[23].ENA
+emdad_wren => emdad_storage[24].ENA
+emdad_wren => emdad_storage[25].ENA
+emdad_wren => emdad_storage[26].ENA
+emdad_wren => emdad_storage[27].ENA
+emdad_wren => emdad_storage[28].ENA
+emdad_wren => emdad_storage[29].ENA
+emdad_wren => emdad_storage[30].ENA
+emdad_wren => emdad_storage[31].ENA
+emdad_rden => process_1.IN0
+emdad_chen => process_1.IN1
+emdad_chen => emdad_q[0].IN1
+emdad_data[0] => emdad_storage[0].DATAIN
+emdad_data[1] => emdad_storage[1].DATAIN
+emdad_data[2] => emdad_storage[2].DATAIN
+emdad_data[3] => emdad_storage[3].DATAIN
+emdad_data[4] => emdad_storage[4].DATAIN
+emdad_data[5] => emdad_storage[5].DATAIN
+emdad_data[6] => emdad_storage[6].DATAIN
+emdad_data[7] => emdad_storage[7].DATAIN
+emdad_data[8] => emdad_storage[8].DATAIN
+emdad_data[9] => emdad_storage[9].DATAIN
+emdad_data[10] => emdad_storage[10].DATAIN
+emdad_data[11] => emdad_storage[11].DATAIN
+emdad_data[12] => emdad_storage[12].DATAIN
+emdad_data[13] => emdad_storage[13].DATAIN
+emdad_data[14] => emdad_storage[14].DATAIN
+emdad_data[15] => emdad_storage[15].DATAIN
+emdad_data[16] => emdad_storage[16].DATAIN
+emdad_data[17] => emdad_storage[17].DATAIN
+emdad_data[18] => emdad_storage[18].DATAIN
+emdad_data[19] => emdad_storage[19].DATAIN
+emdad_data[20] => emdad_storage[20].DATAIN
+emdad_data[21] => emdad_storage[21].DATAIN
+emdad_data[22] => emdad_storage[22].DATAIN
+emdad_data[23] => emdad_storage[23].DATAIN
+emdad_data[24] => emdad_storage[24].DATAIN
+emdad_data[25] => emdad_storage[25].DATAIN
+emdad_data[26] => emdad_storage[26].DATAIN
+emdad_data[27] => emdad_storage[27].DATAIN
+emdad_data[28] => emdad_storage[28].DATAIN
+emdad_data[29] => emdad_storage[29].DATAIN
+emdad_data[30] => emdad_storage[30].DATAIN
+emdad_data[31] => emdad_storage[31].DATAIN
+emdad_q[0] <= emdad_q[0].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[1] <= emdad_q[1].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[2] <= emdad_q[2].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[3] <= emdad_q[3].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[4] <= emdad_q[4].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[5] <= emdad_q[5].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[6] <= emdad_q[6].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[7] <= emdad_q[7].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[8] <= emdad_q[8].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[9] <= emdad_q[9].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[10] <= emdad_q[10].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[11] <= emdad_q[11].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[12] <= emdad_q[12].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[13] <= emdad_q[13].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[14] <= emdad_q[14].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[15] <= emdad_q[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[16] <= emdad_q[16].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[17] <= emdad_q[17].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[18] <= emdad_q[18].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[19] <= emdad_q[19].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[20] <= emdad_q[20].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[21] <= emdad_q[21].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[22] <= emdad_q[22].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[23] <= emdad_q[23].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[24] <= emdad_q[24].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[25] <= emdad_q[25].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[26] <= emdad_q[26].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[27] <= emdad_q[27].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[28] <= emdad_q[28].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[29] <= emdad_q[29].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[30] <= emdad_q[30].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[31] <= emdad_q[31].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_Register_File:F2
+emdad_address_a[0] => altsyncram:altsyncram_component.address_a[0]
+emdad_address_a[1] => altsyncram:altsyncram_component.address_a[1]
+emdad_address_a[2] => altsyncram:altsyncram_component.address_a[2]
+emdad_address_a[3] => altsyncram:altsyncram_component.address_a[3]
+emdad_address_a[4] => altsyncram:altsyncram_component.address_a[4]
+emdad_address_b[0] => altsyncram:altsyncram_component.address_b[0]
+emdad_address_b[1] => altsyncram:altsyncram_component.address_b[1]
+emdad_address_b[2] => altsyncram:altsyncram_component.address_b[2]
+emdad_address_b[3] => altsyncram:altsyncram_component.address_b[3]
+emdad_address_b[4] => altsyncram:altsyncram_component.address_b[4]
+emdad_clock => altsyncram:altsyncram_component.clock0
+emdad_data_a[0] => altsyncram:altsyncram_component.data_a[0]
+emdad_data_a[1] => altsyncram:altsyncram_component.data_a[1]
+emdad_data_a[2] => altsyncram:altsyncram_component.data_a[2]
+emdad_data_a[3] => altsyncram:altsyncram_component.data_a[3]
+emdad_data_a[4] => altsyncram:altsyncram_component.data_a[4]
+emdad_data_a[5] => altsyncram:altsyncram_component.data_a[5]
+emdad_data_a[6] => altsyncram:altsyncram_component.data_a[6]
+emdad_data_a[7] => altsyncram:altsyncram_component.data_a[7]
+emdad_data_a[8] => altsyncram:altsyncram_component.data_a[8]
+emdad_data_a[9] => altsyncram:altsyncram_component.data_a[9]
+emdad_data_a[10] => altsyncram:altsyncram_component.data_a[10]
+emdad_data_a[11] => altsyncram:altsyncram_component.data_a[11]
+emdad_data_a[12] => altsyncram:altsyncram_component.data_a[12]
+emdad_data_a[13] => altsyncram:altsyncram_component.data_a[13]
+emdad_data_a[14] => altsyncram:altsyncram_component.data_a[14]
+emdad_data_a[15] => altsyncram:altsyncram_component.data_a[15]
+emdad_data_a[16] => altsyncram:altsyncram_component.data_a[16]
+emdad_data_a[17] => altsyncram:altsyncram_component.data_a[17]
+emdad_data_a[18] => altsyncram:altsyncram_component.data_a[18]
+emdad_data_a[19] => altsyncram:altsyncram_component.data_a[19]
+emdad_data_a[20] => altsyncram:altsyncram_component.data_a[20]
+emdad_data_a[21] => altsyncram:altsyncram_component.data_a[21]
+emdad_data_a[22] => altsyncram:altsyncram_component.data_a[22]
+emdad_data_a[23] => altsyncram:altsyncram_component.data_a[23]
+emdad_data_a[24] => altsyncram:altsyncram_component.data_a[24]
+emdad_data_a[25] => altsyncram:altsyncram_component.data_a[25]
+emdad_data_a[26] => altsyncram:altsyncram_component.data_a[26]
+emdad_data_a[27] => altsyncram:altsyncram_component.data_a[27]
+emdad_data_a[28] => altsyncram:altsyncram_component.data_a[28]
+emdad_data_a[29] => altsyncram:altsyncram_component.data_a[29]
+emdad_data_a[30] => altsyncram:altsyncram_component.data_a[30]
+emdad_data_a[31] => altsyncram:altsyncram_component.data_a[31]
+emdad_data_b[0] => altsyncram:altsyncram_component.data_b[0]
+emdad_data_b[1] => altsyncram:altsyncram_component.data_b[1]
+emdad_data_b[2] => altsyncram:altsyncram_component.data_b[2]
+emdad_data_b[3] => altsyncram:altsyncram_component.data_b[3]
+emdad_data_b[4] => altsyncram:altsyncram_component.data_b[4]
+emdad_data_b[5] => altsyncram:altsyncram_component.data_b[5]
+emdad_data_b[6] => altsyncram:altsyncram_component.data_b[6]
+emdad_data_b[7] => altsyncram:altsyncram_component.data_b[7]
+emdad_data_b[8] => altsyncram:altsyncram_component.data_b[8]
+emdad_data_b[9] => altsyncram:altsyncram_component.data_b[9]
+emdad_data_b[10] => altsyncram:altsyncram_component.data_b[10]
+emdad_data_b[11] => altsyncram:altsyncram_component.data_b[11]
+emdad_data_b[12] => altsyncram:altsyncram_component.data_b[12]
+emdad_data_b[13] => altsyncram:altsyncram_component.data_b[13]
+emdad_data_b[14] => altsyncram:altsyncram_component.data_b[14]
+emdad_data_b[15] => altsyncram:altsyncram_component.data_b[15]
+emdad_data_b[16] => altsyncram:altsyncram_component.data_b[16]
+emdad_data_b[17] => altsyncram:altsyncram_component.data_b[17]
+emdad_data_b[18] => altsyncram:altsyncram_component.data_b[18]
+emdad_data_b[19] => altsyncram:altsyncram_component.data_b[19]
+emdad_data_b[20] => altsyncram:altsyncram_component.data_b[20]
+emdad_data_b[21] => altsyncram:altsyncram_component.data_b[21]
+emdad_data_b[22] => altsyncram:altsyncram_component.data_b[22]
+emdad_data_b[23] => altsyncram:altsyncram_component.data_b[23]
+emdad_data_b[24] => altsyncram:altsyncram_component.data_b[24]
+emdad_data_b[25] => altsyncram:altsyncram_component.data_b[25]
+emdad_data_b[26] => altsyncram:altsyncram_component.data_b[26]
+emdad_data_b[27] => altsyncram:altsyncram_component.data_b[27]
+emdad_data_b[28] => altsyncram:altsyncram_component.data_b[28]
+emdad_data_b[29] => altsyncram:altsyncram_component.data_b[29]
+emdad_data_b[30] => altsyncram:altsyncram_component.data_b[30]
+emdad_data_b[31] => altsyncram:altsyncram_component.data_b[31]
+emdad_wren_a => altsyncram:altsyncram_component.wren_a
+emdad_wren_b => altsyncram:altsyncram_component.wren_b
+emdad_q_a[0] <= altsyncram:altsyncram_component.q_a[0]
+emdad_q_a[1] <= altsyncram:altsyncram_component.q_a[1]
+emdad_q_a[2] <= altsyncram:altsyncram_component.q_a[2]
+emdad_q_a[3] <= altsyncram:altsyncram_component.q_a[3]
+emdad_q_a[4] <= altsyncram:altsyncram_component.q_a[4]
+emdad_q_a[5] <= altsyncram:altsyncram_component.q_a[5]
+emdad_q_a[6] <= altsyncram:altsyncram_component.q_a[6]
+emdad_q_a[7] <= altsyncram:altsyncram_component.q_a[7]
+emdad_q_a[8] <= altsyncram:altsyncram_component.q_a[8]
+emdad_q_a[9] <= altsyncram:altsyncram_component.q_a[9]
+emdad_q_a[10] <= altsyncram:altsyncram_component.q_a[10]
+emdad_q_a[11] <= altsyncram:altsyncram_component.q_a[11]
+emdad_q_a[12] <= altsyncram:altsyncram_component.q_a[12]
+emdad_q_a[13] <= altsyncram:altsyncram_component.q_a[13]
+emdad_q_a[14] <= altsyncram:altsyncram_component.q_a[14]
+emdad_q_a[15] <= altsyncram:altsyncram_component.q_a[15]
+emdad_q_a[16] <= altsyncram:altsyncram_component.q_a[16]
+emdad_q_a[17] <= altsyncram:altsyncram_component.q_a[17]
+emdad_q_a[18] <= altsyncram:altsyncram_component.q_a[18]
+emdad_q_a[19] <= altsyncram:altsyncram_component.q_a[19]
+emdad_q_a[20] <= altsyncram:altsyncram_component.q_a[20]
+emdad_q_a[21] <= altsyncram:altsyncram_component.q_a[21]
+emdad_q_a[22] <= altsyncram:altsyncram_component.q_a[22]
+emdad_q_a[23] <= altsyncram:altsyncram_component.q_a[23]
+emdad_q_a[24] <= altsyncram:altsyncram_component.q_a[24]
+emdad_q_a[25] <= altsyncram:altsyncram_component.q_a[25]
+emdad_q_a[26] <= altsyncram:altsyncram_component.q_a[26]
+emdad_q_a[27] <= altsyncram:altsyncram_component.q_a[27]
+emdad_q_a[28] <= altsyncram:altsyncram_component.q_a[28]
+emdad_q_a[29] <= altsyncram:altsyncram_component.q_a[29]
+emdad_q_a[30] <= altsyncram:altsyncram_component.q_a[30]
+emdad_q_a[31] <= altsyncram:altsyncram_component.q_a[31]
+emdad_q_b[0] <= altsyncram:altsyncram_component.q_b[0]
+emdad_q_b[1] <= altsyncram:altsyncram_component.q_b[1]
+emdad_q_b[2] <= altsyncram:altsyncram_component.q_b[2]
+emdad_q_b[3] <= altsyncram:altsyncram_component.q_b[3]
+emdad_q_b[4] <= altsyncram:altsyncram_component.q_b[4]
+emdad_q_b[5] <= altsyncram:altsyncram_component.q_b[5]
+emdad_q_b[6] <= altsyncram:altsyncram_component.q_b[6]
+emdad_q_b[7] <= altsyncram:altsyncram_component.q_b[7]
+emdad_q_b[8] <= altsyncram:altsyncram_component.q_b[8]
+emdad_q_b[9] <= altsyncram:altsyncram_component.q_b[9]
+emdad_q_b[10] <= altsyncram:altsyncram_component.q_b[10]
+emdad_q_b[11] <= altsyncram:altsyncram_component.q_b[11]
+emdad_q_b[12] <= altsyncram:altsyncram_component.q_b[12]
+emdad_q_b[13] <= altsyncram:altsyncram_component.q_b[13]
+emdad_q_b[14] <= altsyncram:altsyncram_component.q_b[14]
+emdad_q_b[15] <= altsyncram:altsyncram_component.q_b[15]
+emdad_q_b[16] <= altsyncram:altsyncram_component.q_b[16]
+emdad_q_b[17] <= altsyncram:altsyncram_component.q_b[17]
+emdad_q_b[18] <= altsyncram:altsyncram_component.q_b[18]
+emdad_q_b[19] <= altsyncram:altsyncram_component.q_b[19]
+emdad_q_b[20] <= altsyncram:altsyncram_component.q_b[20]
+emdad_q_b[21] <= altsyncram:altsyncram_component.q_b[21]
+emdad_q_b[22] <= altsyncram:altsyncram_component.q_b[22]
+emdad_q_b[23] <= altsyncram:altsyncram_component.q_b[23]
+emdad_q_b[24] <= altsyncram:altsyncram_component.q_b[24]
+emdad_q_b[25] <= altsyncram:altsyncram_component.q_b[25]
+emdad_q_b[26] <= altsyncram:altsyncram_component.q_b[26]
+emdad_q_b[27] <= altsyncram:altsyncram_component.q_b[27]
+emdad_q_b[28] <= altsyncram:altsyncram_component.q_b[28]
+emdad_q_b[29] <= altsyncram:altsyncram_component.q_b[29]
+emdad_q_b[30] <= altsyncram:altsyncram_component.q_b[30]
+emdad_q_b[31] <= altsyncram:altsyncram_component.q_b[31]
+
+
+|emdad_Main_Unit|emdad_Register_File:F2|altsyncram:altsyncram_component
+wren_a => altsyncram_ar44:auto_generated.wren_a
+rden_a => ~NO_FANOUT~
+wren_b => altsyncram_ar44:auto_generated.wren_b
+rden_b => ~NO_FANOUT~
+data_a[0] => altsyncram_ar44:auto_generated.data_a[0]
+data_a[1] => altsyncram_ar44:auto_generated.data_a[1]
+data_a[2] => altsyncram_ar44:auto_generated.data_a[2]
+data_a[3] => altsyncram_ar44:auto_generated.data_a[3]
+data_a[4] => altsyncram_ar44:auto_generated.data_a[4]
+data_a[5] => altsyncram_ar44:auto_generated.data_a[5]
+data_a[6] => altsyncram_ar44:auto_generated.data_a[6]
+data_a[7] => altsyncram_ar44:auto_generated.data_a[7]
+data_a[8] => altsyncram_ar44:auto_generated.data_a[8]
+data_a[9] => altsyncram_ar44:auto_generated.data_a[9]
+data_a[10] => altsyncram_ar44:auto_generated.data_a[10]
+data_a[11] => altsyncram_ar44:auto_generated.data_a[11]
+data_a[12] => altsyncram_ar44:auto_generated.data_a[12]
+data_a[13] => altsyncram_ar44:auto_generated.data_a[13]
+data_a[14] => altsyncram_ar44:auto_generated.data_a[14]
+data_a[15] => altsyncram_ar44:auto_generated.data_a[15]
+data_a[16] => altsyncram_ar44:auto_generated.data_a[16]
+data_a[17] => altsyncram_ar44:auto_generated.data_a[17]
+data_a[18] => altsyncram_ar44:auto_generated.data_a[18]
+data_a[19] => altsyncram_ar44:auto_generated.data_a[19]
+data_a[20] => altsyncram_ar44:auto_generated.data_a[20]
+data_a[21] => altsyncram_ar44:auto_generated.data_a[21]
+data_a[22] => altsyncram_ar44:auto_generated.data_a[22]
+data_a[23] => altsyncram_ar44:auto_generated.data_a[23]
+data_a[24] => altsyncram_ar44:auto_generated.data_a[24]
+data_a[25] => altsyncram_ar44:auto_generated.data_a[25]
+data_a[26] => altsyncram_ar44:auto_generated.data_a[26]
+data_a[27] => altsyncram_ar44:auto_generated.data_a[27]
+data_a[28] => altsyncram_ar44:auto_generated.data_a[28]
+data_a[29] => altsyncram_ar44:auto_generated.data_a[29]
+data_a[30] => altsyncram_ar44:auto_generated.data_a[30]
+data_a[31] => altsyncram_ar44:auto_generated.data_a[31]
+data_b[0] => altsyncram_ar44:auto_generated.data_b[0]
+data_b[1] => altsyncram_ar44:auto_generated.data_b[1]
+data_b[2] => altsyncram_ar44:auto_generated.data_b[2]
+data_b[3] => altsyncram_ar44:auto_generated.data_b[3]
+data_b[4] => altsyncram_ar44:auto_generated.data_b[4]
+data_b[5] => altsyncram_ar44:auto_generated.data_b[5]
+data_b[6] => altsyncram_ar44:auto_generated.data_b[6]
+data_b[7] => altsyncram_ar44:auto_generated.data_b[7]
+data_b[8] => altsyncram_ar44:auto_generated.data_b[8]
+data_b[9] => altsyncram_ar44:auto_generated.data_b[9]
+data_b[10] => altsyncram_ar44:auto_generated.data_b[10]
+data_b[11] => altsyncram_ar44:auto_generated.data_b[11]
+data_b[12] => altsyncram_ar44:auto_generated.data_b[12]
+data_b[13] => altsyncram_ar44:auto_generated.data_b[13]
+data_b[14] => altsyncram_ar44:auto_generated.data_b[14]
+data_b[15] => altsyncram_ar44:auto_generated.data_b[15]
+data_b[16] => altsyncram_ar44:auto_generated.data_b[16]
+data_b[17] => altsyncram_ar44:auto_generated.data_b[17]
+data_b[18] => altsyncram_ar44:auto_generated.data_b[18]
+data_b[19] => altsyncram_ar44:auto_generated.data_b[19]
+data_b[20] => altsyncram_ar44:auto_generated.data_b[20]
+data_b[21] => altsyncram_ar44:auto_generated.data_b[21]
+data_b[22] => altsyncram_ar44:auto_generated.data_b[22]
+data_b[23] => altsyncram_ar44:auto_generated.data_b[23]
+data_b[24] => altsyncram_ar44:auto_generated.data_b[24]
+data_b[25] => altsyncram_ar44:auto_generated.data_b[25]
+data_b[26] => altsyncram_ar44:auto_generated.data_b[26]
+data_b[27] => altsyncram_ar44:auto_generated.data_b[27]
+data_b[28] => altsyncram_ar44:auto_generated.data_b[28]
+data_b[29] => altsyncram_ar44:auto_generated.data_b[29]
+data_b[30] => altsyncram_ar44:auto_generated.data_b[30]
+data_b[31] => altsyncram_ar44:auto_generated.data_b[31]
+address_a[0] => altsyncram_ar44:auto_generated.address_a[0]
+address_a[1] => altsyncram_ar44:auto_generated.address_a[1]
+address_a[2] => altsyncram_ar44:auto_generated.address_a[2]
+address_a[3] => altsyncram_ar44:auto_generated.address_a[3]
+address_a[4] => altsyncram_ar44:auto_generated.address_a[4]
+address_b[0] => altsyncram_ar44:auto_generated.address_b[0]
+address_b[1] => altsyncram_ar44:auto_generated.address_b[1]
+address_b[2] => altsyncram_ar44:auto_generated.address_b[2]
+address_b[3] => altsyncram_ar44:auto_generated.address_b[3]
+address_b[4] => altsyncram_ar44:auto_generated.address_b[4]
+addressstall_a => ~NO_FANOUT~
+addressstall_b => ~NO_FANOUT~
+clock0 => altsyncram_ar44:auto_generated.clock0
+clock1 => ~NO_FANOUT~
+clocken0 => ~NO_FANOUT~
+clocken1 => ~NO_FANOUT~
+clocken2 => ~NO_FANOUT~
+clocken3 => ~NO_FANOUT~
+aclr0 => ~NO_FANOUT~
+aclr1 => ~NO_FANOUT~
+byteena_a[0] => ~NO_FANOUT~
+byteena_b[0] => ~NO_FANOUT~
+q_a[0] <= altsyncram_ar44:auto_generated.q_a[0]
+q_a[1] <= altsyncram_ar44:auto_generated.q_a[1]
+q_a[2] <= altsyncram_ar44:auto_generated.q_a[2]
+q_a[3] <= altsyncram_ar44:auto_generated.q_a[3]
+q_a[4] <= altsyncram_ar44:auto_generated.q_a[4]
+q_a[5] <= altsyncram_ar44:auto_generated.q_a[5]
+q_a[6] <= altsyncram_ar44:auto_generated.q_a[6]
+q_a[7] <= altsyncram_ar44:auto_generated.q_a[7]
+q_a[8] <= altsyncram_ar44:auto_generated.q_a[8]
+q_a[9] <= altsyncram_ar44:auto_generated.q_a[9]
+q_a[10] <= altsyncram_ar44:auto_generated.q_a[10]
+q_a[11] <= altsyncram_ar44:auto_generated.q_a[11]
+q_a[12] <= altsyncram_ar44:auto_generated.q_a[12]
+q_a[13] <= altsyncram_ar44:auto_generated.q_a[13]
+q_a[14] <= altsyncram_ar44:auto_generated.q_a[14]
+q_a[15] <= altsyncram_ar44:auto_generated.q_a[15]
+q_a[16] <= altsyncram_ar44:auto_generated.q_a[16]
+q_a[17] <= altsyncram_ar44:auto_generated.q_a[17]
+q_a[18] <= altsyncram_ar44:auto_generated.q_a[18]
+q_a[19] <= altsyncram_ar44:auto_generated.q_a[19]
+q_a[20] <= altsyncram_ar44:auto_generated.q_a[20]
+q_a[21] <= altsyncram_ar44:auto_generated.q_a[21]
+q_a[22] <= altsyncram_ar44:auto_generated.q_a[22]
+q_a[23] <= altsyncram_ar44:auto_generated.q_a[23]
+q_a[24] <= altsyncram_ar44:auto_generated.q_a[24]
+q_a[25] <= altsyncram_ar44:auto_generated.q_a[25]
+q_a[26] <= altsyncram_ar44:auto_generated.q_a[26]
+q_a[27] <= altsyncram_ar44:auto_generated.q_a[27]
+q_a[28] <= altsyncram_ar44:auto_generated.q_a[28]
+q_a[29] <= altsyncram_ar44:auto_generated.q_a[29]
+q_a[30] <= altsyncram_ar44:auto_generated.q_a[30]
+q_a[31] <= altsyncram_ar44:auto_generated.q_a[31]
+q_b[0] <= altsyncram_ar44:auto_generated.q_b[0]
+q_b[1] <= altsyncram_ar44:auto_generated.q_b[1]
+q_b[2] <= altsyncram_ar44:auto_generated.q_b[2]
+q_b[3] <= altsyncram_ar44:auto_generated.q_b[3]
+q_b[4] <= altsyncram_ar44:auto_generated.q_b[4]
+q_b[5] <= altsyncram_ar44:auto_generated.q_b[5]
+q_b[6] <= altsyncram_ar44:auto_generated.q_b[6]
+q_b[7] <= altsyncram_ar44:auto_generated.q_b[7]
+q_b[8] <= altsyncram_ar44:auto_generated.q_b[8]
+q_b[9] <= altsyncram_ar44:auto_generated.q_b[9]
+q_b[10] <= altsyncram_ar44:auto_generated.q_b[10]
+q_b[11] <= altsyncram_ar44:auto_generated.q_b[11]
+q_b[12] <= altsyncram_ar44:auto_generated.q_b[12]
+q_b[13] <= altsyncram_ar44:auto_generated.q_b[13]
+q_b[14] <= altsyncram_ar44:auto_generated.q_b[14]
+q_b[15] <= altsyncram_ar44:auto_generated.q_b[15]
+q_b[16] <= altsyncram_ar44:auto_generated.q_b[16]
+q_b[17] <= altsyncram_ar44:auto_generated.q_b[17]
+q_b[18] <= altsyncram_ar44:auto_generated.q_b[18]
+q_b[19] <= altsyncram_ar44:auto_generated.q_b[19]
+q_b[20] <= altsyncram_ar44:auto_generated.q_b[20]
+q_b[21] <= altsyncram_ar44:auto_generated.q_b[21]
+q_b[22] <= altsyncram_ar44:auto_generated.q_b[22]
+q_b[23] <= altsyncram_ar44:auto_generated.q_b[23]
+q_b[24] <= altsyncram_ar44:auto_generated.q_b[24]
+q_b[25] <= altsyncram_ar44:auto_generated.q_b[25]
+q_b[26] <= altsyncram_ar44:auto_generated.q_b[26]
+q_b[27] <= altsyncram_ar44:auto_generated.q_b[27]
+q_b[28] <= altsyncram_ar44:auto_generated.q_b[28]
+q_b[29] <= altsyncram_ar44:auto_generated.q_b[29]
+q_b[30] <= altsyncram_ar44:auto_generated.q_b[30]
+q_b[31] <= altsyncram_ar44:auto_generated.q_b[31]
+eccstatus[0] <= <GND>
+eccstatus[1] <= <GND>
+eccstatus[2] <= <GND>
+
+
+|emdad_Main_Unit|emdad_Register_File:F2|altsyncram:altsyncram_component|altsyncram_ar44:auto_generated
+address_a[0] => ram_block1a0.PORTAADDR
+address_a[0] => ram_block1a1.PORTAADDR
+address_a[0] => ram_block1a2.PORTAADDR
+address_a[0] => ram_block1a3.PORTAADDR
+address_a[0] => ram_block1a4.PORTAADDR
+address_a[0] => ram_block1a5.PORTAADDR
+address_a[0] => ram_block1a6.PORTAADDR
+address_a[0] => ram_block1a7.PORTAADDR
+address_a[0] => ram_block1a8.PORTAADDR
+address_a[0] => ram_block1a9.PORTAADDR
+address_a[0] => ram_block1a10.PORTAADDR
+address_a[0] => ram_block1a11.PORTAADDR
+address_a[0] => ram_block1a12.PORTAADDR
+address_a[0] => ram_block1a13.PORTAADDR
+address_a[0] => ram_block1a14.PORTAADDR
+address_a[0] => ram_block1a15.PORTAADDR
+address_a[0] => ram_block1a16.PORTAADDR
+address_a[0] => ram_block1a17.PORTAADDR
+address_a[0] => ram_block1a18.PORTAADDR
+address_a[0] => ram_block1a19.PORTAADDR
+address_a[0] => ram_block1a20.PORTAADDR
+address_a[0] => ram_block1a21.PORTAADDR
+address_a[0] => ram_block1a22.PORTAADDR
+address_a[0] => ram_block1a23.PORTAADDR
+address_a[0] => ram_block1a24.PORTAADDR
+address_a[0] => ram_block1a25.PORTAADDR
+address_a[0] => ram_block1a26.PORTAADDR
+address_a[0] => ram_block1a27.PORTAADDR
+address_a[0] => ram_block1a28.PORTAADDR
+address_a[0] => ram_block1a29.PORTAADDR
+address_a[0] => ram_block1a30.PORTAADDR
+address_a[0] => ram_block1a31.PORTAADDR
+address_a[1] => ram_block1a0.PORTAADDR1
+address_a[1] => ram_block1a1.PORTAADDR1
+address_a[1] => ram_block1a2.PORTAADDR1
+address_a[1] => ram_block1a3.PORTAADDR1
+address_a[1] => ram_block1a4.PORTAADDR1
+address_a[1] => ram_block1a5.PORTAADDR1
+address_a[1] => ram_block1a6.PORTAADDR1
+address_a[1] => ram_block1a7.PORTAADDR1
+address_a[1] => ram_block1a8.PORTAADDR1
+address_a[1] => ram_block1a9.PORTAADDR1
+address_a[1] => ram_block1a10.PORTAADDR1
+address_a[1] => ram_block1a11.PORTAADDR1
+address_a[1] => ram_block1a12.PORTAADDR1
+address_a[1] => ram_block1a13.PORTAADDR1
+address_a[1] => ram_block1a14.PORTAADDR1
+address_a[1] => ram_block1a15.PORTAADDR1
+address_a[1] => ram_block1a16.PORTAADDR1
+address_a[1] => ram_block1a17.PORTAADDR1
+address_a[1] => ram_block1a18.PORTAADDR1
+address_a[1] => ram_block1a19.PORTAADDR1
+address_a[1] => ram_block1a20.PORTAADDR1
+address_a[1] => ram_block1a21.PORTAADDR1
+address_a[1] => ram_block1a22.PORTAADDR1
+address_a[1] => ram_block1a23.PORTAADDR1
+address_a[1] => ram_block1a24.PORTAADDR1
+address_a[1] => ram_block1a25.PORTAADDR1
+address_a[1] => ram_block1a26.PORTAADDR1
+address_a[1] => ram_block1a27.PORTAADDR1
+address_a[1] => ram_block1a28.PORTAADDR1
+address_a[1] => ram_block1a29.PORTAADDR1
+address_a[1] => ram_block1a30.PORTAADDR1
+address_a[1] => ram_block1a31.PORTAADDR1
+address_a[2] => ram_block1a0.PORTAADDR2
+address_a[2] => ram_block1a1.PORTAADDR2
+address_a[2] => ram_block1a2.PORTAADDR2
+address_a[2] => ram_block1a3.PORTAADDR2
+address_a[2] => ram_block1a4.PORTAADDR2
+address_a[2] => ram_block1a5.PORTAADDR2
+address_a[2] => ram_block1a6.PORTAADDR2
+address_a[2] => ram_block1a7.PORTAADDR2
+address_a[2] => ram_block1a8.PORTAADDR2
+address_a[2] => ram_block1a9.PORTAADDR2
+address_a[2] => ram_block1a10.PORTAADDR2
+address_a[2] => ram_block1a11.PORTAADDR2
+address_a[2] => ram_block1a12.PORTAADDR2
+address_a[2] => ram_block1a13.PORTAADDR2
+address_a[2] => ram_block1a14.PORTAADDR2
+address_a[2] => ram_block1a15.PORTAADDR2
+address_a[2] => ram_block1a16.PORTAADDR2
+address_a[2] => ram_block1a17.PORTAADDR2
+address_a[2] => ram_block1a18.PORTAADDR2
+address_a[2] => ram_block1a19.PORTAADDR2
+address_a[2] => ram_block1a20.PORTAADDR2
+address_a[2] => ram_block1a21.PORTAADDR2
+address_a[2] => ram_block1a22.PORTAADDR2
+address_a[2] => ram_block1a23.PORTAADDR2
+address_a[2] => ram_block1a24.PORTAADDR2
+address_a[2] => ram_block1a25.PORTAADDR2
+address_a[2] => ram_block1a26.PORTAADDR2
+address_a[2] => ram_block1a27.PORTAADDR2
+address_a[2] => ram_block1a28.PORTAADDR2
+address_a[2] => ram_block1a29.PORTAADDR2
+address_a[2] => ram_block1a30.PORTAADDR2
+address_a[2] => ram_block1a31.PORTAADDR2
+address_a[3] => ram_block1a0.PORTAADDR3
+address_a[3] => ram_block1a1.PORTAADDR3
+address_a[3] => ram_block1a2.PORTAADDR3
+address_a[3] => ram_block1a3.PORTAADDR3
+address_a[3] => ram_block1a4.PORTAADDR3
+address_a[3] => ram_block1a5.PORTAADDR3
+address_a[3] => ram_block1a6.PORTAADDR3
+address_a[3] => ram_block1a7.PORTAADDR3
+address_a[3] => ram_block1a8.PORTAADDR3
+address_a[3] => ram_block1a9.PORTAADDR3
+address_a[3] => ram_block1a10.PORTAADDR3
+address_a[3] => ram_block1a11.PORTAADDR3
+address_a[3] => ram_block1a12.PORTAADDR3
+address_a[3] => ram_block1a13.PORTAADDR3
+address_a[3] => ram_block1a14.PORTAADDR3
+address_a[3] => ram_block1a15.PORTAADDR3
+address_a[3] => ram_block1a16.PORTAADDR3
+address_a[3] => ram_block1a17.PORTAADDR3
+address_a[3] => ram_block1a18.PORTAADDR3
+address_a[3] => ram_block1a19.PORTAADDR3
+address_a[3] => ram_block1a20.PORTAADDR3
+address_a[3] => ram_block1a21.PORTAADDR3
+address_a[3] => ram_block1a22.PORTAADDR3
+address_a[3] => ram_block1a23.PORTAADDR3
+address_a[3] => ram_block1a24.PORTAADDR3
+address_a[3] => ram_block1a25.PORTAADDR3
+address_a[3] => ram_block1a26.PORTAADDR3
+address_a[3] => ram_block1a27.PORTAADDR3
+address_a[3] => ram_block1a28.PORTAADDR3
+address_a[3] => ram_block1a29.PORTAADDR3
+address_a[3] => ram_block1a30.PORTAADDR3
+address_a[3] => ram_block1a31.PORTAADDR3
+address_a[4] => ram_block1a0.PORTAADDR4
+address_a[4] => ram_block1a1.PORTAADDR4
+address_a[4] => ram_block1a2.PORTAADDR4
+address_a[4] => ram_block1a3.PORTAADDR4
+address_a[4] => ram_block1a4.PORTAADDR4
+address_a[4] => ram_block1a5.PORTAADDR4
+address_a[4] => ram_block1a6.PORTAADDR4
+address_a[4] => ram_block1a7.PORTAADDR4
+address_a[4] => ram_block1a8.PORTAADDR4
+address_a[4] => ram_block1a9.PORTAADDR4
+address_a[4] => ram_block1a10.PORTAADDR4
+address_a[4] => ram_block1a11.PORTAADDR4
+address_a[4] => ram_block1a12.PORTAADDR4
+address_a[4] => ram_block1a13.PORTAADDR4
+address_a[4] => ram_block1a14.PORTAADDR4
+address_a[4] => ram_block1a15.PORTAADDR4
+address_a[4] => ram_block1a16.PORTAADDR4
+address_a[4] => ram_block1a17.PORTAADDR4
+address_a[4] => ram_block1a18.PORTAADDR4
+address_a[4] => ram_block1a19.PORTAADDR4
+address_a[4] => ram_block1a20.PORTAADDR4
+address_a[4] => ram_block1a21.PORTAADDR4
+address_a[4] => ram_block1a22.PORTAADDR4
+address_a[4] => ram_block1a23.PORTAADDR4
+address_a[4] => ram_block1a24.PORTAADDR4
+address_a[4] => ram_block1a25.PORTAADDR4
+address_a[4] => ram_block1a26.PORTAADDR4
+address_a[4] => ram_block1a27.PORTAADDR4
+address_a[4] => ram_block1a28.PORTAADDR4
+address_a[4] => ram_block1a29.PORTAADDR4
+address_a[4] => ram_block1a30.PORTAADDR4
+address_a[4] => ram_block1a31.PORTAADDR4
+address_b[0] => ram_block1a0.PORTBADDR
+address_b[0] => ram_block1a1.PORTBADDR
+address_b[0] => ram_block1a2.PORTBADDR
+address_b[0] => ram_block1a3.PORTBADDR
+address_b[0] => ram_block1a4.PORTBADDR
+address_b[0] => ram_block1a5.PORTBADDR
+address_b[0] => ram_block1a6.PORTBADDR
+address_b[0] => ram_block1a7.PORTBADDR
+address_b[0] => ram_block1a8.PORTBADDR
+address_b[0] => ram_block1a9.PORTBADDR
+address_b[0] => ram_block1a10.PORTBADDR
+address_b[0] => ram_block1a11.PORTBADDR
+address_b[0] => ram_block1a12.PORTBADDR
+address_b[0] => ram_block1a13.PORTBADDR
+address_b[0] => ram_block1a14.PORTBADDR
+address_b[0] => ram_block1a15.PORTBADDR
+address_b[0] => ram_block1a16.PORTBADDR
+address_b[0] => ram_block1a17.PORTBADDR
+address_b[0] => ram_block1a18.PORTBADDR
+address_b[0] => ram_block1a19.PORTBADDR
+address_b[0] => ram_block1a20.PORTBADDR
+address_b[0] => ram_block1a21.PORTBADDR
+address_b[0] => ram_block1a22.PORTBADDR
+address_b[0] => ram_block1a23.PORTBADDR
+address_b[0] => ram_block1a24.PORTBADDR
+address_b[0] => ram_block1a25.PORTBADDR
+address_b[0] => ram_block1a26.PORTBADDR
+address_b[0] => ram_block1a27.PORTBADDR
+address_b[0] => ram_block1a28.PORTBADDR
+address_b[0] => ram_block1a29.PORTBADDR
+address_b[0] => ram_block1a30.PORTBADDR
+address_b[0] => ram_block1a31.PORTBADDR
+address_b[1] => ram_block1a0.PORTBADDR1
+address_b[1] => ram_block1a1.PORTBADDR1
+address_b[1] => ram_block1a2.PORTBADDR1
+address_b[1] => ram_block1a3.PORTBADDR1
+address_b[1] => ram_block1a4.PORTBADDR1
+address_b[1] => ram_block1a5.PORTBADDR1
+address_b[1] => ram_block1a6.PORTBADDR1
+address_b[1] => ram_block1a7.PORTBADDR1
+address_b[1] => ram_block1a8.PORTBADDR1
+address_b[1] => ram_block1a9.PORTBADDR1
+address_b[1] => ram_block1a10.PORTBADDR1
+address_b[1] => ram_block1a11.PORTBADDR1
+address_b[1] => ram_block1a12.PORTBADDR1
+address_b[1] => ram_block1a13.PORTBADDR1
+address_b[1] => ram_block1a14.PORTBADDR1
+address_b[1] => ram_block1a15.PORTBADDR1
+address_b[1] => ram_block1a16.PORTBADDR1
+address_b[1] => ram_block1a17.PORTBADDR1
+address_b[1] => ram_block1a18.PORTBADDR1
+address_b[1] => ram_block1a19.PORTBADDR1
+address_b[1] => ram_block1a20.PORTBADDR1
+address_b[1] => ram_block1a21.PORTBADDR1
+address_b[1] => ram_block1a22.PORTBADDR1
+address_b[1] => ram_block1a23.PORTBADDR1
+address_b[1] => ram_block1a24.PORTBADDR1
+address_b[1] => ram_block1a25.PORTBADDR1
+address_b[1] => ram_block1a26.PORTBADDR1
+address_b[1] => ram_block1a27.PORTBADDR1
+address_b[1] => ram_block1a28.PORTBADDR1
+address_b[1] => ram_block1a29.PORTBADDR1
+address_b[1] => ram_block1a30.PORTBADDR1
+address_b[1] => ram_block1a31.PORTBADDR1
+address_b[2] => ram_block1a0.PORTBADDR2
+address_b[2] => ram_block1a1.PORTBADDR2
+address_b[2] => ram_block1a2.PORTBADDR2
+address_b[2] => ram_block1a3.PORTBADDR2
+address_b[2] => ram_block1a4.PORTBADDR2
+address_b[2] => ram_block1a5.PORTBADDR2
+address_b[2] => ram_block1a6.PORTBADDR2
+address_b[2] => ram_block1a7.PORTBADDR2
+address_b[2] => ram_block1a8.PORTBADDR2
+address_b[2] => ram_block1a9.PORTBADDR2
+address_b[2] => ram_block1a10.PORTBADDR2
+address_b[2] => ram_block1a11.PORTBADDR2
+address_b[2] => ram_block1a12.PORTBADDR2
+address_b[2] => ram_block1a13.PORTBADDR2
+address_b[2] => ram_block1a14.PORTBADDR2
+address_b[2] => ram_block1a15.PORTBADDR2
+address_b[2] => ram_block1a16.PORTBADDR2
+address_b[2] => ram_block1a17.PORTBADDR2
+address_b[2] => ram_block1a18.PORTBADDR2
+address_b[2] => ram_block1a19.PORTBADDR2
+address_b[2] => ram_block1a20.PORTBADDR2
+address_b[2] => ram_block1a21.PORTBADDR2
+address_b[2] => ram_block1a22.PORTBADDR2
+address_b[2] => ram_block1a23.PORTBADDR2
+address_b[2] => ram_block1a24.PORTBADDR2
+address_b[2] => ram_block1a25.PORTBADDR2
+address_b[2] => ram_block1a26.PORTBADDR2
+address_b[2] => ram_block1a27.PORTBADDR2
+address_b[2] => ram_block1a28.PORTBADDR2
+address_b[2] => ram_block1a29.PORTBADDR2
+address_b[2] => ram_block1a30.PORTBADDR2
+address_b[2] => ram_block1a31.PORTBADDR2
+address_b[3] => ram_block1a0.PORTBADDR3
+address_b[3] => ram_block1a1.PORTBADDR3
+address_b[3] => ram_block1a2.PORTBADDR3
+address_b[3] => ram_block1a3.PORTBADDR3
+address_b[3] => ram_block1a4.PORTBADDR3
+address_b[3] => ram_block1a5.PORTBADDR3
+address_b[3] => ram_block1a6.PORTBADDR3
+address_b[3] => ram_block1a7.PORTBADDR3
+address_b[3] => ram_block1a8.PORTBADDR3
+address_b[3] => ram_block1a9.PORTBADDR3
+address_b[3] => ram_block1a10.PORTBADDR3
+address_b[3] => ram_block1a11.PORTBADDR3
+address_b[3] => ram_block1a12.PORTBADDR3
+address_b[3] => ram_block1a13.PORTBADDR3
+address_b[3] => ram_block1a14.PORTBADDR3
+address_b[3] => ram_block1a15.PORTBADDR3
+address_b[3] => ram_block1a16.PORTBADDR3
+address_b[3] => ram_block1a17.PORTBADDR3
+address_b[3] => ram_block1a18.PORTBADDR3
+address_b[3] => ram_block1a19.PORTBADDR3
+address_b[3] => ram_block1a20.PORTBADDR3
+address_b[3] => ram_block1a21.PORTBADDR3
+address_b[3] => ram_block1a22.PORTBADDR3
+address_b[3] => ram_block1a23.PORTBADDR3
+address_b[3] => ram_block1a24.PORTBADDR3
+address_b[3] => ram_block1a25.PORTBADDR3
+address_b[3] => ram_block1a26.PORTBADDR3
+address_b[3] => ram_block1a27.PORTBADDR3
+address_b[3] => ram_block1a28.PORTBADDR3
+address_b[3] => ram_block1a29.PORTBADDR3
+address_b[3] => ram_block1a30.PORTBADDR3
+address_b[3] => ram_block1a31.PORTBADDR3
+address_b[4] => ram_block1a0.PORTBADDR4
+address_b[4] => ram_block1a1.PORTBADDR4
+address_b[4] => ram_block1a2.PORTBADDR4
+address_b[4] => ram_block1a3.PORTBADDR4
+address_b[4] => ram_block1a4.PORTBADDR4
+address_b[4] => ram_block1a5.PORTBADDR4
+address_b[4] => ram_block1a6.PORTBADDR4
+address_b[4] => ram_block1a7.PORTBADDR4
+address_b[4] => ram_block1a8.PORTBADDR4
+address_b[4] => ram_block1a9.PORTBADDR4
+address_b[4] => ram_block1a10.PORTBADDR4
+address_b[4] => ram_block1a11.PORTBADDR4
+address_b[4] => ram_block1a12.PORTBADDR4
+address_b[4] => ram_block1a13.PORTBADDR4
+address_b[4] => ram_block1a14.PORTBADDR4
+address_b[4] => ram_block1a15.PORTBADDR4
+address_b[4] => ram_block1a16.PORTBADDR4
+address_b[4] => ram_block1a17.PORTBADDR4
+address_b[4] => ram_block1a18.PORTBADDR4
+address_b[4] => ram_block1a19.PORTBADDR4
+address_b[4] => ram_block1a20.PORTBADDR4
+address_b[4] => ram_block1a21.PORTBADDR4
+address_b[4] => ram_block1a22.PORTBADDR4
+address_b[4] => ram_block1a23.PORTBADDR4
+address_b[4] => ram_block1a24.PORTBADDR4
+address_b[4] => ram_block1a25.PORTBADDR4
+address_b[4] => ram_block1a26.PORTBADDR4
+address_b[4] => ram_block1a27.PORTBADDR4
+address_b[4] => ram_block1a28.PORTBADDR4
+address_b[4] => ram_block1a29.PORTBADDR4
+address_b[4] => ram_block1a30.PORTBADDR4
+address_b[4] => ram_block1a31.PORTBADDR4
+clock0 => ram_block1a0.CLK0
+clock0 => ram_block1a1.CLK0
+clock0 => ram_block1a2.CLK0
+clock0 => ram_block1a3.CLK0
+clock0 => ram_block1a4.CLK0
+clock0 => ram_block1a5.CLK0
+clock0 => ram_block1a6.CLK0
+clock0 => ram_block1a7.CLK0
+clock0 => ram_block1a8.CLK0
+clock0 => ram_block1a9.CLK0
+clock0 => ram_block1a10.CLK0
+clock0 => ram_block1a11.CLK0
+clock0 => ram_block1a12.CLK0
+clock0 => ram_block1a13.CLK0
+clock0 => ram_block1a14.CLK0
+clock0 => ram_block1a15.CLK0
+clock0 => ram_block1a16.CLK0
+clock0 => ram_block1a17.CLK0
+clock0 => ram_block1a18.CLK0
+clock0 => ram_block1a19.CLK0
+clock0 => ram_block1a20.CLK0
+clock0 => ram_block1a21.CLK0
+clock0 => ram_block1a22.CLK0
+clock0 => ram_block1a23.CLK0
+clock0 => ram_block1a24.CLK0
+clock0 => ram_block1a25.CLK0
+clock0 => ram_block1a26.CLK0
+clock0 => ram_block1a27.CLK0
+clock0 => ram_block1a28.CLK0
+clock0 => ram_block1a29.CLK0
+clock0 => ram_block1a30.CLK0
+clock0 => ram_block1a31.CLK0
+data_a[0] => ram_block1a0.PORTADATAIN
+data_a[1] => ram_block1a1.PORTADATAIN
+data_a[2] => ram_block1a2.PORTADATAIN
+data_a[3] => ram_block1a3.PORTADATAIN
+data_a[4] => ram_block1a4.PORTADATAIN
+data_a[5] => ram_block1a5.PORTADATAIN
+data_a[6] => ram_block1a6.PORTADATAIN
+data_a[7] => ram_block1a7.PORTADATAIN
+data_a[8] => ram_block1a8.PORTADATAIN
+data_a[9] => ram_block1a9.PORTADATAIN
+data_a[10] => ram_block1a10.PORTADATAIN
+data_a[11] => ram_block1a11.PORTADATAIN
+data_a[12] => ram_block1a12.PORTADATAIN
+data_a[13] => ram_block1a13.PORTADATAIN
+data_a[14] => ram_block1a14.PORTADATAIN
+data_a[15] => ram_block1a15.PORTADATAIN
+data_a[16] => ram_block1a16.PORTADATAIN
+data_a[17] => ram_block1a17.PORTADATAIN
+data_a[18] => ram_block1a18.PORTADATAIN
+data_a[19] => ram_block1a19.PORTADATAIN
+data_a[20] => ram_block1a20.PORTADATAIN
+data_a[21] => ram_block1a21.PORTADATAIN
+data_a[22] => ram_block1a22.PORTADATAIN
+data_a[23] => ram_block1a23.PORTADATAIN
+data_a[24] => ram_block1a24.PORTADATAIN
+data_a[25] => ram_block1a25.PORTADATAIN
+data_a[26] => ram_block1a26.PORTADATAIN
+data_a[27] => ram_block1a27.PORTADATAIN
+data_a[28] => ram_block1a28.PORTADATAIN
+data_a[29] => ram_block1a29.PORTADATAIN
+data_a[30] => ram_block1a30.PORTADATAIN
+data_a[31] => ram_block1a31.PORTADATAIN
+data_b[0] => ram_block1a0.PORTBDATAIN
+data_b[1] => ram_block1a1.PORTBDATAIN
+data_b[2] => ram_block1a2.PORTBDATAIN
+data_b[3] => ram_block1a3.PORTBDATAIN
+data_b[4] => ram_block1a4.PORTBDATAIN
+data_b[5] => ram_block1a5.PORTBDATAIN
+data_b[6] => ram_block1a6.PORTBDATAIN
+data_b[7] => ram_block1a7.PORTBDATAIN
+data_b[8] => ram_block1a8.PORTBDATAIN
+data_b[9] => ram_block1a9.PORTBDATAIN
+data_b[10] => ram_block1a10.PORTBDATAIN
+data_b[11] => ram_block1a11.PORTBDATAIN
+data_b[12] => ram_block1a12.PORTBDATAIN
+data_b[13] => ram_block1a13.PORTBDATAIN
+data_b[14] => ram_block1a14.PORTBDATAIN
+data_b[15] => ram_block1a15.PORTBDATAIN
+data_b[16] => ram_block1a16.PORTBDATAIN
+data_b[17] => ram_block1a17.PORTBDATAIN
+data_b[18] => ram_block1a18.PORTBDATAIN
+data_b[19] => ram_block1a19.PORTBDATAIN
+data_b[20] => ram_block1a20.PORTBDATAIN
+data_b[21] => ram_block1a21.PORTBDATAIN
+data_b[22] => ram_block1a22.PORTBDATAIN
+data_b[23] => ram_block1a23.PORTBDATAIN
+data_b[24] => ram_block1a24.PORTBDATAIN
+data_b[25] => ram_block1a25.PORTBDATAIN
+data_b[26] => ram_block1a26.PORTBDATAIN
+data_b[27] => ram_block1a27.PORTBDATAIN
+data_b[28] => ram_block1a28.PORTBDATAIN
+data_b[29] => ram_block1a29.PORTBDATAIN
+data_b[30] => ram_block1a30.PORTBDATAIN
+data_b[31] => ram_block1a31.PORTBDATAIN
+q_a[0] <= ram_block1a0.PORTADATAOUT
+q_a[1] <= ram_block1a1.PORTADATAOUT
+q_a[2] <= ram_block1a2.PORTADATAOUT
+q_a[3] <= ram_block1a3.PORTADATAOUT
+q_a[4] <= ram_block1a4.PORTADATAOUT
+q_a[5] <= ram_block1a5.PORTADATAOUT
+q_a[6] <= ram_block1a6.PORTADATAOUT
+q_a[7] <= ram_block1a7.PORTADATAOUT
+q_a[8] <= ram_block1a8.PORTADATAOUT
+q_a[9] <= ram_block1a9.PORTADATAOUT
+q_a[10] <= ram_block1a10.PORTADATAOUT
+q_a[11] <= ram_block1a11.PORTADATAOUT
+q_a[12] <= ram_block1a12.PORTADATAOUT
+q_a[13] <= ram_block1a13.PORTADATAOUT
+q_a[14] <= ram_block1a14.PORTADATAOUT
+q_a[15] <= ram_block1a15.PORTADATAOUT
+q_a[16] <= ram_block1a16.PORTADATAOUT
+q_a[17] <= ram_block1a17.PORTADATAOUT
+q_a[18] <= ram_block1a18.PORTADATAOUT
+q_a[19] <= ram_block1a19.PORTADATAOUT
+q_a[20] <= ram_block1a20.PORTADATAOUT
+q_a[21] <= ram_block1a21.PORTADATAOUT
+q_a[22] <= ram_block1a22.PORTADATAOUT
+q_a[23] <= ram_block1a23.PORTADATAOUT
+q_a[24] <= ram_block1a24.PORTADATAOUT
+q_a[25] <= ram_block1a25.PORTADATAOUT
+q_a[26] <= ram_block1a26.PORTADATAOUT
+q_a[27] <= ram_block1a27.PORTADATAOUT
+q_a[28] <= ram_block1a28.PORTADATAOUT
+q_a[29] <= ram_block1a29.PORTADATAOUT
+q_a[30] <= ram_block1a30.PORTADATAOUT
+q_a[31] <= ram_block1a31.PORTADATAOUT
+q_b[0] <= ram_block1a0.PORTBDATAOUT
+q_b[1] <= ram_block1a1.PORTBDATAOUT
+q_b[2] <= ram_block1a2.PORTBDATAOUT
+q_b[3] <= ram_block1a3.PORTBDATAOUT
+q_b[4] <= ram_block1a4.PORTBDATAOUT
+q_b[5] <= ram_block1a5.PORTBDATAOUT
+q_b[6] <= ram_block1a6.PORTBDATAOUT
+q_b[7] <= ram_block1a7.PORTBDATAOUT
+q_b[8] <= ram_block1a8.PORTBDATAOUT
+q_b[9] <= ram_block1a9.PORTBDATAOUT
+q_b[10] <= ram_block1a10.PORTBDATAOUT
+q_b[11] <= ram_block1a11.PORTBDATAOUT
+q_b[12] <= ram_block1a12.PORTBDATAOUT
+q_b[13] <= ram_block1a13.PORTBDATAOUT
+q_b[14] <= ram_block1a14.PORTBDATAOUT
+q_b[15] <= ram_block1a15.PORTBDATAOUT
+q_b[16] <= ram_block1a16.PORTBDATAOUT
+q_b[17] <= ram_block1a17.PORTBDATAOUT
+q_b[18] <= ram_block1a18.PORTBDATAOUT
+q_b[19] <= ram_block1a19.PORTBDATAOUT
+q_b[20] <= ram_block1a20.PORTBDATAOUT
+q_b[21] <= ram_block1a21.PORTBDATAOUT
+q_b[22] <= ram_block1a22.PORTBDATAOUT
+q_b[23] <= ram_block1a23.PORTBDATAOUT
+q_b[24] <= ram_block1a24.PORTBDATAOUT
+q_b[25] <= ram_block1a25.PORTBDATAOUT
+q_b[26] <= ram_block1a26.PORTBDATAOUT
+q_b[27] <= ram_block1a27.PORTBDATAOUT
+q_b[28] <= ram_block1a28.PORTBDATAOUT
+q_b[29] <= ram_block1a29.PORTBDATAOUT
+q_b[30] <= ram_block1a30.PORTBDATAOUT
+q_b[31] <= ram_block1a31.PORTBDATAOUT
+wren_a => ram_block1a0.PORTAWE
+wren_a => ram_block1a1.PORTAWE
+wren_a => ram_block1a2.PORTAWE
+wren_a => ram_block1a3.PORTAWE
+wren_a => ram_block1a4.PORTAWE
+wren_a => ram_block1a5.PORTAWE
+wren_a => ram_block1a6.PORTAWE
+wren_a => ram_block1a7.PORTAWE
+wren_a => ram_block1a8.PORTAWE
+wren_a => ram_block1a9.PORTAWE
+wren_a => ram_block1a10.PORTAWE
+wren_a => ram_block1a11.PORTAWE
+wren_a => ram_block1a12.PORTAWE
+wren_a => ram_block1a13.PORTAWE
+wren_a => ram_block1a14.PORTAWE
+wren_a => ram_block1a15.PORTAWE
+wren_a => ram_block1a16.PORTAWE
+wren_a => ram_block1a17.PORTAWE
+wren_a => ram_block1a18.PORTAWE
+wren_a => ram_block1a19.PORTAWE
+wren_a => ram_block1a20.PORTAWE
+wren_a => ram_block1a21.PORTAWE
+wren_a => ram_block1a22.PORTAWE
+wren_a => ram_block1a23.PORTAWE
+wren_a => ram_block1a24.PORTAWE
+wren_a => ram_block1a25.PORTAWE
+wren_a => ram_block1a26.PORTAWE
+wren_a => ram_block1a27.PORTAWE
+wren_a => ram_block1a28.PORTAWE
+wren_a => ram_block1a29.PORTAWE
+wren_a => ram_block1a30.PORTAWE
+wren_a => ram_block1a31.PORTAWE
+wren_b => ram_block1a0.PORTBWE
+wren_b => ram_block1a1.PORTBWE
+wren_b => ram_block1a2.PORTBWE
+wren_b => ram_block1a3.PORTBWE
+wren_b => ram_block1a4.PORTBWE
+wren_b => ram_block1a5.PORTBWE
+wren_b => ram_block1a6.PORTBWE
+wren_b => ram_block1a7.PORTBWE
+wren_b => ram_block1a8.PORTBWE
+wren_b => ram_block1a9.PORTBWE
+wren_b => ram_block1a10.PORTBWE
+wren_b => ram_block1a11.PORTBWE
+wren_b => ram_block1a12.PORTBWE
+wren_b => ram_block1a13.PORTBWE
+wren_b => ram_block1a14.PORTBWE
+wren_b => ram_block1a15.PORTBWE
+wren_b => ram_block1a16.PORTBWE
+wren_b => ram_block1a17.PORTBWE
+wren_b => ram_block1a18.PORTBWE
+wren_b => ram_block1a19.PORTBWE
+wren_b => ram_block1a20.PORTBWE
+wren_b => ram_block1a21.PORTBWE
+wren_b => ram_block1a22.PORTBWE
+wren_b => ram_block1a23.PORTBWE
+wren_b => ram_block1a24.PORTBWE
+wren_b => ram_block1a25.PORTBWE
+wren_b => ram_block1a26.PORTBWE
+wren_b => ram_block1a27.PORTBWE
+wren_b => ram_block1a28.PORTBWE
+wren_b => ram_block1a29.PORTBWE
+wren_b => ram_block1a30.PORTBWE
+wren_b => ram_block1a31.PORTBWE
+
+
+|emdad_Main_Unit|emdad_equal:F3
+emdad_RS[0] => emdad_1Bit_Comparator:F1.emdad_I0
+emdad_RS[1] => emdad_1Bit_Comparator:F2.emdad_I0
+emdad_RS[2] => emdad_1Bit_Comparator:F3.emdad_I0
+emdad_RS[3] => emdad_1Bit_Comparator:F4.emdad_I0
+emdad_RS[4] => emdad_1Bit_Comparator:F5.emdad_I0
+emdad_RS[5] => emdad_1Bit_Comparator:F6.emdad_I0
+emdad_RS[6] => emdad_1Bit_Comparator:F7.emdad_I0
+emdad_RS[7] => emdad_1Bit_Comparator:F8.emdad_I0
+emdad_RS[8] => emdad_1Bit_Comparator:F9.emdad_I0
+emdad_RS[9] => emdad_1Bit_Comparator:F10.emdad_I0
+emdad_RS[10] => emdad_1Bit_Comparator:F11.emdad_I0
+emdad_RS[11] => emdad_1Bit_Comparator:F12.emdad_I0
+emdad_RS[12] => emdad_1Bit_Comparator:F13.emdad_I0
+emdad_RS[13] => emdad_1Bit_Comparator:F14.emdad_I0
+emdad_RS[14] => emdad_1Bit_Comparator:F15.emdad_I0
+emdad_RS[15] => emdad_1Bit_Comparator:F16.emdad_I0
+emdad_RS[16] => emdad_1Bit_Comparator:F17.emdad_I0
+emdad_RS[17] => emdad_1Bit_Comparator:F18.emdad_I0
+emdad_RS[18] => emdad_1Bit_Comparator:F20.emdad_I0
+emdad_RS[19] => emdad_1Bit_Comparator:F19.emdad_I0
+emdad_RS[20] => emdad_1Bit_Comparator:F21.emdad_I0
+emdad_RS[21] => emdad_1Bit_Comparator:F22.emdad_I0
+emdad_RS[22] => emdad_1Bit_Comparator:F23.emdad_I0
+emdad_RS[23] => emdad_1Bit_Comparator:F24.emdad_I0
+emdad_RS[24] => emdad_1Bit_Comparator:F25.emdad_I0
+emdad_RS[25] => emdad_1Bit_Comparator:F26.emdad_I0
+emdad_RS[26] => emdad_1Bit_Comparator:F27.emdad_I0
+emdad_RS[27] => emdad_1Bit_Comparator:F28.emdad_I0
+emdad_RS[28] => emdad_1Bit_Comparator:F29.emdad_I0
+emdad_RS[29] => emdad_1Bit_Comparator:F30.emdad_I0
+emdad_RS[30] => emdad_1Bit_Comparator:F31.emdad_I0
+emdad_RS[31] => emdad_1Bit_Comparator:F32.emdad_I0
+emdad_RT[0] => emdad_1Bit_Comparator:F1.emdad_Il
+emdad_RT[1] => emdad_1Bit_Comparator:F2.emdad_Il
+emdad_RT[2] => emdad_1Bit_Comparator:F3.emdad_Il
+emdad_RT[3] => emdad_1Bit_Comparator:F4.emdad_Il
+emdad_RT[4] => emdad_1Bit_Comparator:F5.emdad_Il
+emdad_RT[5] => emdad_1Bit_Comparator:F6.emdad_Il
+emdad_RT[6] => emdad_1Bit_Comparator:F7.emdad_Il
+emdad_RT[7] => emdad_1Bit_Comparator:F8.emdad_Il
+emdad_RT[8] => emdad_1Bit_Comparator:F9.emdad_Il
+emdad_RT[9] => emdad_1Bit_Comparator:F10.emdad_Il
+emdad_RT[10] => emdad_1Bit_Comparator:F11.emdad_Il
+emdad_RT[11] => emdad_1Bit_Comparator:F12.emdad_Il
+emdad_RT[12] => emdad_1Bit_Comparator:F13.emdad_Il
+emdad_RT[13] => emdad_1Bit_Comparator:F14.emdad_Il
+emdad_RT[14] => emdad_1Bit_Comparator:F15.emdad_Il
+emdad_RT[15] => emdad_1Bit_Comparator:F16.emdad_Il
+emdad_RT[16] => emdad_1Bit_Comparator:F17.emdad_Il
+emdad_RT[17] => emdad_1Bit_Comparator:F18.emdad_Il
+emdad_RT[18] => emdad_1Bit_Comparator:F20.emdad_Il
+emdad_RT[19] => emdad_1Bit_Comparator:F19.emdad_Il
+emdad_RT[20] => emdad_1Bit_Comparator:F21.emdad_Il
+emdad_RT[21] => emdad_1Bit_Comparator:F22.emdad_Il
+emdad_RT[22] => emdad_1Bit_Comparator:F23.emdad_Il
+emdad_RT[23] => emdad_1Bit_Comparator:F24.emdad_Il
+emdad_RT[24] => emdad_1Bit_Comparator:F25.emdad_Il
+emdad_RT[25] => emdad_1Bit_Comparator:F26.emdad_Il
+emdad_RT[26] => emdad_1Bit_Comparator:F27.emdad_Il
+emdad_RT[27] => emdad_1Bit_Comparator:F28.emdad_Il
+emdad_RT[28] => emdad_1Bit_Comparator:F29.emdad_Il
+emdad_RT[29] => emdad_1Bit_Comparator:F30.emdad_Il
+emdad_RT[30] => emdad_1Bit_Comparator:F31.emdad_Il
+emdad_RT[31] => emdad_1Bit_Comparator:F32.emdad_Il
+emdad_OP[0] => Equal0.IN5
+emdad_OP[0] => Equal1.IN4
+emdad_OP[1] => Equal0.IN3
+emdad_OP[1] => Equal1.IN3
+emdad_OP[2] => Equal0.IN4
+emdad_OP[2] => Equal1.IN5
+emdad_OP[3] => Equal0.IN2
+emdad_OP[3] => Equal1.IN2
+emdad_OP[4] => Equal0.IN1
+emdad_OP[4] => Equal1.IN1
+emdad_OP[5] => Equal0.IN0
+emdad_OP[5] => Equal1.IN0
+emdad_Cond <= emdad_Cond$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F1
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F2
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F3
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F4
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F5
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F6
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F7
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F8
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F9
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F10
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F11
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F12
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F13
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F14
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F15
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F16
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F17
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F18
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F20
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F19
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F21
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F22
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F23
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F24
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F25
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F26
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F27
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F28
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F29
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F30
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F31
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_equal:F3|emdad_1Bit_Comparator:F32
+emdad_I0 => emdad_Equal.IN0
+emdad_Il => emdad_Equal.IN1
+emdad_Equal <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+emdad_NotEqual <= emdad_Equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_extension:F4
+emdad_imm_input[0] => emdad_Q[0].DATAIN
+emdad_imm_input[1] => emdad_Q[1].DATAIN
+emdad_imm_input[2] => emdad_Q[2].DATAIN
+emdad_imm_input[3] => emdad_Q[3].DATAIN
+emdad_imm_input[4] => emdad_Q[4].DATAIN
+emdad_imm_input[5] => emdad_Q[5].DATAIN
+emdad_imm_input[6] => emdad_Q[6].DATAIN
+emdad_imm_input[7] => emdad_Q[7].DATAIN
+emdad_imm_input[8] => emdad_Q[8].DATAIN
+emdad_imm_input[9] => emdad_Q[9].DATAIN
+emdad_imm_input[10] => emdad_Q[10].DATAIN
+emdad_imm_input[11] => emdad_Q[11].DATAIN
+emdad_imm_input[12] => emdad_Q[12].DATAIN
+emdad_imm_input[13] => emdad_Q[13].DATAIN
+emdad_imm_input[14] => emdad_Q[14].DATAIN
+emdad_imm_input[15] => emdad_Q[15].DATAIN
+emdad_imm_input[15] => emdad_Q[31].DATAIN
+emdad_imm_input[15] => emdad_Q[30].DATAIN
+emdad_imm_input[15] => emdad_Q[29].DATAIN
+emdad_imm_input[15] => emdad_Q[28].DATAIN
+emdad_imm_input[15] => emdad_Q[27].DATAIN
+emdad_imm_input[15] => emdad_Q[26].DATAIN
+emdad_imm_input[15] => emdad_Q[25].DATAIN
+emdad_imm_input[15] => emdad_Q[24].DATAIN
+emdad_imm_input[15] => emdad_Q[23].DATAIN
+emdad_imm_input[15] => emdad_Q[22].DATAIN
+emdad_imm_input[15] => emdad_Q[21].DATAIN
+emdad_imm_input[15] => emdad_Q[20].DATAIN
+emdad_imm_input[15] => emdad_Q[19].DATAIN
+emdad_imm_input[15] => emdad_Q[18].DATAIN
+emdad_imm_input[15] => emdad_Q[17].DATAIN
+emdad_imm_input[15] => emdad_Q[16].DATAIN
+emdad_Q[0] <= emdad_imm_input[0].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[1] <= emdad_imm_input[1].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[2] <= emdad_imm_input[2].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[3] <= emdad_imm_input[3].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[4] <= emdad_imm_input[4].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[5] <= emdad_imm_input[5].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[6] <= emdad_imm_input[6].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[7] <= emdad_imm_input[7].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[8] <= emdad_imm_input[8].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[9] <= emdad_imm_input[9].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[10] <= emdad_imm_input[10].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[11] <= emdad_imm_input[11].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[12] <= emdad_imm_input[12].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[13] <= emdad_imm_input[13].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[14] <= emdad_imm_input[14].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[15] <= emdad_imm_input[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[16] <= emdad_imm_input[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[17] <= emdad_imm_input[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[18] <= emdad_imm_input[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[19] <= emdad_imm_input[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[20] <= emdad_imm_input[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[21] <= emdad_imm_input[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[22] <= emdad_imm_input[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[23] <= emdad_imm_input[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[24] <= emdad_imm_input[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[25] <= emdad_imm_input[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[26] <= emdad_imm_input[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[27] <= emdad_imm_input[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[28] <= emdad_imm_input[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[29] <= emdad_imm_input[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[30] <= emdad_imm_input[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_Q[31] <= emdad_imm_input[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5
+emdad_x[0] => emdad_full_adder:FA:0:I1:F1.emdad_a
+emdad_x[1] => emdad_full_adder:FA:1:I2:F1.emdad_a
+emdad_x[2] => emdad_full_adder:FA:2:I2:F1.emdad_a
+emdad_x[3] => emdad_full_adder:FA:3:I2:F1.emdad_a
+emdad_x[4] => emdad_full_adder:FA:4:I2:F1.emdad_a
+emdad_x[5] => emdad_full_adder:FA:5:I2:F1.emdad_a
+emdad_x[6] => emdad_full_adder:FA:6:I2:F1.emdad_a
+emdad_x[7] => emdad_full_adder:FA:7:I2:F1.emdad_a
+emdad_x[8] => emdad_full_adder:FA:8:I2:F1.emdad_a
+emdad_x[9] => emdad_full_adder:FA:9:I2:F1.emdad_a
+emdad_x[10] => emdad_full_adder:FA:10:I2:F1.emdad_a
+emdad_x[11] => emdad_full_adder:FA:11:I2:F1.emdad_a
+emdad_x[12] => emdad_full_adder:FA:12:I2:F1.emdad_a
+emdad_x[13] => emdad_full_adder:FA:13:I2:F1.emdad_a
+emdad_x[14] => emdad_full_adder:FA:14:I2:F1.emdad_a
+emdad_x[15] => emdad_full_adder:FA:15:I2:F1.emdad_a
+emdad_x[16] => emdad_full_adder:FA:16:I2:F1.emdad_a
+emdad_x[17] => emdad_full_adder:FA:17:I2:F1.emdad_a
+emdad_x[18] => emdad_full_adder:FA:18:I2:F1.emdad_a
+emdad_x[19] => emdad_full_adder:FA:19:I2:F1.emdad_a
+emdad_x[20] => emdad_full_adder:FA:20:I2:F1.emdad_a
+emdad_x[21] => emdad_full_adder:FA:21:I2:F1.emdad_a
+emdad_x[22] => emdad_full_adder:FA:22:I2:F1.emdad_a
+emdad_x[23] => emdad_full_adder:FA:23:I2:F1.emdad_a
+emdad_x[24] => emdad_full_adder:FA:24:I2:F1.emdad_a
+emdad_x[25] => emdad_full_adder:FA:25:I2:F1.emdad_a
+emdad_x[26] => emdad_full_adder:FA:26:I2:F1.emdad_a
+emdad_x[27] => emdad_full_adder:FA:27:I2:F1.emdad_a
+emdad_x[28] => emdad_full_adder:FA:28:I2:F1.emdad_a
+emdad_x[29] => emdad_full_adder:FA:29:I2:F1.emdad_a
+emdad_x[30] => emdad_full_adder:FA:30:I2:F1.emdad_a
+emdad_x[31] => emdad_full_adder:FA:31:I3:F2.emdad_a
+emdad_y[0] => emdad_ycin[0].IN0
+emdad_y[1] => emdad_ycin[1].IN0
+emdad_y[2] => emdad_ycin[2].IN0
+emdad_y[3] => emdad_ycin[3].IN0
+emdad_y[4] => emdad_ycin[4].IN0
+emdad_y[5] => emdad_ycin[5].IN0
+emdad_y[6] => emdad_ycin[6].IN0
+emdad_y[7] => emdad_ycin[7].IN0
+emdad_y[8] => emdad_ycin[8].IN0
+emdad_y[9] => emdad_ycin[9].IN0
+emdad_y[10] => emdad_ycin[10].IN0
+emdad_y[11] => emdad_ycin[11].IN0
+emdad_y[12] => emdad_ycin[12].IN0
+emdad_y[13] => emdad_ycin[13].IN0
+emdad_y[14] => emdad_ycin[14].IN0
+emdad_y[15] => emdad_ycin[15].IN0
+emdad_y[16] => emdad_ycin[16].IN0
+emdad_y[17] => emdad_ycin[17].IN0
+emdad_y[18] => emdad_ycin[18].IN0
+emdad_y[19] => emdad_ycin[19].IN0
+emdad_y[20] => emdad_ycin[20].IN0
+emdad_y[21] => emdad_ycin[21].IN0
+emdad_y[22] => emdad_ycin[22].IN0
+emdad_y[23] => emdad_ycin[23].IN0
+emdad_y[24] => emdad_ycin[24].IN0
+emdad_y[25] => emdad_ycin[25].IN0
+emdad_y[26] => emdad_ycin[26].IN0
+emdad_y[27] => emdad_ycin[27].IN0
+emdad_y[28] => emdad_ycin[28].IN0
+emdad_y[29] => emdad_ycin[29].IN0
+emdad_y[30] => emdad_ycin[30].IN0
+emdad_y[31] => emdad_ycin[31].IN0
+emdad_cin => emdad_ycin[0].IN1
+emdad_cin => emdad_ycin[1].IN1
+emdad_cin => emdad_ycin[2].IN1
+emdad_cin => emdad_ycin[3].IN1
+emdad_cin => emdad_ycin[4].IN1
+emdad_cin => emdad_ycin[5].IN1
+emdad_cin => emdad_ycin[6].IN1
+emdad_cin => emdad_ycin[7].IN1
+emdad_cin => emdad_ycin[8].IN1
+emdad_cin => emdad_ycin[9].IN1
+emdad_cin => emdad_ycin[10].IN1
+emdad_cin => emdad_ycin[11].IN1
+emdad_cin => emdad_ycin[12].IN1
+emdad_cin => emdad_ycin[13].IN1
+emdad_cin => emdad_ycin[14].IN1
+emdad_cin => emdad_ycin[15].IN1
+emdad_cin => emdad_ycin[16].IN1
+emdad_cin => emdad_ycin[17].IN1
+emdad_cin => emdad_ycin[18].IN1
+emdad_cin => emdad_ycin[19].IN1
+emdad_cin => emdad_ycin[20].IN1
+emdad_cin => emdad_ycin[21].IN1
+emdad_cin => emdad_ycin[22].IN1
+emdad_cin => emdad_ycin[23].IN1
+emdad_cin => emdad_ycin[24].IN1
+emdad_cin => emdad_ycin[25].IN1
+emdad_cin => emdad_ycin[26].IN1
+emdad_cin => emdad_ycin[27].IN1
+emdad_cin => emdad_ycin[28].IN1
+emdad_cin => emdad_ycin[29].IN1
+emdad_cin => emdad_ycin[30].IN1
+emdad_cin => emdad_ycin[31].IN1
+emdad_cin => emdad_full_adder:FA:0:I1:F1.emdad_c
+emdad_s[0] <= emdad_full_adder:FA:0:I1:F1.emdad_sumFA
+emdad_s[1] <= emdad_full_adder:FA:1:I2:F1.emdad_sumFA
+emdad_s[2] <= emdad_full_adder:FA:2:I2:F1.emdad_sumFA
+emdad_s[3] <= emdad_full_adder:FA:3:I2:F1.emdad_sumFA
+emdad_s[4] <= emdad_full_adder:FA:4:I2:F1.emdad_sumFA
+emdad_s[5] <= emdad_full_adder:FA:5:I2:F1.emdad_sumFA
+emdad_s[6] <= emdad_full_adder:FA:6:I2:F1.emdad_sumFA
+emdad_s[7] <= emdad_full_adder:FA:7:I2:F1.emdad_sumFA
+emdad_s[8] <= emdad_full_adder:FA:8:I2:F1.emdad_sumFA
+emdad_s[9] <= emdad_full_adder:FA:9:I2:F1.emdad_sumFA
+emdad_s[10] <= emdad_full_adder:FA:10:I2:F1.emdad_sumFA
+emdad_s[11] <= emdad_full_adder:FA:11:I2:F1.emdad_sumFA
+emdad_s[12] <= emdad_full_adder:FA:12:I2:F1.emdad_sumFA
+emdad_s[13] <= emdad_full_adder:FA:13:I2:F1.emdad_sumFA
+emdad_s[14] <= emdad_full_adder:FA:14:I2:F1.emdad_sumFA
+emdad_s[15] <= emdad_full_adder:FA:15:I2:F1.emdad_sumFA
+emdad_s[16] <= emdad_full_adder:FA:16:I2:F1.emdad_sumFA
+emdad_s[17] <= emdad_full_adder:FA:17:I2:F1.emdad_sumFA
+emdad_s[18] <= emdad_full_adder:FA:18:I2:F1.emdad_sumFA
+emdad_s[19] <= emdad_full_adder:FA:19:I2:F1.emdad_sumFA
+emdad_s[20] <= emdad_full_adder:FA:20:I2:F1.emdad_sumFA
+emdad_s[21] <= emdad_full_adder:FA:21:I2:F1.emdad_sumFA
+emdad_s[22] <= emdad_full_adder:FA:22:I2:F1.emdad_sumFA
+emdad_s[23] <= emdad_full_adder:FA:23:I2:F1.emdad_sumFA
+emdad_s[24] <= emdad_full_adder:FA:24:I2:F1.emdad_sumFA
+emdad_s[25] <= emdad_full_adder:FA:25:I2:F1.emdad_sumFA
+emdad_s[26] <= emdad_full_adder:FA:26:I2:F1.emdad_sumFA
+emdad_s[27] <= emdad_full_adder:FA:27:I2:F1.emdad_sumFA
+emdad_s[28] <= emdad_full_adder:FA:28:I2:F1.emdad_sumFA
+emdad_s[29] <= emdad_full_adder:FA:29:I2:F1.emdad_sumFA
+emdad_s[30] <= emdad_full_adder:FA:30:I2:F1.emdad_sumFA
+emdad_s[31] <= emdad_full_adder:FA:31:I3:F2.emdad_sumFA
+emdad_cout <= emdad_full_adder:FA:31:I3:F2.emdad_carryFA
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:0:I1:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:0:I1:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:0:I1:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:1:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:1:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:1:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:2:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:2:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:2:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:3:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:3:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:3:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:4:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:4:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:4:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:5:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:5:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:5:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:6:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:6:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:6:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:7:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:7:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:7:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:8:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:8:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:8:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:9:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:9:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:9:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:10:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:10:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:10:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:11:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:11:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:11:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:12:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:12:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:12:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:13:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:13:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:13:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:14:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:14:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:14:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:15:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:15:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:15:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:16:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:16:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:16:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:17:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:17:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:17:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:18:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:18:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:18:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:19:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:19:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:19:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:20:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:20:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:20:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:21:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:21:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:21:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:22:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:22:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:22:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:23:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:23:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:23:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:24:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:24:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:24:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:25:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:25:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:25:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:26:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:26:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:26:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:27:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:27:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:27:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:28:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:28:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:28:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:29:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:29:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:29:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:30:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:30:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:30:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:31:I3:F2
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:31:I3:F2|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F5|emdad_full_adder:\FA:31:I3:F2|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_sll:F6
+emdad_PC[0] => emdad_z[28].DATAIN
+emdad_PC[1] => emdad_z[29].DATAIN
+emdad_PC[2] => emdad_z[30].DATAIN
+emdad_PC[3] => emdad_z[31].DATAIN
+emdad_J[0] => emdad_z[2].DATAIN
+emdad_J[1] => emdad_z[3].DATAIN
+emdad_J[2] => emdad_z[4].DATAIN
+emdad_J[3] => emdad_z[5].DATAIN
+emdad_J[4] => emdad_z[6].DATAIN
+emdad_J[5] => emdad_z[7].DATAIN
+emdad_J[6] => emdad_z[8].DATAIN
+emdad_J[7] => emdad_z[9].DATAIN
+emdad_J[8] => emdad_z[10].DATAIN
+emdad_J[9] => emdad_z[11].DATAIN
+emdad_J[10] => emdad_z[12].DATAIN
+emdad_J[11] => emdad_z[13].DATAIN
+emdad_J[12] => emdad_z[14].DATAIN
+emdad_J[13] => emdad_z[15].DATAIN
+emdad_J[14] => emdad_z[16].DATAIN
+emdad_J[15] => emdad_z[17].DATAIN
+emdad_J[16] => emdad_z[18].DATAIN
+emdad_J[17] => emdad_z[19].DATAIN
+emdad_J[18] => emdad_z[20].DATAIN
+emdad_J[19] => emdad_z[21].DATAIN
+emdad_J[20] => emdad_z[22].DATAIN
+emdad_J[21] => emdad_z[23].DATAIN
+emdad_J[22] => emdad_z[24].DATAIN
+emdad_J[23] => emdad_z[25].DATAIN
+emdad_J[24] => emdad_z[26].DATAIN
+emdad_J[25] => emdad_z[27].DATAIN
+emdad_z[0] <= <GND>
+emdad_z[1] <= <GND>
+emdad_z[2] <= emdad_J[0].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[3] <= emdad_J[1].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[4] <= emdad_J[2].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[5] <= emdad_J[3].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[6] <= emdad_J[4].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[7] <= emdad_J[5].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[8] <= emdad_J[6].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[9] <= emdad_J[7].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[10] <= emdad_J[8].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[11] <= emdad_J[9].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[12] <= emdad_J[10].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[13] <= emdad_J[11].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[14] <= emdad_J[12].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[15] <= emdad_J[13].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[16] <= emdad_J[14].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[17] <= emdad_J[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[18] <= emdad_J[16].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[19] <= emdad_J[17].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[20] <= emdad_J[18].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[21] <= emdad_J[19].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[22] <= emdad_J[20].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[23] <= emdad_J[21].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[24] <= emdad_J[22].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[25] <= emdad_J[23].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[26] <= emdad_J[24].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[27] <= emdad_J[25].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[28] <= emdad_PC[0].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[29] <= emdad_PC[1].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[30] <= emdad_PC[2].DB_MAX_OUTPUT_PORT_TYPE
+emdad_z[31] <= emdad_PC[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7
+emdad_x[0] => emdad_full_adder:FA:0:I1:F1.emdad_a
+emdad_x[1] => emdad_full_adder:FA:1:I2:F1.emdad_a
+emdad_x[2] => emdad_full_adder:FA:2:I2:F1.emdad_a
+emdad_x[3] => emdad_full_adder:FA:3:I2:F1.emdad_a
+emdad_x[4] => emdad_full_adder:FA:4:I2:F1.emdad_a
+emdad_x[5] => emdad_full_adder:FA:5:I2:F1.emdad_a
+emdad_x[6] => emdad_full_adder:FA:6:I2:F1.emdad_a
+emdad_x[7] => emdad_full_adder:FA:7:I2:F1.emdad_a
+emdad_x[8] => emdad_full_adder:FA:8:I2:F1.emdad_a
+emdad_x[9] => emdad_full_adder:FA:9:I2:F1.emdad_a
+emdad_x[10] => emdad_full_adder:FA:10:I2:F1.emdad_a
+emdad_x[11] => emdad_full_adder:FA:11:I2:F1.emdad_a
+emdad_x[12] => emdad_full_adder:FA:12:I2:F1.emdad_a
+emdad_x[13] => emdad_full_adder:FA:13:I2:F1.emdad_a
+emdad_x[14] => emdad_full_adder:FA:14:I2:F1.emdad_a
+emdad_x[15] => emdad_full_adder:FA:15:I2:F1.emdad_a
+emdad_x[16] => emdad_full_adder:FA:16:I2:F1.emdad_a
+emdad_x[17] => emdad_full_adder:FA:17:I2:F1.emdad_a
+emdad_x[18] => emdad_full_adder:FA:18:I2:F1.emdad_a
+emdad_x[19] => emdad_full_adder:FA:19:I2:F1.emdad_a
+emdad_x[20] => emdad_full_adder:FA:20:I2:F1.emdad_a
+emdad_x[21] => emdad_full_adder:FA:21:I2:F1.emdad_a
+emdad_x[22] => emdad_full_adder:FA:22:I2:F1.emdad_a
+emdad_x[23] => emdad_full_adder:FA:23:I2:F1.emdad_a
+emdad_x[24] => emdad_full_adder:FA:24:I2:F1.emdad_a
+emdad_x[25] => emdad_full_adder:FA:25:I2:F1.emdad_a
+emdad_x[26] => emdad_full_adder:FA:26:I2:F1.emdad_a
+emdad_x[27] => emdad_full_adder:FA:27:I2:F1.emdad_a
+emdad_x[28] => emdad_full_adder:FA:28:I2:F1.emdad_a
+emdad_x[29] => emdad_full_adder:FA:29:I2:F1.emdad_a
+emdad_x[30] => emdad_full_adder:FA:30:I2:F1.emdad_a
+emdad_x[31] => emdad_full_adder:FA:31:I3:F2.emdad_a
+emdad_y[0] => emdad_ycin[0].IN0
+emdad_y[1] => emdad_ycin[1].IN0
+emdad_y[2] => emdad_ycin[2].IN0
+emdad_y[3] => emdad_ycin[3].IN0
+emdad_y[4] => emdad_ycin[4].IN0
+emdad_y[5] => emdad_ycin[5].IN0
+emdad_y[6] => emdad_ycin[6].IN0
+emdad_y[7] => emdad_ycin[7].IN0
+emdad_y[8] => emdad_ycin[8].IN0
+emdad_y[9] => emdad_ycin[9].IN0
+emdad_y[10] => emdad_ycin[10].IN0
+emdad_y[11] => emdad_ycin[11].IN0
+emdad_y[12] => emdad_ycin[12].IN0
+emdad_y[13] => emdad_ycin[13].IN0
+emdad_y[14] => emdad_ycin[14].IN0
+emdad_y[15] => emdad_ycin[15].IN0
+emdad_y[16] => emdad_ycin[16].IN0
+emdad_y[17] => emdad_ycin[17].IN0
+emdad_y[18] => emdad_ycin[18].IN0
+emdad_y[19] => emdad_ycin[19].IN0
+emdad_y[20] => emdad_ycin[20].IN0
+emdad_y[21] => emdad_ycin[21].IN0
+emdad_y[22] => emdad_ycin[22].IN0
+emdad_y[23] => emdad_ycin[23].IN0
+emdad_y[24] => emdad_ycin[24].IN0
+emdad_y[25] => emdad_ycin[25].IN0
+emdad_y[26] => emdad_ycin[26].IN0
+emdad_y[27] => emdad_ycin[27].IN0
+emdad_y[28] => emdad_ycin[28].IN0
+emdad_y[29] => emdad_ycin[29].IN0
+emdad_y[30] => emdad_ycin[30].IN0
+emdad_y[31] => emdad_ycin[31].IN0
+emdad_cin => emdad_ycin[0].IN1
+emdad_cin => emdad_ycin[1].IN1
+emdad_cin => emdad_ycin[2].IN1
+emdad_cin => emdad_ycin[3].IN1
+emdad_cin => emdad_ycin[4].IN1
+emdad_cin => emdad_ycin[5].IN1
+emdad_cin => emdad_ycin[6].IN1
+emdad_cin => emdad_ycin[7].IN1
+emdad_cin => emdad_ycin[8].IN1
+emdad_cin => emdad_ycin[9].IN1
+emdad_cin => emdad_ycin[10].IN1
+emdad_cin => emdad_ycin[11].IN1
+emdad_cin => emdad_ycin[12].IN1
+emdad_cin => emdad_ycin[13].IN1
+emdad_cin => emdad_ycin[14].IN1
+emdad_cin => emdad_ycin[15].IN1
+emdad_cin => emdad_ycin[16].IN1
+emdad_cin => emdad_ycin[17].IN1
+emdad_cin => emdad_ycin[18].IN1
+emdad_cin => emdad_ycin[19].IN1
+emdad_cin => emdad_ycin[20].IN1
+emdad_cin => emdad_ycin[21].IN1
+emdad_cin => emdad_ycin[22].IN1
+emdad_cin => emdad_ycin[23].IN1
+emdad_cin => emdad_ycin[24].IN1
+emdad_cin => emdad_ycin[25].IN1
+emdad_cin => emdad_ycin[26].IN1
+emdad_cin => emdad_ycin[27].IN1
+emdad_cin => emdad_ycin[28].IN1
+emdad_cin => emdad_ycin[29].IN1
+emdad_cin => emdad_ycin[30].IN1
+emdad_cin => emdad_ycin[31].IN1
+emdad_cin => emdad_full_adder:FA:0:I1:F1.emdad_c
+emdad_s[0] <= emdad_full_adder:FA:0:I1:F1.emdad_sumFA
+emdad_s[1] <= emdad_full_adder:FA:1:I2:F1.emdad_sumFA
+emdad_s[2] <= emdad_full_adder:FA:2:I2:F1.emdad_sumFA
+emdad_s[3] <= emdad_full_adder:FA:3:I2:F1.emdad_sumFA
+emdad_s[4] <= emdad_full_adder:FA:4:I2:F1.emdad_sumFA
+emdad_s[5] <= emdad_full_adder:FA:5:I2:F1.emdad_sumFA
+emdad_s[6] <= emdad_full_adder:FA:6:I2:F1.emdad_sumFA
+emdad_s[7] <= emdad_full_adder:FA:7:I2:F1.emdad_sumFA
+emdad_s[8] <= emdad_full_adder:FA:8:I2:F1.emdad_sumFA
+emdad_s[9] <= emdad_full_adder:FA:9:I2:F1.emdad_sumFA
+emdad_s[10] <= emdad_full_adder:FA:10:I2:F1.emdad_sumFA
+emdad_s[11] <= emdad_full_adder:FA:11:I2:F1.emdad_sumFA
+emdad_s[12] <= emdad_full_adder:FA:12:I2:F1.emdad_sumFA
+emdad_s[13] <= emdad_full_adder:FA:13:I2:F1.emdad_sumFA
+emdad_s[14] <= emdad_full_adder:FA:14:I2:F1.emdad_sumFA
+emdad_s[15] <= emdad_full_adder:FA:15:I2:F1.emdad_sumFA
+emdad_s[16] <= emdad_full_adder:FA:16:I2:F1.emdad_sumFA
+emdad_s[17] <= emdad_full_adder:FA:17:I2:F1.emdad_sumFA
+emdad_s[18] <= emdad_full_adder:FA:18:I2:F1.emdad_sumFA
+emdad_s[19] <= emdad_full_adder:FA:19:I2:F1.emdad_sumFA
+emdad_s[20] <= emdad_full_adder:FA:20:I2:F1.emdad_sumFA
+emdad_s[21] <= emdad_full_adder:FA:21:I2:F1.emdad_sumFA
+emdad_s[22] <= emdad_full_adder:FA:22:I2:F1.emdad_sumFA
+emdad_s[23] <= emdad_full_adder:FA:23:I2:F1.emdad_sumFA
+emdad_s[24] <= emdad_full_adder:FA:24:I2:F1.emdad_sumFA
+emdad_s[25] <= emdad_full_adder:FA:25:I2:F1.emdad_sumFA
+emdad_s[26] <= emdad_full_adder:FA:26:I2:F1.emdad_sumFA
+emdad_s[27] <= emdad_full_adder:FA:27:I2:F1.emdad_sumFA
+emdad_s[28] <= emdad_full_adder:FA:28:I2:F1.emdad_sumFA
+emdad_s[29] <= emdad_full_adder:FA:29:I2:F1.emdad_sumFA
+emdad_s[30] <= emdad_full_adder:FA:30:I2:F1.emdad_sumFA
+emdad_s[31] <= emdad_full_adder:FA:31:I3:F2.emdad_sumFA
+emdad_cout <= emdad_full_adder:FA:31:I3:F2.emdad_carryFA
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:0:I1:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:0:I1:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:0:I1:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:1:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:1:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:1:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:2:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:2:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:2:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:3:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:3:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:3:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:4:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:4:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:4:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:5:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:5:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:5:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:6:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:6:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:6:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:7:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:7:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:7:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:8:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:8:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:8:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:9:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:9:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:9:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:10:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:10:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:10:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:11:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:11:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:11:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:12:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:12:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:12:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:13:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:13:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:13:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:14:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:14:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:14:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:15:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:15:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:15:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:16:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:16:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:16:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:17:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:17:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:17:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:18:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:18:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:18:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:19:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:19:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:19:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:20:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:20:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:20:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:21:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:21:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:21:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:22:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:22:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:22:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:23:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:23:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:23:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:24:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:24:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:24:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:25:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:25:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:25:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:26:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:26:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:26:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:27:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:27:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:27:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:28:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:28:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:28:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:29:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:29:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:29:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:30:I2:F1
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:30:I2:F1|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:30:I2:F1|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:31:I3:F2
+emdad_a => emdad_half_adder:H1.emdad_x
+emdad_b => emdad_half_adder:H1.emdad_y
+emdad_c => emdad_half_adder:H2.emdad_y
+emdad_sumFA <= emdad_half_adder:H2.emdad_sum
+emdad_carryFA <= emdad_carryFA.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:31:I3:F2|emdad_half_adder:H1
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_adder:F7|emdad_full_adder:\FA:31:I3:F2|emdad_half_adder:H2
+emdad_x => emdad_sum.IN0
+emdad_x => emdad_carry.IN0
+emdad_y => emdad_sum.IN1
+emdad_y => emdad_carry.IN1
+emdad_sum <= emdad_sum.DB_MAX_OUTPUT_PORT_TYPE
+emdad_carry <= emdad_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_2_1_MUX:F8
+emdad_4[0] => emdad_out.DATAB
+emdad_4[1] => emdad_out.DATAB
+emdad_4[2] => emdad_out.DATAB
+emdad_4[3] => emdad_out.DATAB
+emdad_4[4] => emdad_out.DATAB
+emdad_4[5] => emdad_out.DATAB
+emdad_4[6] => emdad_out.DATAB
+emdad_4[7] => emdad_out.DATAB
+emdad_4[8] => emdad_out.DATAB
+emdad_4[9] => emdad_out.DATAB
+emdad_4[10] => emdad_out.DATAB
+emdad_4[11] => emdad_out.DATAB
+emdad_4[12] => emdad_out.DATAB
+emdad_4[13] => emdad_out.DATAB
+emdad_4[14] => emdad_out.DATAB
+emdad_4[15] => emdad_out.DATAB
+emdad_4[16] => emdad_out.DATAB
+emdad_4[17] => emdad_out.DATAB
+emdad_4[18] => emdad_out.DATAB
+emdad_4[19] => emdad_out.DATAB
+emdad_4[20] => emdad_out.DATAB
+emdad_4[21] => emdad_out.DATAB
+emdad_4[22] => emdad_out.DATAB
+emdad_4[23] => emdad_out.DATAB
+emdad_4[24] => emdad_out.DATAB
+emdad_4[25] => emdad_out.DATAB
+emdad_4[26] => emdad_out.DATAB
+emdad_4[27] => emdad_out.DATAB
+emdad_4[28] => emdad_out.DATAB
+emdad_4[29] => emdad_out.DATAB
+emdad_4[30] => emdad_out.DATAB
+emdad_4[31] => emdad_out.DATAB
+emdad_4_IMM[0] => emdad_out.DATAA
+emdad_4_IMM[1] => emdad_out.DATAA
+emdad_4_IMM[2] => emdad_out.DATAA
+emdad_4_IMM[3] => emdad_out.DATAA
+emdad_4_IMM[4] => emdad_out.DATAA
+emdad_4_IMM[5] => emdad_out.DATAA
+emdad_4_IMM[6] => emdad_out.DATAA
+emdad_4_IMM[7] => emdad_out.DATAA
+emdad_4_IMM[8] => emdad_out.DATAA
+emdad_4_IMM[9] => emdad_out.DATAA
+emdad_4_IMM[10] => emdad_out.DATAA
+emdad_4_IMM[11] => emdad_out.DATAA
+emdad_4_IMM[12] => emdad_out.DATAA
+emdad_4_IMM[13] => emdad_out.DATAA
+emdad_4_IMM[14] => emdad_out.DATAA
+emdad_4_IMM[15] => emdad_out.DATAA
+emdad_4_IMM[16] => emdad_out.DATAA
+emdad_4_IMM[17] => emdad_out.DATAA
+emdad_4_IMM[18] => emdad_out.DATAA
+emdad_4_IMM[19] => emdad_out.DATAA
+emdad_4_IMM[20] => emdad_out.DATAA
+emdad_4_IMM[21] => emdad_out.DATAA
+emdad_4_IMM[22] => emdad_out.DATAA
+emdad_4_IMM[23] => emdad_out.DATAA
+emdad_4_IMM[24] => emdad_out.DATAA
+emdad_4_IMM[25] => emdad_out.DATAA
+emdad_4_IMM[26] => emdad_out.DATAA
+emdad_4_IMM[27] => emdad_out.DATAA
+emdad_4_IMM[28] => emdad_out.DATAA
+emdad_4_IMM[29] => emdad_out.DATAA
+emdad_4_IMM[30] => emdad_out.DATAA
+emdad_4_IMM[31] => emdad_out.DATAA
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_cond => emdad_out.OUTPUTSELECT
+emdad_out[0] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[1] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[2] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[3] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[4] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[5] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[6] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[7] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[8] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[9] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[10] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[11] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[12] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[13] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[14] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[15] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[16] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[17] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[18] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[19] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[20] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[21] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[22] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[23] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[24] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[25] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[26] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[27] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[28] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[29] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[30] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+emdad_out[31] <= emdad_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_controller:F9
+emdad_J[0] => emdad_s[0].DATAB
+emdad_J[1] => emdad_s[1].DATAB
+emdad_J[2] => emdad_s[2].DATAB
+emdad_J[3] => emdad_s[3].DATAB
+emdad_J[4] => emdad_s[4].DATAB
+emdad_J[5] => emdad_s[5].DATAB
+emdad_J[6] => emdad_s[6].DATAB
+emdad_J[7] => emdad_s[7].DATAB
+emdad_J[8] => emdad_s[8].DATAB
+emdad_J[9] => emdad_s[9].DATAB
+emdad_J[10] => emdad_s[10].DATAB
+emdad_J[11] => emdad_s[11].DATAB
+emdad_J[12] => emdad_s[12].DATAB
+emdad_J[13] => emdad_s[13].DATAB
+emdad_J[14] => emdad_s[14].DATAB
+emdad_J[15] => emdad_s[15].DATAB
+emdad_J[16] => emdad_s[16].DATAB
+emdad_J[17] => emdad_s[17].DATAB
+emdad_J[18] => emdad_s[18].DATAB
+emdad_J[19] => emdad_s[19].DATAB
+emdad_J[20] => emdad_s[20].DATAB
+emdad_J[21] => emdad_s[21].DATAB
+emdad_J[22] => emdad_s[22].DATAB
+emdad_J[23] => emdad_s[23].DATAB
+emdad_J[24] => emdad_s[24].DATAB
+emdad_J[25] => emdad_s[25].DATAB
+emdad_J[26] => emdad_s[26].DATAB
+emdad_J[27] => emdad_s[27].DATAB
+emdad_J[28] => emdad_s[28].DATAB
+emdad_J[29] => emdad_s[29].DATAB
+emdad_J[30] => emdad_s[30].DATAB
+emdad_J[31] => emdad_s[31].DATAB
+emdad_BEQBNE[0] => emdad_s[0].DATAA
+emdad_BEQBNE[1] => emdad_s[1].DATAA
+emdad_BEQBNE[2] => emdad_s[2].DATAA
+emdad_BEQBNE[3] => emdad_s[3].DATAA
+emdad_BEQBNE[4] => emdad_s[4].DATAA
+emdad_BEQBNE[5] => emdad_s[5].DATAA
+emdad_BEQBNE[6] => emdad_s[6].DATAA
+emdad_BEQBNE[7] => emdad_s[7].DATAA
+emdad_BEQBNE[8] => emdad_s[8].DATAA
+emdad_BEQBNE[9] => emdad_s[9].DATAA
+emdad_BEQBNE[10] => emdad_s[10].DATAA
+emdad_BEQBNE[11] => emdad_s[11].DATAA
+emdad_BEQBNE[12] => emdad_s[12].DATAA
+emdad_BEQBNE[13] => emdad_s[13].DATAA
+emdad_BEQBNE[14] => emdad_s[14].DATAA
+emdad_BEQBNE[15] => emdad_s[15].DATAA
+emdad_BEQBNE[16] => emdad_s[16].DATAA
+emdad_BEQBNE[17] => emdad_s[17].DATAA
+emdad_BEQBNE[18] => emdad_s[18].DATAA
+emdad_BEQBNE[19] => emdad_s[19].DATAA
+emdad_BEQBNE[20] => emdad_s[20].DATAA
+emdad_BEQBNE[21] => emdad_s[21].DATAA
+emdad_BEQBNE[22] => emdad_s[22].DATAA
+emdad_BEQBNE[23] => emdad_s[23].DATAA
+emdad_BEQBNE[24] => emdad_s[24].DATAA
+emdad_BEQBNE[25] => emdad_s[25].DATAA
+emdad_BEQBNE[26] => emdad_s[26].DATAA
+emdad_BEQBNE[27] => emdad_s[27].DATAA
+emdad_BEQBNE[28] => emdad_s[28].DATAA
+emdad_BEQBNE[29] => emdad_s[29].DATAA
+emdad_BEQBNE[30] => emdad_s[30].DATAA
+emdad_BEQBNE[31] => emdad_s[31].DATAA
+emdad_OP[0] => Equal0.IN11
+emdad_OP[0] => Equal1.IN11
+emdad_OP[0] => Equal2.IN11
+emdad_OP[1] => Equal0.IN10
+emdad_OP[1] => Equal1.IN10
+emdad_OP[1] => Equal2.IN10
+emdad_OP[2] => Equal0.IN9
+emdad_OP[2] => Equal1.IN9
+emdad_OP[2] => Equal2.IN9
+emdad_OP[3] => Equal0.IN8
+emdad_OP[3] => Equal1.IN8
+emdad_OP[3] => Equal2.IN8
+emdad_OP[4] => Equal0.IN7
+emdad_OP[4] => Equal1.IN7
+emdad_OP[4] => Equal2.IN7
+emdad_OP[5] => Equal0.IN6
+emdad_OP[5] => Equal1.IN6
+emdad_OP[5] => Equal2.IN6
+emdad_nextInstruction[0] <= emdad_s[0].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[1] <= emdad_s[1].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[2] <= emdad_s[2].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[3] <= emdad_s[3].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[4] <= emdad_s[4].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[5] <= emdad_s[5].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[6] <= emdad_s[6].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[7] <= emdad_s[7].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[8] <= emdad_s[8].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[9] <= emdad_s[9].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[10] <= emdad_s[10].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[11] <= emdad_s[11].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[12] <= emdad_s[12].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[13] <= emdad_s[13].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[14] <= emdad_s[14].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[15] <= emdad_s[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[16] <= emdad_s[16].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[17] <= emdad_s[17].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[18] <= emdad_s[18].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[19] <= emdad_s[19].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[20] <= emdad_s[20].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[21] <= emdad_s[21].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[22] <= emdad_s[22].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[23] <= emdad_s[23].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[24] <= emdad_s[24].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[25] <= emdad_s[25].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[26] <= emdad_s[26].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[27] <= emdad_s[27].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[28] <= emdad_s[28].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[29] <= emdad_s[29].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[30] <= emdad_s[30].DB_MAX_OUTPUT_PORT_TYPE
+emdad_nextInstruction[31] <= emdad_s[31].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|emdad_Main_Unit|emdad_32_bit_register:F10
+emdad_clk => emdad_storage[0].CLK
+emdad_clk => emdad_storage[1].CLK
+emdad_clk => emdad_storage[2].CLK
+emdad_clk => emdad_storage[3].CLK
+emdad_clk => emdad_storage[4].CLK
+emdad_clk => emdad_storage[5].CLK
+emdad_clk => emdad_storage[6].CLK
+emdad_clk => emdad_storage[7].CLK
+emdad_clk => emdad_storage[8].CLK
+emdad_clk => emdad_storage[9].CLK
+emdad_clk => emdad_storage[10].CLK
+emdad_clk => emdad_storage[11].CLK
+emdad_clk => emdad_storage[12].CLK
+emdad_clk => emdad_storage[13].CLK
+emdad_clk => emdad_storage[14].CLK
+emdad_clk => emdad_storage[15].CLK
+emdad_clk => emdad_storage[16].CLK
+emdad_clk => emdad_storage[17].CLK
+emdad_clk => emdad_storage[18].CLK
+emdad_clk => emdad_storage[19].CLK
+emdad_clk => emdad_storage[20].CLK
+emdad_clk => emdad_storage[21].CLK
+emdad_clk => emdad_storage[22].CLK
+emdad_clk => emdad_storage[23].CLK
+emdad_clk => emdad_storage[24].CLK
+emdad_clk => emdad_storage[25].CLK
+emdad_clk => emdad_storage[26].CLK
+emdad_clk => emdad_storage[27].CLK
+emdad_clk => emdad_storage[28].CLK
+emdad_clk => emdad_storage[29].CLK
+emdad_clk => emdad_storage[30].CLK
+emdad_clk => emdad_storage[31].CLK
+emdad_wren => emdad_storage[0].ENA
+emdad_wren => emdad_storage[1].ENA
+emdad_wren => emdad_storage[2].ENA
+emdad_wren => emdad_storage[3].ENA
+emdad_wren => emdad_storage[4].ENA
+emdad_wren => emdad_storage[5].ENA
+emdad_wren => emdad_storage[6].ENA
+emdad_wren => emdad_storage[7].ENA
+emdad_wren => emdad_storage[8].ENA
+emdad_wren => emdad_storage[9].ENA
+emdad_wren => emdad_storage[10].ENA
+emdad_wren => emdad_storage[11].ENA
+emdad_wren => emdad_storage[12].ENA
+emdad_wren => emdad_storage[13].ENA
+emdad_wren => emdad_storage[14].ENA
+emdad_wren => emdad_storage[15].ENA
+emdad_wren => emdad_storage[16].ENA
+emdad_wren => emdad_storage[17].ENA
+emdad_wren => emdad_storage[18].ENA
+emdad_wren => emdad_storage[19].ENA
+emdad_wren => emdad_storage[20].ENA
+emdad_wren => emdad_storage[21].ENA
+emdad_wren => emdad_storage[22].ENA
+emdad_wren => emdad_storage[23].ENA
+emdad_wren => emdad_storage[24].ENA
+emdad_wren => emdad_storage[25].ENA
+emdad_wren => emdad_storage[26].ENA
+emdad_wren => emdad_storage[27].ENA
+emdad_wren => emdad_storage[28].ENA
+emdad_wren => emdad_storage[29].ENA
+emdad_wren => emdad_storage[30].ENA
+emdad_wren => emdad_storage[31].ENA
+emdad_rden => process_1.IN0
+emdad_chen => process_1.IN1
+emdad_chen => emdad_q[0].IN1
+emdad_data[0] => emdad_storage[0].DATAIN
+emdad_data[1] => emdad_storage[1].DATAIN
+emdad_data[2] => emdad_storage[2].DATAIN
+emdad_data[3] => emdad_storage[3].DATAIN
+emdad_data[4] => emdad_storage[4].DATAIN
+emdad_data[5] => emdad_storage[5].DATAIN
+emdad_data[6] => emdad_storage[6].DATAIN
+emdad_data[7] => emdad_storage[7].DATAIN
+emdad_data[8] => emdad_storage[8].DATAIN
+emdad_data[9] => emdad_storage[9].DATAIN
+emdad_data[10] => emdad_storage[10].DATAIN
+emdad_data[11] => emdad_storage[11].DATAIN
+emdad_data[12] => emdad_storage[12].DATAIN
+emdad_data[13] => emdad_storage[13].DATAIN
+emdad_data[14] => emdad_storage[14].DATAIN
+emdad_data[15] => emdad_storage[15].DATAIN
+emdad_data[16] => emdad_storage[16].DATAIN
+emdad_data[17] => emdad_storage[17].DATAIN
+emdad_data[18] => emdad_storage[18].DATAIN
+emdad_data[19] => emdad_storage[19].DATAIN
+emdad_data[20] => emdad_storage[20].DATAIN
+emdad_data[21] => emdad_storage[21].DATAIN
+emdad_data[22] => emdad_storage[22].DATAIN
+emdad_data[23] => emdad_storage[23].DATAIN
+emdad_data[24] => emdad_storage[24].DATAIN
+emdad_data[25] => emdad_storage[25].DATAIN
+emdad_data[26] => emdad_storage[26].DATAIN
+emdad_data[27] => emdad_storage[27].DATAIN
+emdad_data[28] => emdad_storage[28].DATAIN
+emdad_data[29] => emdad_storage[29].DATAIN
+emdad_data[30] => emdad_storage[30].DATAIN
+emdad_data[31] => emdad_storage[31].DATAIN
+emdad_q[0] <= emdad_q[0].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[1] <= emdad_q[1].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[2] <= emdad_q[2].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[3] <= emdad_q[3].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[4] <= emdad_q[4].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[5] <= emdad_q[5].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[6] <= emdad_q[6].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[7] <= emdad_q[7].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[8] <= emdad_q[8].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[9] <= emdad_q[9].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[10] <= emdad_q[10].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[11] <= emdad_q[11].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[12] <= emdad_q[12].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[13] <= emdad_q[13].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[14] <= emdad_q[14].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[15] <= emdad_q[15].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[16] <= emdad_q[16].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[17] <= emdad_q[17].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[18] <= emdad_q[18].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[19] <= emdad_q[19].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[20] <= emdad_q[20].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[21] <= emdad_q[21].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[22] <= emdad_q[22].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[23] <= emdad_q[23].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[24] <= emdad_q[24].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[25] <= emdad_q[25].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[26] <= emdad_q[26].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[27] <= emdad_q[27].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[28] <= emdad_q[28].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[29] <= emdad_q[29].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[30] <= emdad_q[30].DB_MAX_OUTPUT_PORT_TYPE
+emdad_q[31] <= emdad_q[31].DB_MAX_OUTPUT_PORT_TYPE
+
+

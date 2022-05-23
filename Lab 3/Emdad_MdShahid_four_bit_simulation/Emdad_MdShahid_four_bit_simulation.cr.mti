@@ -1,0 +1,19 @@
+{E:/CSC_342/Assignments/Lab 3/Emdad_MdShahid_four_bit_simulation/Emdad_MdShahid_03_02_2022_4bit_ozn.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_four_bit_simulation\Emdad_MdShahid_03_02_2022_4bit_ozn.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Emdad_MdShahid_03_02_2022_4bit_ozn
+-- Compiling architecture nbitaddsub of Emdad_MdShahid_03_02_2022_4bit_ozn
+
+} {} {}} {E:/CSC_342/Assignments/Lab 3/Emdad_MdShahid_four_bit_simulation/Emdad_MdShahid_4bit_ozn_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:\CSC_342\Assignments\Lab 3\Emdad_MdShahid_four_bit_simulation\Emdad_MdShahid_4bit_ozn_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Emdad_MdShahid_03_02_2022_4bit_ozn_tb
+-- Compiling architecture signalized_4_bit_test of Emdad_MdShahid_03_02_2022_4bit_ozn_tb
+
+} {} {}}

@@ -1,0 +1,91 @@
+Archive Project report for emdad_10thapril_2022_ALU
+Sun Apr 10 06:43:38 2022
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Sun Apr 10 06:43:38 2022 ;
+; Revision Name          ; emdad_10thapril_2022_ALU              ;
+; Top-level Entity Name  ; emdad_April10_2022_RD                 ;
+; Family                 ; Cyclone V                             ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'E:/CSC_342/Assignments/Lab ALU/emdad_10thapril_2022_ALU/emdad_10thapril_2022_ALU.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'emdad_10thapril_2022_ALU.archive.rpt'
+Info (23030): Evaluation of Tcl script e:/csc_342/intelfpga_lite/20.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4827 megabytes
+    Info: Processing ended: Sun Apr 10 06:43:38 2022
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++----------------------------------------------------------------------+
+; Files Archived                                                       ;
++----------------------------------------------------------------------+
+; File Name                                                            ;
++----------------------------------------------------------------------+
+; e:/csc_342/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf ;
+; emdad_10thapril_2022_ALU.qpf                                         ;
+; emdad_10thapril_2022_ALU.qsf                                         ;
+; emdad_April10_2022_RD.vhd                                            ;
+; emdad_April10th_2022_1to2demux_32.vhd                                ;
+; emdad_April10th_2022_2to1mux_32.vhd                                  ;
+; emdad_April10th_2022_ALU.vhd                                         ;
+; emdad_April10th_2022_bitwise_op.vhd                                  ;
+; emdad_April10th_2022_IMM16.vhd                                       ;
+; emdad_April10th_2022_MAR.vhd                                         ;
+; emdad_April10th_2022_MDR.vhd                                         ;
+; emdad_April10th_2022_NBit_AddSub.vhd                                 ;
+; emdad_April10th_2022_RS.vhd                                          ;
+; emdad_April10th_2022_RT.vhd                                          ;
+; emdad_April10th_2022_Sign_Extend.vhd                                 ;
++----------------------------------------------------------------------+
+
+

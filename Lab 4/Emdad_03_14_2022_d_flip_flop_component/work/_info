@@ -1,0 +1,52 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/CSC_342/Assignments/Lab 4/Emdad_03_14_2022_d_latch_master_salve_simulation
+Eemdad_03_14_2022_d_flip_flop_component_vhdl
+Z0 w1647222548
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 dE:/CSC_342/Assignments/Lab 4/Emdad_03_14_2022_d_flip_flop_component
+Z4 8E:/CSC_342/Assignments/Lab 4/Emdad_03_14_2022_d_latch/Emdad_03_14_2022_d_flip_flop_component_VHDL.vhd
+Z5 FE:/CSC_342/Assignments/Lab 4/Emdad_03_14_2022_d_latch/Emdad_03_14_2022_d_flip_flop_component_VHDL.vhd
+l0
+L25 1
+VZB]E=L>0aGjzc:ad5DOZX1
+!s100 eV[6^[da=Z;zL0MWYiB=92
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1647222639
+!i10b 1
+Z8 !s108 1647222638.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Lab 4/Emdad_03_14_2022_d_latch/Emdad_03_14_2022_d_flip_flop_component_VHDL.vhd|
+!s107 E:/CSC_342/Assignments/Lab 4/Emdad_03_14_2022_d_latch/Emdad_03_14_2022_d_flip_flop_component_VHDL.vhd|
+!i113 1
+Z10 o-work work -2002 -explicit
+Z11 tExplicit 1 CvgOpt 0
+Abdf_type
+R1
+R2
+DEx4 work 43 emdad_03_14_2022_d_flip_flop_component_vhdl 0 22 ZB]E=L>0aGjzc:ad5DOZX1
+!i122 0
+l40
+L36 21
+V>c[4U9nhFKMT@gjKDTk[z2
+!s100 ;6i6D7zBJ@12R2dmMBo@C2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+Z12 !s107 E:/CSC_342/Assignments/Lab 4/Emdad_03_14_2022_d_latch/Emdad_03_14_2022_d_flip_flop_component_VHDL.vhd|
+!i113 1
+R10
+R11

@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_output[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_cout",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_op",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_y[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Emdad_MdShahid_03_02_2022_x[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

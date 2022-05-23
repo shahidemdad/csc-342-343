@@ -1,0 +1,29 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate -radix hexadecimal /emdad_23rdmarch2022_circuitdesign/Emdad_23rdmarch2022_address_a
+add wave -noupdate -radix hexadecimal /emdad_23rdmarch2022_circuitdesign/Emdad_23rdmarch2022_address_b
+add wave -noupdate -radix hexadecimal /emdad_23rdmarch2022_circuitdesign/Emdad_23rdmarch2022_add_sub
+add wave -noupdate -radix hexadecimal /emdad_23rdmarch2022_circuitdesign/Emdad_23rdmarch2022_clock
+add wave -noupdate -radix hexadecimal /emdad_23rdmarch2022_circuitdesign/Emdad_23rdmarch2022_output_a
+add wave -noupdate -radix hexadecimal /emdad_23rdmarch2022_circuitdesign/Emdad_23rdmarch2022_output_b
+add wave -noupdate -radix hexadecimal /emdad_23rdmarch2022_circuitdesign/Emdad_23rdmarch2022_zero
+add wave -noupdate -radix hexadecimal /emdad_23rdmarch2022_circuitdesign/Emdad_23rdmarch2022_negative
+add wave -noupdate -radix hexadecimal /emdad_23rdmarch2022_circuitdesign/Emdad_23rdmarch2022_overflow
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {439 ps} 0}
+quietly wave cursor active 1
+configure wave -namecolwidth 403
+configure wave -valuecolwidth 74
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ps
+update
+WaveRestoreZoom {0 ps} {630 ps}

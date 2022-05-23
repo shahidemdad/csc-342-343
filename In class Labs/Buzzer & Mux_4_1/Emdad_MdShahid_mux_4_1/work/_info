@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/CSC_342/intelFPGA/20.1
+Eemdad_mdshahid_and2
+Z0 w1645033997
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+Z3 dE:/CSC_342/Assignments/Emdad_MdShahid_mux_4_1
+Z4 8E:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_AND2
+Z5 FE:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_AND2
+l0
+L4 1
+VIjRfK6IL_@9T>KnPS5cM;2
+!s100 ^1OVd;R=K6Y2F_Z7GgL3H3
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1645065704
+!i10b 1
+Z8 !s108 1645065704.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_AND2|
+!s107 E:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_AND2|
+!i113 1
+Z10 o-work work -2002 -explicit
+Z11 tExplicit 1 CvgOpt 0
+Abehavioral_2
+R1
+R2
+DEx4 work 19 emdad_mdshahid_and2 0 22 IjRfK6IL_@9T>KnPS5cM;2
+!i122 3
+l11
+L9 5
+VI7nc52?b[j=1lIlC5TiAK2
+!s100 Ah`LU2IWc@Uh8i2?G`:]U3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+Z12 !s107 E:/CSC_342/Assignments/Emdad_MdShahid_Buzzer/Emdad_MdShahid_AND2|
+!i113 1
+R10
+R11
+Eemdad_mdshahid_mux_4_1
+Z13 w1645038273
+R1
+R2
+!i122 2
+R3
+Z14 8E:/CSC_342/Assignments/Emdad_MdShahid_mux_4_1/Emdad_MdShahid_mux_4_1.vhd.txt
+Z15 FE:/CSC_342/Assignments/Emdad_MdShahid_mux_4_1/Emdad_MdShahid_mux_4_1.vhd.txt
+l0
+L4 1
+VCz^4=?bdegzXl_9jzGl7>0
+!s100 OF]bWiK]:f`Ana7[N;Um`1
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Emdad_MdShahid_mux_4_1/Emdad_MdShahid_mux_4_1.vhd.txt|
+Z17 !s107 E:/CSC_342/Assignments/Emdad_MdShahid_mux_4_1/Emdad_MdShahid_mux_4_1.vhd.txt|
+!i113 1
+R10
+R11
+Abehav_mux_4_1
+R1
+R2
+DEx4 work 22 emdad_mdshahid_mux_4_1 0 22 Cz^4=?bdegzXl_9jzGl7>0
+!i122 2
+l11
+L10 12
+V4[_`H]=jaLZ]QK5MYRGMQ3
+!s100 C5>^lMiXH3hgJ0kb`[gM;3
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R10
+R11

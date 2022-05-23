@@ -1,0 +1,175 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/CSC_342/Assignments/Emdad_02_27_2022_1_bit_comparator
+Eemdad_02_27_2022_two_bit_equal
+Z0 w1645993155
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+Z3 dE:/CSC_342/Assignments/Emdad_02_27_2022_2_bit_comparator
+Z4 8E:/CSC_342/Assignments/Emdad_02_27_2022_2_bit_comparator/Emdad_02_27_2022_two_bit_equal.vhd
+Z5 FE:/CSC_342/Assignments/Emdad_02_27_2022_2_bit_comparator/Emdad_02_27_2022_two_bit_equal.vhd
+l0
+L3 1
+Vcz67Y:?0^6Z;e1?d1E?`03
+!s100 3z0C0BnYj62P5kd:QnGb]1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1645993359
+!i10b 1
+Z8 !s108 1645993359.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Emdad_02_27_2022_2_bit_comparator/Emdad_02_27_2022_two_bit_equal.vhd|
+Z10 !s107 E:/CSC_342/Assignments/Emdad_02_27_2022_2_bit_comparator/Emdad_02_27_2022_two_bit_equal.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aarch
+R1
+R2
+DEx4 work 30 emdad_02_27_2022_two_bit_equal 0 22 cz67Y:?0^6Z;e1?d1E?`03
+!i122 4
+l9
+L7 9
+VYYU@mS6<ccVFEV7L`YAhL2
+!s100 =lcS7nj?lchP<gala?h`G0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eemdad_02_27_2022_two_bit_test_equal
+Z13 w1645993356
+R1
+R2
+!i122 5
+R3
+Z14 8E:/CSC_342/Assignments/Emdad_02_27_2022_2_bit_comparator/Emdad_02_27_2022_two_bit_test_equal.vhd
+Z15 FE:/CSC_342/Assignments/Emdad_02_27_2022_2_bit_comparator/Emdad_02_27_2022_two_bit_test_equal.vhd
+l0
+L3 1
+VO3PY7OTzD[2ml?C6`d8[N3
+!s100 [76HKYU^<C]fAN]5HaYHb1
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Emdad_02_27_2022_2_bit_comparator/Emdad_02_27_2022_two_bit_test_equal.vhd|
+Z17 !s107 E:/CSC_342/Assignments/Emdad_02_27_2022_2_bit_comparator/Emdad_02_27_2022_two_bit_test_equal.vhd|
+!i113 1
+R11
+R12
+Aarch_test
+R1
+R2
+DEx4 work 35 emdad_02_27_2022_two_bit_test_equal 0 22 O3PY7OTzD[2ml?C6`d8[N3
+!i122 5
+l13
+Z18 L5 76
+V[05QO^<H[S2<`Jdg>L75c1
+!s100 c^iWjmIgAWn=`EIhP[[n`0
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Etest_two_bit_equal
+Z19 w1645993256
+R1
+R2
+!i122 3
+R3
+R14
+R15
+l0
+L3 1
+VE0aT2zcJ:h;d_;2Ug>chF0
+!s100 ATHRj0>DGSoY6bCQ4PiQH3
+R6
+32
+Z20 !s110 1645993262
+!i10b 1
+Z21 !s108 1645993262.000000
+R16
+R17
+!i113 1
+R11
+R12
+Aarch_test
+R1
+R2
+DEx4 work 18 test_two_bit_equal 0 22 E0aT2zcJ:h;d_;2Ug>chF0
+!i122 3
+l13
+R18
+V_a^>Z[@VA@g_ilQW<5HJ=2
+!s100 5Sa>h?1RK=BkI:lGje44O1
+R6
+32
+R20
+!i10b 1
+R21
+R16
+R17
+!i113 1
+R11
+R12
+Etwo_bit_equal
+Z22 w1645993096
+R1
+R2
+!i122 1
+R3
+R4
+R5
+l0
+L3 1
+V4gP;O9_ag[8kR?Ch29Q@63
+!s100 2fdAmoHG;NU[4L6=Y=Zi13
+R6
+32
+Z23 !s110 1645993102
+!i10b 1
+Z24 !s108 1645993102.000000
+R9
+R10
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 13 two_bit_equal 0 22 4gP;O9_ag[8kR?Ch29Q@63
+!i122 1
+l9
+L7 9
+VX8jFPG3]W2`M]EDT?O?jP2
+!s100 IcYDEg^N_lN_j]5;:X?0J1
+R6
+32
+R23
+!i10b 1
+R24
+R9
+R10
+!i113 1
+R11
+R12

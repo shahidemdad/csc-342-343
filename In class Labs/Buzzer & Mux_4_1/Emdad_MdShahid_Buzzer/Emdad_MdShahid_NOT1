@@ -1,0 +1,13 @@
+LIBRARY ieee ;
+USE ieee.std_logic_1164.all ;
+
+entity Emdad_MdShahid_NOT1 is
+                port (in1: in std_logic;
+                      out1: out std_logic);
+     end Emdad_MdShahid_NOT1;
+
+architecture behavioral_2 of Emdad_MdShahid_NOT1 is
+
+begin
+out1 <= NOT in1;
+end behavioral_2;

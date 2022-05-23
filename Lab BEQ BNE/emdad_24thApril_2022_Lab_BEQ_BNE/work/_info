@@ -1,0 +1,590 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/CSC_342/intelFPGA/20.1
+Eemdad_1bit_comparator
+Z0 w1650491107
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 97
+Z3 dE:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE
+Z4 8E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_1Bit_Comparator.vhd
+Z5 FE:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_1Bit_Comparator.vhd
+l0
+L4 1
+V?kAC1PZ7K1VHF9MmOP?W;3
+!s100 gWEdRQ=_OFGj[i[K9@gk@3
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1650908085
+!i10b 1
+Z8 !s108 1650908085.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_1Bit_Comparator.vhd|
+Z10 !s107 E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_1Bit_Comparator.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aarch
+R1
+R2
+DEx4 work 21 emdad_1bit_comparator 0 22 ?kAC1PZ7K1VHF9MmOP?W;3
+!i122 97
+l13
+L11 6
+V6MiV`@=INM2V`mYOW>j<n0
+!s100 Dd>E>Wz6=IV=lSh^hI[kL2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eemdad_2_1_mux
+Z13 w1650492092
+R1
+R2
+!i122 98
+R3
+Z14 8E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_2_1_MUX.vhd
+Z15 FE:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_2_1_MUX.vhd
+l0
+L5 1
+VHT=z=9Z6o23KTRR^RF9^d2
+!s100 9UQ1YHK?0jO1?Rd1l]K5[1
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_2_1_MUX.vhd|
+Z17 !s107 E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_2_1_MUX.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 13 emdad_2_1_mux 0 22 HT=z=9Z6o23KTRR^RF9^d2
+!i122 98
+l15
+L13 6
+VY:zc>j=gFL]6]`;jfB5]S3
+!s100 7azh<@Gnfo^dCb796C7eV2
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Eemdad_32_bit_adder
+Z18 w1650488296
+R1
+R2
+Z19 DPx4 work 19 emdad_adder_package 0 22 zfF:QcnIbTN>e=ikPCVUI3
+!i122 99
+R3
+Z20 8E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_adder.vhd
+Z21 FE:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_adder.vhd
+l0
+L6 1
+VaV;h=i1:SX8YL5f2<B4H61
+!s100 ;MQPXk:UR>9ZYBTC2BF:g3
+R6
+32
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_adder.vhd|
+Z23 !s107 E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_adder.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+R19
+DEx4 work 18 emdad_32_bit_adder 0 22 aV;h=i1:SX8YL5f2<B4H61
+!i122 99
+l16
+L14 26
+VhB896iZdzET8X^KR6Of=41
+!s100 HP9>iJ1KgCmmXYYj1TY>c2
+R6
+32
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Eemdad_32_bit_register
+R18
+R1
+R2
+!i122 100
+R3
+Z24 8E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd
+Z25 FE:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd
+l0
+L4 1
+V=BGLX29Q5ea4C7acG^>P=3
+!s100 MZB8:<;fGXRWFEZ0Km>N?0
+R6
+32
+Z26 !s110 1650908086
+!i10b 1
+R8
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd|
+Z28 !s107 E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_32_bit_register.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 21 emdad_32_bit_register 0 22 =BGLX29Q5ea4C7acG^>P=3
+!i122 100
+l12
+L10 18
+V5NS:_^QMQ6Q?3_OBDk0cc1
+!s100 4WZa`M_2MGbGVC1P1XMU:1
+R6
+32
+R26
+!i10b 1
+R8
+R27
+R28
+!i113 1
+R11
+R12
+Pemdad_adder_package
+R1
+R2
+!i122 101
+R18
+R3
+8E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_adder_package.vhd
+FE:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_adder_package.vhd
+l0
+L4 1
+VzfF:QcnIbTN>e=ikPCVUI3
+!s100 ZIX_S^kl0k@g;I3JEQgGG0
+R6
+32
+R26
+!i10b 1
+Z29 !s108 1650908086.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_adder_package.vhd|
+!s107 E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_adder_package.vhd|
+!i113 1
+R11
+R12
+Eemdad_controller
+Z30 w1650492239
+Z31 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z32 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z33 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+!i122 102
+R3
+Z34 8E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd
+Z35 FE:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd
+l0
+L7 1
+V8^ATMAI6S:3jzDVkdO9>R2
+!s100 :L63ER;Yik96H8FeI4ZMB2
+R6
+32
+R26
+!i10b 1
+R29
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd|
+Z37 !s107 E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_controller.vhd|
+!i113 1
+R11
+R12
+Aarch
+R31
+R32
+R33
+R1
+R2
+DEx4 work 16 emdad_controller 0 22 8^ATMAI6S:3jzDVkdO9>R2
+!i122 102
+l19
+L16 13
+VPP`];o6gVDCle5R@_D:NE3
+!s100 0m5V6z`mJ``1PUU`>ViXU2
+R6
+32
+R26
+!i10b 1
+R29
+R36
+R37
+!i113 1
+R11
+R12
+Eemdad_equal
+Z38 w1650491226
+R1
+R2
+!i122 103
+R3
+Z39 8E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_equal.vhd
+Z40 FE:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_equal.vhd
+l0
+L4 1
+VW>GBdOzB2m2m?U4MkPCZD0
+!s100 S0@z7I>1VZMC;zIQlA2KJ1
+R6
+32
+R26
+!i10b 1
+R29
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_equal.vhd|
+Z42 !s107 E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_equal.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 11 emdad_equal 0 22 W>GBdOzB2m2m?U4MkPCZD0
+!i122 103
+l19
+L10 90
+VFVZK>X74Ub8dUL:mQ8m>R1
+!s100 7IIX?i<>RV]86zPUoCnJU3
+R6
+32
+R26
+!i10b 1
+R29
+R41
+R42
+!i113 1
+R11
+R12
+Eemdad_extension
+Z43 w1650491409
+R31
+R32
+R33
+R1
+R2
+!i122 104
+R3
+Z44 8E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_extension.vhd
+Z45 FE:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_extension.vhd
+l0
+L7 1
+VDgNH`cG86^_4mWiG95?Fk3
+!s100 lZ]4XmVzNi>da=B8G5@n^1
+R6
+32
+R26
+!i10b 1
+R29
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_extension.vhd|
+Z47 !s107 E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_extension.vhd|
+!i113 1
+R11
+R12
+Aarch
+R31
+R32
+R33
+R1
+R2
+DEx4 work 15 emdad_extension 0 22 DgNH`cG86^_4mWiG95?Fk3
+!i122 104
+l15
+L13 5
+Vm>DPi9h4ef<SMeDf:?55P3
+!s100 fZDX=dh3Y<dT0>oEiJ4=23
+R6
+32
+R26
+!i10b 1
+R29
+R46
+R47
+!i113 1
+R11
+R12
+Eemdad_full_adder
+R18
+R1
+R2
+!i122 105
+R3
+Z48 8E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_full_adder.vhd
+Z49 FE:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_full_adder.vhd
+l0
+L4 1
+VICXfd6QI8m3UWFAaJ8C_E0
+!s100 XH<N8IN;hX6W]3l10iPLJ1
+R6
+32
+R26
+!i10b 1
+R29
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_full_adder.vhd|
+Z51 !s107 E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_full_adder.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 16 emdad_full_adder 0 22 ICXfd6QI8m3UWFAaJ8C_E0
+!i122 105
+l16
+L9 15
+VPScL;Gag1z7fDS4bm<8bm2
+!s100 o0DFTF9fPGG<NRUEoRi9Z2
+R6
+32
+R26
+!i10b 1
+R29
+R50
+R51
+!i113 1
+R11
+R12
+Eemdad_half_adder
+R18
+R1
+R2
+!i122 106
+R3
+Z52 8E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_half_adder.vhd
+Z53 FE:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_half_adder.vhd
+l0
+L4 1
+V_3Eh4k`Mj7KcZZTBkX8^?0
+!s100 Cm<`JIoijQCbN<Phe6b;A3
+R6
+32
+Z54 !s110 1650908087
+!i10b 1
+R29
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_half_adder.vhd|
+Z56 !s107 E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_half_adder.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 16 emdad_half_adder 0 22 _3Eh4k`Mj7KcZZTBkX8^?0
+!i122 106
+l10
+L9 5
+VZbGZGGDU@PXjJzO[fDMNo2
+!s100 UaLd:YM>m]VBY[T[mb:A?0
+R6
+32
+R54
+!i10b 1
+R29
+R55
+R56
+!i113 1
+R11
+R12
+Eemdad_main_unit
+R18
+R31
+R1
+R2
+!i122 107
+R3
+Z57 8E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd
+Z58 FE:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd
+l0
+L5 1
+V<XQU3>5Clz_NUc6R<XY1N2
+!s100 :hER=HUd;Y5I<<b^8BbJK3
+R6
+32
+R54
+!i10b 1
+Z59 !s108 1650908087.000000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd|
+Z61 !s107 E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Main_Unit.vhd|
+!i113 1
+R11
+R12
+Aarch
+R31
+R1
+R2
+DEx4 work 15 emdad_main_unit 0 22 <XQU3>5Clz_NUc6R<XY1N2
+!i122 107
+l117
+L18 188
+V=JzSD2@HEKRio]UiL>l?e2
+!s100 BDafkc52QkC7`Zoioa0h>0
+R6
+32
+R54
+!i10b 1
+R59
+R60
+R61
+!i113 1
+R11
+R12
+Eemdad_register_file
+Z62 w1650490802
+Z63 DPx9 altera_mf 20 altera_mf_components 0 22 BN6nPmY:UEbXa[^5b@FTW1
+R1
+R2
+!i122 108
+R3
+Z64 8E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Register_File.vhd
+Z65 FE:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Register_File.vhd
+l0
+L7 1
+VP@2d5NDFG@_>47:_Vecb>2
+!s100 hL8VK]F;;ElZ<MFom[d:22
+R6
+32
+R54
+!i10b 1
+R59
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Register_File.vhd|
+Z67 !s107 E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_Register_File.vhd|
+!i113 1
+R11
+R12
+Asyn
+R63
+R1
+R2
+DEx4 work 19 emdad_register_file 0 22 P@2d5NDFG@_>47:_Vecb>2
+!i122 108
+l26
+L21 51
+VoLL<5INo;HSH@R^j0D=Y02
+!s100 J;15zcaT@HanSZ@lFRJAI3
+R6
+32
+R54
+!i10b 1
+R59
+R66
+R67
+!i113 1
+R11
+R12
+Eemdad_sll
+Z68 w1650492219
+R31
+R32
+R33
+R1
+R2
+!i122 109
+R3
+Z69 8E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_sll.vhd
+Z70 FE:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_sll.vhd
+l0
+L7 1
+V=_YGWjm?mTNA?C0JgA=f;2
+!s100 5B9G1kNdQ?PAUMfLjO74I2
+R6
+32
+R54
+!i10b 1
+R59
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_sll.vhd|
+Z72 !s107 E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_sll.vhd|
+!i113 1
+R11
+R12
+Aarch
+R31
+R32
+R33
+R1
+R2
+DEx4 work 9 emdad_sll 0 22 =_YGWjm?mTNA?C0JgA=f;2
+!i122 109
+l18
+L15 10
+VL9:zJ_bFfI3eb[7U=9Z5V2
+!s100 zJ_J87g<dzVGhKSLZYSKH2
+R6
+32
+R54
+!i10b 1
+R59
+R71
+R72
+!i113 1
+R11
+R12
+Eemdad_testbench
+Z73 w1650525954
+R1
+R2
+!i122 110
+R3
+Z74 8E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_testbench.vhd
+Z75 FE:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_testbench.vhd
+l0
+L4 1
+V8GX_mRMl_@@efZXID[Aoo0
+!s100 X:Eg`[CFQhC4AUJOT<^EP3
+R6
+32
+R54
+!i10b 1
+R59
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_testbench.vhd|
+!s107 E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_testbench.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+Z77 DEx4 work 15 emdad_testbench 0 22 8GX_mRMl_@@efZXID[Aoo0
+!i122 110
+l27
+Z78 L7 64
+Z79 VUTMPN1PV@^Iig9QUgK0K[0
+Z80 !s100 fnbXm3Vgla;NMRljThEj:2
+R6
+32
+R54
+!i10b 1
+R59
+R76
+Z81 !s107 E:/CSC_342/Assignments/Lab BEQ BNE/emdad_24thApril_2022_Lab_BEQ_BNE/emdad_testbench.vhd|
+!i113 1
+R11
+R12
